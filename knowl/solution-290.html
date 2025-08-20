@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<div class="solution solution-like">
+<h4 class="heading">
+<span class="type">Solution</span><span class="space"> </span><span class="codenumber">5.5.7.1</span><span class="period">.</span>
+</h4>
+<p>First, we fully factor <span class="process-math">\(q\)</span> and identify the <span class="process-math">\(x\)</span>-values that are not in its domain.  Since <span class="process-math">\(x^2-9 = (x-3)(x+3)\text{,}\)</span> we see that</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+q(x) = \frac{(x-2)(x-3)(x+3)}{(x-3)(x-1)^2}\text{.}
+\end{equation*}
+</div>
+<p class="continuation">From the denominator, we observe that <span class="process-math">\(q\)</span> is not defined at <span class="process-math">\(x = 3\)</span> and <span class="process-math">\(x = 1\)</span> since those values make the factors <span class="process-math">\(x - 3 = 0\)</span> or <span class="process-math">\((x-1)^2 = 0\text{.}\)</span>  Thus, the domain of <span class="process-math">\(q\)</span> is the set of all real numbers except <span class="process-math">\(x = 1\)</span> and <span class="process-math">\(x = 3\text{.}\)</span>  From the numerator, we see that both <span class="process-math">\(x = 2\)</span> and <span class="process-math">\(x = -3\)</span> are zeros of <span class="process-math">\(q\)</span> since these values make the numerator zero while the denominator is nonzero.  We expect that <span class="process-math">\(q\)</span> will have a hole at <span class="process-math">\(x = 3\)</span> since this <span class="process-math">\(x\)</span>-value is not in the domain and it makes both the numerator and denominator <span class="process-math">\(0\text{.}\)</span>  Indeed, computing values of <span class="process-math">\(q\)</span> for <span class="process-math">\(x\)</span> near <span class="process-math">\(x = 3\)</span> suggests that</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\lim_{x \to 3} q(x) = 1.5\text{,}
+\end{equation*}
+</div>
+<p class="continuation">and thus <span class="process-math">\(q\)</span> does not change sign at <span class="process-math">\(x = 3\text{.}\)</span></p>
+<p>Thus, we have three different <span class="process-math">\(x\)</span>-values to place on the sign chart:  <span class="process-math">\(x = -3\text{,}\)</span> <span class="process-math">\(x = 1\text{,}\)</span> and <span class="process-math">\(x = 2\text{.}\)</span>  We now analyze the sign of each of the factors in <span class="process-math">\(q(x) = \frac{(x-2)(x-3)(x+3)}{(x-3)(x-1)^2}\)</span> on the various intervals.  For <span class="process-math">\(x \lt -3\text{,}\)</span> <span class="process-math">\((x-2) \lt 0\text{,}\)</span> <span class="process-math">\((x-3) \lt 0\text{,}\)</span> <span class="process-math">\((x+3) \lt 0\text{,}\)</span> and <span class="process-math">\((x-1)^2 \gt 0\text{.}\)</span>  Thus, for <span class="process-math">\(x \lt -3\text{,}\)</span> the sign of <span class="process-math">\(q\)</span> is</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{- - -}{- +} = +
+\end{equation*}
+</div>
+<p class="continuation">since there are an even number of negative terms in the quotient.</p>
+<p>On the interval <span class="process-math">\(-3 \lt x \lt 1\text{,}\)</span> <span class="process-math">\((x-2) \lt 0\text{,}\)</span> <span class="process-math">\((x-3) \lt 0\text{,}\)</span> <span class="process-math">\((x+3) \gt 0\text{,}\)</span> and <span class="process-math">\((x-1)^2 \gt 0\text{.}\)</span>  Thus, for these <span class="process-math">\(x\)</span>-values, the sign of <span class="process-math">\(q\)</span> is</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\frac{- - +}{- +} = -\text{.}
+\end{equation*}
+</div>
+<p>Using similar reasoning, we can complete the sign chart shown in <a href="" class="xref" data-knowl="./knowl/F-ex-rational-sign-chart.html" title="Figure 5.5.8">Figure 5.5.8</a>.  A plot of the function <span class="process-math">\(q\text{,}\)</span> as seen in <a href="" class="xref" data-knowl="./knowl/F-ex-rational-plot.html" title="Figure 5.5.9">Figure 5.5.9</a>, shows behavior that matches the sign function, as well as the need to manually identify the hole at <span class="process-math">\((3, 1.5)\text{,}\)</span> which is missed by the graphing software.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel middle" style="width:55%;"><figure class="figure figure-like"><img src="external/images/rational-sign-chart.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.5.8<span class="period">.</span></span><span class="space"> </span>The sign chart for <span class="process-math">\(q\text{.}\)</span></figcaption></figure></div>
+<div class="sbspanel middle" style="width:40%;"><figure class="figure figure-like"><img src="external/images/rational-plot-ex.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">5.5.9<span class="period">.</span></span><span class="space"> </span>A plot of <span class="process-math">\(q\text{.}\)</span></figcaption></figure></div>
+</div></div>
+<p>In both the sign chart and the figure, we see that <span class="process-math">\(q\)</span> changes sign at each of its zeros, <span class="process-math">\(x = -3\)</span> and <span class="process-math">\(x = 2\text{,}\)</span> and that it does not change as it passes by its vertical asymptote at <span class="process-math">\(x = 1\text{.}\)</span>  The reason <span class="process-math">\(q\)</span> doesn't change sign at the asympotote is because of the repeated factor of <span class="process-math">\((x-1)^2\)</span> which is always positive.</p>
+</div>
+<span class="incontext"><a href="sec-poly-rational-features.html#solution-290" class="internal">in-context</a></span>
+</body>
+</html>

@@ -1,0 +1,571 @@
+openDate          = 08/20/2025 at 12:00am
+dueDate           = 02/20/2026 at 10:00pm
+answerDate        = 02/20/2026 at 10:00pm
+paperHeaderFile   = Active_Prelude_to_Calculus/header/Active_Prelude_to_Calculus_Exercises.pg
+screenHeaderFile  = Active_Prelude_to_Calculus/header/Active_Prelude_to_Calculus_Exercises.pg
+description       = Active Prelude to Calculus
+problemListV2
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec1/Q01.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec1/Q24.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec1/Q19.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec1/Connally3-2-1-25-Input-and-output.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec1/Q20.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/maCalcDB/setAlgebra15Functions/jay4.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Michigan/precalc/4e/Chap1Sec2/Q04.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Review/Q06.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q10.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec2/Q25.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec2/Q05.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Review/Q36.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec3/Q25.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec4/Q28.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap1Sec4/Q35.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra20QuadraticFun/lh3-1_19-20.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec6/Q22a.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec6/Q14.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/ASU-topics/setRateChange/s1_1_5.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra17FunComposition/beth3algfun.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra17FunComposition/c0s1p9.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra17FunComposition/faris1.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-13-Composition-inverse.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-15-Composition-inverse.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-28-Composition-inverse.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-31-Composition-inverse.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Q16.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap2Sec4/Q32.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra19FunTransforms/p1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra19FunTransforms/ptransf2.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra20QuadraticFun/lh3-1_1-3.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Michigan/Chap1Sec3/Q05.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap5Sec1/Q09.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_07_functOperation.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_12_functOperation.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setTrig02FunctionsUnitCircle/srw5_1_11.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec3/Q04.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec4/Q14.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/NAU/setSineCosine/SinCosDeg.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/NAU/setSineCosine/SinCosPosNeg.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec4/Q30.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Review/Q20.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q12.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec5/Q28.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-12-Exponential-functions.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-27-Exponential-functions.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-28-Exponential-functions.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec1/Q16.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec2/Connally3-3-2-08-Exponential-vs-linear.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec2/Q02.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra28ExpFunctions/sw6_2_3.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap3Sec4/Q13.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra29LogFunctions/srw4_2_5.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra29LogFunctions/problem4.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/beth2logfun.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_17.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/problem9.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/problem11.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_11.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_25.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra30LogExpEqns/srw4_4_41.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/Rochester/setDiffEQ5ModelingWith1stOrder/ur_de_5_4.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Michigan/Chap11Sec7/Q09.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setAlgebra31LogExpApplications/infection1.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/Rochester/setTrig03FunctionsRightAngle/p8.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/Rochester/setTrig03FunctionsRightAngle/p8.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/Rochester/setTrig03FunctionsRightAngle/p9.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q08.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec7/Q37.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Q18.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec1/Q23.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec1/Q24.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec1/Q01.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/Q02.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/Q03.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/Q10.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-02.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec2/polynomial-04.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec4/Q10.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q07.pg
+problem_id = 5
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg
+problem_id = 6
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg
+problem_id = 7
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg
+problem_id = 8
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q24.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q34.pg
+problem_id = 2
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec5/Q35.pg
+problem_id = 3
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg
+problem_id = 4
+problem_end
+problem_start
+source_file = Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg
+problem_id = 5
+problem_end

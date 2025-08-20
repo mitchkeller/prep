@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>APC  </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/print-worksheet.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="https://activecalculus.org/prelude/external/images/APC-cover.jpg">
+<meta property="book:title" content="Active Prelude to Calculus">
+<meta property="book:author" content="Matthew Boelkins">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.8';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://activecalculus.org"><img src="external/images/APC-cover.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Active Prelude to Calculus</span></a></h1>
+<p class="byline">Matthew Boelkins</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-changing-aroc.html#subsec-changing-aroc-defn" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="sec-changing-aroc.html#subsec-changing-aroc-defn" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-changing-aroc.html#subsec-changing-aroc-behavior-trends" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface">
+<div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Contributors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-contributors"><div class="toc-title-box"><a href="frontmatter-5.html#frontmatter-5-4" class="internal"><span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-our-goals.html" class="internal"><span class="title">Our Goals</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-7.html" class="internal"><span class="title">Features of the Text</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students.html" class="internal"><span class="title">Students!  Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors.html" class="internal"><span class="title">Instructors!  Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="C-changing.html" class="internal"><span class="codenumber">1</span> <span class="title">Relating Changing Quantities</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Changing in Tandem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html#sec-changing-in-tandem-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ws-PA-changing-aquarium" class="internal"><span class="codenumber">1.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html#subsec-changing-tandem-graphs" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Using Graphs to Represent Relationships</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ws-act-tandem-conical-tank" class="internal"><span class="codenumber">1.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html#subsec-changing-algebra-perspective" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Using Algebra to Add Perspective</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ws-act-tandem-spherical-tank" class="internal"><span class="codenumber">1.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#subsec-changing-tandem-summary" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ez-changing-tandem" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Functions:  Modeling Relationships</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#sec-changing-functions-models-3" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-PA-crickets" class="internal"><span class="codenumber">1.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-functions" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-act-changing-functions-spherical-tank" class="internal"><span class="codenumber">1.2.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-models" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Comparing models and abstract functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-act-changing-functions-spherical-tank-draining" class="internal"><span class="codenumber">1.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-is-it" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Determining whether a relationship is a function or not</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-act-changing-functions-is-it" class="internal"><span class="codenumber">1.2.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-summary" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ez-changing-functions" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-changing-aroc.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The Average Rate of Change of a Function</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-aroc.html#sec-changing-aroc-3" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-PA-changing-aroc" class="internal"><span class="codenumber">1.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection contains-active">
+<div class="toc-title-box"><a href="sec-changing-aroc.html#subsec-changing-aroc-defn" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Defining and interpreting the average rate of change of a function</span></a></div>
+<ul class="structural toc-item-list contains-active"><li class="toc-item toc-worksheet active"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-act-changing-aroc-population" class="internal"><span class="codenumber">1.3.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-aroc.html#subsec-changing-aroc-behavior-trends" class="internal"><span class="codenumber">1.3.3</span> <span class="title">How average rate of change indicates function trends</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-act-changing-aroc-trends" class="internal"><span class="codenumber">1.3.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-act-changing-aroc-graphs" class="internal"><span class="codenumber">1.3.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-aroc.html#subsec-changing-aroc-summary" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-aroc.html#ez-changing-aroc" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-linear.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-linear.html#sec-changing-linear-3" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-PA-changing-linear-3-ex" class="internal"><span class="codenumber">1.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-linear.html#subsec-changing-linear-properties" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Properties of linear functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-act-changing-linear-finding-eqs" class="internal"><span class="codenumber">1.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-linear.html#subsec-changing-linear-context" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Interpreting linear functions in context</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-act-changing-linear-Kilimanjaro" class="internal"><span class="codenumber">1.4.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-act-changing-linear-in-context" class="internal"><span class="codenumber">1.4.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-linear.html#subsec-changing-linear-summary" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-linear.html#ez-changing-linear" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html#sec-changing-quadratic-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-PA-changing-quadratic" class="internal"><span class="codenumber">1.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html#subsec-changing-quadratic-properties" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Properties of Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-act-changing-quadratic-parameters" class="internal"><span class="codenumber">1.5.2</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-act-changing-quadratic-properties" class="internal"><span class="codenumber">1.5.2</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html#subsec-changing-quadratic-falling-gravity" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Modeling falling objects</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-act-changing-quadratic-falling-ball" class="internal"><span class="codenumber">1.5.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-quadratic.html#subsec-changing-quadratic-change-patterns" class="internal"><span class="codenumber">1.5.4</span> <span class="title">How quadratic functions change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-quadratic.html#sec-changing-quadratic-7" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ez-changing-quadratic" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-composite.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Composite Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#sec-changing-composite-3" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-PA-changing-composite" class="internal"><span class="codenumber">1.6.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-composing" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Composing two functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-act-changing-composite-tables-graphs" class="internal"><span class="codenumber">1.6.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-in-context" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Composing functions in context</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-act-changing-composite-crickets-celcius" class="internal"><span class="codenumber">1.6.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-aroc" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Function composition and average rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-act-changing-composite-aroc" class="internal"><span class="codenumber">1.6.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-summary" class="internal"><span class="codenumber">1.6.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-composite.html#ez-changing-composite" class="internal"><span class="codenumber">1.6.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-inverse.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Inverse Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#sec-changing-inverse-3" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-PA-changing-inverse-F-C" class="internal"><span class="codenumber">1.7.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#changing-inverse-definition" class="internal"><span class="codenumber">1.7.2</span> <span class="title">When a function has an inverse function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-act-changing-inverse-Dolbear" class="internal"><span class="codenumber">1.7.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#changing-inverse-does-it" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Determining whether a function has an inverse function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-act-changing-inverse-does-it" class="internal"><span class="codenumber">1.7.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#changing-inverse-properties" class="internal"><span class="codenumber">1.7.4</span> <span class="title">Properties of an inverse function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-act-0-0-0" class="internal"><span class="codenumber">1.7.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-inverse.html#subsec-changing-inverse-summary" class="internal"><span class="codenumber">1.7.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-inverse.html#ez-changing-inverse" class="internal"><span class="codenumber">1.7.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-transformations.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Transformations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#sec-changing-transformations-3" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-PA-changing-transformations-quadratic" class="internal"><span class="codenumber">1.8.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-translation" class="internal"><span class="codenumber">1.8.2</span> <span class="title">Translations of Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-act-changing-transformations-translations" class="internal"><span class="codenumber">1.8.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-vert-stretch" class="internal"><span class="codenumber">1.8.3</span> <span class="title">Vertical stretches and reflections</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-act-changing-transformations-vert-stretch" class="internal"><span class="codenumber">1.8.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-combining" class="internal"><span class="codenumber">1.8.4</span> <span class="title">Combining shifts and stretches: why order sometimes matters</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-act-changing-transformations-combined" class="internal"><span class="codenumber">1.8.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-summary" class="internal"><span class="codenumber">1.8.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-transformations.html#ez-changing-transformations" class="internal"><span class="codenumber">1.8.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-combining.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Combining Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#sec-changing-combining-3" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-PA-changing-combining" class="internal"><span class="codenumber">1.9.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-functions-algebra" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Arithmetic with functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-act-changing-combining-arithmetic" class="internal"><span class="codenumber">1.9.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-functions-context" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Combining functions in context</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-act-changing-combining-context" class="internal"><span class="codenumber">1.9.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-piecewise" class="internal"><span class="codenumber">1.9.4</span> <span class="title">Piecewise functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-act-changing-combining-piecewise" class="internal"><span class="codenumber">1.9.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-summary" class="internal"><span class="codenumber">1.9.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-combining.html#ez-changing-combining" class="internal"><span class="codenumber">1.9.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-circular.html" class="internal"><span class="codenumber">2</span> <span class="title">Circular Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-traversing.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Traversing Circles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#sec-circular-traversing-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-PA-circular-traversing" class="internal"><span class="codenumber">2.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-functions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Circular Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-act-circular-traversing-2nd-ex" class="internal"><span class="codenumber">2.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-function-properties" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Properties of Circular Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-act-circular-traversing-oscillator" class="internal"><span class="codenumber">2.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-aroc" class="internal"><span class="codenumber">2.1.4</span> <span class="title">The average rate of change of a circular function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-act-circular-traversing-oscillator-aroc" class="internal"><span class="codenumber">2.1.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-summary" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-traversing.html#ez-circular-traversing" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The Unit Circle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#sec-circular-unit-circle-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-PA-circular-unit-circle" class="internal"><span class="codenumber">2.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#subsec-circular-unit-circle-radians-degrees" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Radians and degrees</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-act-circular-unit-circle-radians-degrees" class="internal"><span class="codenumber">2.2.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#subsec-circular-unit-circle-special-points" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Special points on the unit circle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-act-circular-unit-circle-special-triangles" class="internal"><span class="codenumber">2.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#subsec-circular-unit-circle-non-unit-circles" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Special points and arc length in non-unit circles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-act-circular-unit-circle-non-unit" class="internal"><span class="codenumber">2.2.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#sec-circular-unit-circle-7" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ez-circular-unit-circle" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The Sine and Cosine Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#sec-circular-sine-cosine-3" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-PA-circular-sine" class="internal"><span class="codenumber">2.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-defn" class="internal"><span class="codenumber">2.3.2</span> <span class="title">The definition of the sine function</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-cosine-defn" class="internal"><span class="codenumber">2.3.3</span> <span class="title">The definition of the cosine function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-act-circular-sine-cosine" class="internal"><span class="codenumber">2.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-cosine-properties" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Properties of the sine and cosine functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-act-sine-cosine-incr-CCU" class="internal"><span class="codenumber">2.3.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-cosine-computing" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Using computing technology</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-act-circular-sine-cosine-computing" class="internal"><span class="codenumber">2.3.5</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-summary" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ez-circular-sine-cosine" class="internal"><span class="codenumber">2.3.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Sinusoidal Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#sec-circular-sinusoidal-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-PA-circular-sinusoidal" class="internal"><span class="codenumber">2.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#subsec-circular-sinusoidal-shifts-stretches" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Shifts and vertical stretches of the sine and cosine functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-oscillator" class="internal"><span class="codenumber">2.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#subsec-circular-sinusoidal-horiz-scaling" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Horizontal scaling</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-horiz-stretch" class="internal"><span class="codenumber">2.4.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#sec-circular-sinusoidal-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Circular functions with different periods</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-period" class="internal"><span class="codenumber">2.4.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-model" class="internal"><span class="codenumber">2.4.4</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#subsec-circular-sinusoidal-summary" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ez-circular-sinusoidal" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-exp.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-growth.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Exponential Growth and Decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#sec-exp-growth-3" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-PA-exp-growth" class="internal"><span class="codenumber">3.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#subsec-exp-growth-functions" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exponential functions of form <span class="process-math">\(f(t) = ab^t\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-act-exp-growth-a-b-t" class="internal"><span class="codenumber">3.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#subsec-exp-growth-find-a-b" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Determining formulas for exponential functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-act-exp-growth-find-a-b" class="internal"><span class="codenumber">3.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#subsec-exp-growth-trends" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Trends in the behavior of exponential functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-act-exp-growth-rates" class="internal"><span class="codenumber">3.1.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-growth.html#sec-exp-growth-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-growth.html#ez-exp-growth" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-modeling.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Modeling with exponential functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-modeling.html#sec-exp-modeling-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-PA-exp-modeling" class="internal"><span class="codenumber">3.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-long-term" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Long-term behavior of exponential functions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-transformations" class="internal"><span class="codenumber">3.2.3</span> <span class="title">The role of <span class="process-math">\(c\)</span> in <span class="process-math">\(g(t) = ab^t + c\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-act-exp-modeling-behavior" class="internal"><span class="codenumber">3.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-temperature" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Modeling temperature data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-act-exp-modeling-soda" class="internal"><span class="codenumber">3.2.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-act-exp-modeling-potato" class="internal"><span class="codenumber">3.2.4</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-summary" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-modeling.html#ez-exp-modeling" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-e.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The special number <span class="process-math">\(e\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-e.html#sec-exp-e-3" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-e.html#ws-PA-exp-e" class="internal"><span class="codenumber">3.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-e.html#subsec-exp-e-definition" class="internal"><span class="codenumber">3.3.2</span> <span class="title">The natural base <span class="process-math">\(e\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-e.html#ws-act-exp-e-aroc" class="internal"><span class="codenumber">3.3.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-e.html#subsec-exp-e-inverse" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Why any exponential function can be written in terms of <span class="process-math">\(e\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-e.html#ws-act-exp-e-graph-solve" class="internal"><span class="codenumber">3.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-e.html#subsec-exp-e-summary" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-e.html#ez-exp-e" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-log.html" class="internal"><span class="codenumber">3.4</span> <span class="title">What a logarithm is</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-3" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-PA-exp-log" class="internal"><span class="codenumber">3.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#subsec-exp-log-base-10" class="internal"><span class="codenumber">3.4.2</span> <span class="title">The base-<span class="process-math">\(10\)</span> logarithm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-act-exp-log-base-10" class="internal"><span class="codenumber">3.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#subsec-exp-log-base-e" class="internal"><span class="codenumber">3.4.3</span> <span class="title">The natural logarithm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-act-exp-log-natural" class="internal"><span class="codenumber">3.4.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-6" class="internal"><span class="codenumber">3.4.4</span> <span class="title"><span class="process-math">\(f(t) = b^t\)</span> revisited</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-act-exp-log-equations" class="internal"><span class="codenumber">3.4.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#subsec-exp-log-summary" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#ez-exp-log" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Properties and applications of logarithmic functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#sec-exp-log-properties-3" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-PA-exp-log-properties" class="internal"><span class="codenumber">3.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-key-properties" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Key properties of logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-act-exp-log-exponential-equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-properties-graph" class="internal"><span class="codenumber">3.5.3</span> <span class="title">The graph of the natural logarithm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-act-exp-log-properties-exp-or-log" class="internal"><span class="codenumber">3.5.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-properties-applications" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Putting logarithms to work</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-act-exp-log-properties-find-k" class="internal"><span class="codenumber">3.5.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-properties-summary" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ez-exp-log-properties" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Modeling temperature and population</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html#sec-exp-temp-pop-3" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-PA-exp-temp-pop" class="internal"><span class="codenumber">3.6.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html#subsec-exp-temp-pop-Newton" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Newton’s Law of Cooling revisited</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-act-exp-temp-log-NLOC1" class="internal"><span class="codenumber">3.6.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html#subsec-exp-temp-pop-logistic" class="internal"><span class="codenumber">3.6.3</span> <span class="title">A more realistic model for population growth</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-act-exp-temp-pop-logistic-Desmos" class="internal"><span class="codenumber">3.6.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-act-exp-temp-pop-logistic-exact" class="internal"><span class="codenumber">3.6.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#subsec-exp-temp-pop-summary" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ez-exp-temp-pop" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-trig.html" class="internal"><span class="codenumber">4</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-right.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Right triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#sec-trig-right-3" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-PA-trig-right" class="internal"><span class="codenumber">4.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#subsec-trig-right-similar" class="internal"><span class="codenumber">4.1.2</span> <span class="title">The geometry of triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-act-trig-right-similar" class="internal"><span class="codenumber">4.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#subsec-trig-right-ratios" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Ratios of sides in right triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-act-trig-right-SOH-CAH" class="internal"><span class="codenumber">4.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#subsec-trig-right-ratios-sin-cos" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Using a ratio involving sine and cosine</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-act-trig-right-sine-cosine-ratio" class="internal"><span class="codenumber">4.1.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-right.html#sec-trig-right-7" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-right.html#ez-trig-right" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-tangent.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Tangent Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-tangent.html#sec-trig-tangent-3" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-PA-trig-tangent" class="internal"><span class="codenumber">4.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-two-persp" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Two perspectives on the tangent function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-properties" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Properties of the tangent function</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-applications" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Using the tangent function in right triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-act-trig-tangent-tower" class="internal"><span class="codenumber">4.2.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-act-trig-tangent-two-towers" class="internal"><span class="codenumber">4.2.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-act-trig-tangent-mountain" class="internal"><span class="codenumber">4.2.4</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-summary" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-tangent.html#ez-trig-tangent" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-inverse.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Inverses of trigonometric functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-3" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-PA-trig-inverse" class="internal"><span class="codenumber">4.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-arccos" class="internal"><span class="codenumber">4.3.2</span> <span class="title">The arccosine function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-act-trig-inverse-arccos" class="internal"><span class="codenumber">4.3.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-arcsin" class="internal"><span class="codenumber">4.3.3</span> <span class="title">The arcsine function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-act-trig-inverse-arcsin" class="internal"><span class="codenumber">4.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-arctan" class="internal"><span class="codenumber">4.3.4</span> <span class="title">The arctangent function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-act-trig-inverse-arctan" class="internal"><span class="codenumber">4.3.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-summary" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-inverse.html#ez-trig-inverse" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Finding Angles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html#sec-trig-finding-angles-3" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-PA-trig-finding-angles" class="internal"><span class="codenumber">4.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html#subsec-trig-finding-angles-evaluating" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Evaluating inverse trigonometric functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-trig-finding-angles-exactly" class="internal"><span class="codenumber">4.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html#subsec-trig-finding-angles-applied" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Finding angles in applied contexts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-finding-angles-roof" class="internal"><span class="codenumber">4.4.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-finding-angles-baseball" class="internal"><span class="codenumber">4.4.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-finding-angles-rocket" class="internal"><span class="codenumber">4.4.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#subsec-trig-finding-angles-summary" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ez-trig-finding-angles" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-other.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Other Trigonometric Functions and Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#sec-trig-other-3" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-PA-trig-other" class="internal"><span class="codenumber">4.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-triangles" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Ratios in right triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-special" class="internal"><span class="codenumber">4.5.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-properties" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Properties of the secant, cosecant, and cotangent functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-csc" class="internal"><span class="codenumber">4.5.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-cot" class="internal"><span class="codenumber">4.5.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-identities" class="internal"><span class="codenumber">4.5.4</span> <span class="title">A few important identities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-aroc-sine" class="internal"><span class="codenumber">4.5.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-summary" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-other.html#ez-trig-other" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-poly.html" class="internal"><span class="codenumber">5</span> <span class="title">Polynomial and Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-infty.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Infinity, limits, and power functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-infty.html#sec-poly-infty-3" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-PA-poly-infty" class="internal"><span class="codenumber">5.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-infty.html#subsec-poly-infty-limit" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Limit notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-act-poly-infty-limit" class="internal"><span class="codenumber">5.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-infty.html#subsec-poly-infty-power" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Power functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-act-poly-infty-natural-powers" class="internal"><span class="codenumber">5.1.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-act-poly-infty-negative-powers" class="internal"><span class="codenumber">5.1.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-infty.html#subsec-poly-infty-summary" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-infty.html#ez-poly-infty" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#sec-poly-polynomials-3" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-PA-poly-polynomials" class="internal"><span class="codenumber">5.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-results" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Key results about polynomial functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-act-poly-polynomials-find" class="internal"><span class="codenumber">5.2.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-zeros-signs" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Using zeros and signs to understand polynomial behavior</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-act-poly-polynomials-sign-chart" class="internal"><span class="codenumber">5.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-multiplicity" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Multiplicity of polynomial zeros</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-act-poly-polynomials-multiple-zeros" class="internal"><span class="codenumber">5.2.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-summary" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ez-poly-polynomials" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Modeling with polynomial functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#sec-poly-polynomial-applications-3" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-PA-poly-polynomial-applications" class="internal"><span class="codenumber">5.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#subsec-poly-polynomial-applications-volume" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Volume, surface area, and constraints</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-act-poly-polynomial-applications-postal" class="internal"><span class="codenumber">5.3.2</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-act-poly-polynomial-applications-soup" class="internal"><span class="codenumber">5.3.2</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#subsec-poly-polynomial-applications-other" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Other applications of polynomial functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-act-poly-polynomial-applications-Taylor" class="internal"><span class="codenumber">5.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#subsec-poly-polynomial-applications-summary" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ez-poly-polynomial-applications" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-rational.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#sec-poly-rational-3" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-PA-poly-rational" class="internal"><span class="codenumber">5.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-long-term" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Long-range behavior of rational functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-long-term-1" class="internal"><span class="codenumber">5.4.2</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-long-term-2" class="internal"><span class="codenumber">5.4.2</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-domain" class="internal"><span class="codenumber">5.4.3</span> <span class="title">The domain of a rational function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-domain" class="internal"><span class="codenumber">5.4.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-applications" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Applications of rational functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-application" class="internal"><span class="codenumber">5.4.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-summary" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-rational.html#ez-poly-rational" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Key features of rational functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html#sec-poly-rational-features-3" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ws-PA-poly-rational-features" class="internal"><span class="codenumber">5.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html#subsec-poly-rational-features-hole" class="internal"><span class="codenumber">5.5.2</span> <span class="title">When a rational function has a “hole”</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ws-act-poly-rational-features-ZAH" class="internal"><span class="codenumber">5.5.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html#subsec-poly-rational-features-signs" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Sign charts and finding formulas for rational functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ws-act-poly-rational-formula" class="internal"><span class="codenumber">5.5.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-rational-features.html#subsec-poly-rational-features-summary" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ez-poly-rational-features" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="worksheet" id="ws-act-changing-aroc-population" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type"> </span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"> </span><div class="print-links"><a href="ws-act-changing-aroc-population-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<article class="activity project-like" id="act-changing-aroc-population"><h5 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.3.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="introduction" id="act-changing-aroc-population-1">
+<div class="para" id="act-changing-aroc-population-1-1">According to the US census, the populations of Kent and Ottawa Counties in Michigan where GVSU is located (Grand Rapids is in Kent, Allendale in Ottawa) from 1960 to 2010 measured in <span class="process-math">\(10\)</span>-year intervals are given in the following tables.<div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines">Year:</td>
+<td class="l m b1 r0 l0 t0 lines">1960</td>
+<td class="l m b1 r0 l0 t0 lines">1970</td>
+<td class="l m b1 r0 l0 t0 lines">1980</td>
+<td class="l m b1 r0 l0 t0 lines">1990</td>
+<td class="l m b1 r0 l0 t0 lines">2000</td>
+<td class="l m b1 r0 l0 t0 lines">2010</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Kent County population:</td>
+<td class="l m b0 r0 l0 t0 lines">363,187</td>
+<td class="l m b0 r0 l0 t0 lines">411,044</td>
+<td class="l m b0 r0 l0 t0 lines">444,506</td>
+<td class="l m b0 r0 l0 t0 lines">500,631</td>
+<td class="l m b0 r0 l0 t0 lines">574,336</td>
+<td class="l m b0 r0 l0 t0 lines">602,622</td>
+</tr>
+</table></div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r0 l0 t0 lines">Year:</td>
+<td class="l m b1 r0 l0 t0 lines">1960</td>
+<td class="l m b1 r0 l0 t0 lines">1970</td>
+<td class="l m b1 r0 l0 t0 lines">1980</td>
+<td class="l m b1 r0 l0 t0 lines">1990</td>
+<td class="l m b1 r0 l0 t0 lines">2000</td>
+<td class="l m b1 r0 l0 t0 lines">2010</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">Ottawa County Population:</td>
+<td class="l m b0 r0 l0 t0 lines">98,719</td>
+<td class="l m b0 r0 l0 t0 lines">128,181</td>
+<td class="l m b0 r0 l0 t0 lines">157,174</td>
+<td class="l m b0 r0 l0 t0 lines">187,768</td>
+<td class="l m b0 r0 l0 t0 lines">238,313</td>
+<td class="l m b0 r0 l0 t0 lines">263,801</td>
+</tr>
+</table></div>
+<div class="para" id="act-changing-aroc-population-1-4">Let <span class="process-math">\(K(Y)\)</span> represent the population of Kent County in year <span class="process-math">\(Y\)</span> and <span class="process-math">\(W(Y)\)</span> the population of Ottawa County in year <span class="process-math">\(Y\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="act-changing-aroc-population-1-5"><div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div>
+<article class="task exercise-like" id="act-changing-aroc-population-task-0"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="act-changing-aroc-population-task-0-1-1">Compute <span class="process-math">\(AV_{[1990,2010]}\)</span> for both <span class="process-math">\(K\)</span> and <span class="process-math">\(W\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-task-0-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5cm"></div>
+<div class="autopermalink" data-description="Task 1.3.2.a"><a href="#act-changing-aroc-population-task-0" title="Copy heading and permalink for Task 1.3.2.a" aria-label="Copy heading and permalink for Task 1.3.2.a">🔗</a></div></article><article class="task exercise-like" id="act-changing-aroc-population-task-1"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="act-changing-aroc-population-task-1-1-1">What are the units on each of the quantities you computed in (a.)?<div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-task-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="4cm"></div>
+<div class="autopermalink" data-description="Task 1.3.2.b"><a href="#act-changing-aroc-population-task-1" title="Copy heading and permalink for Task 1.3.2.b" aria-label="Copy heading and permalink for Task 1.3.2.b">🔗</a></div></article><article class="task exercise-like" id="act-changing-aroc-population-task-2"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="act-changing-aroc-population-task-2-1-1">Write a careful sentence that explains the meaning of the average rate of change of the Ottawa county population on the time interval <span class="process-math">\([1990,2010]\text{.}\)</span>  Your sentence should begin something like “In an average year between 1990 and 2010, the population of Ottawa County was <span class="process-math">\(\ldots\)</span>”<div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-task-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="4cm"></div>
+<div class="autopermalink" data-description="Task 1.3.2.c"><a href="#act-changing-aroc-population-task-2" title="Copy heading and permalink for Task 1.3.2.c" aria-label="Copy heading and permalink for Task 1.3.2.c">🔗</a></div></article><article class="task exercise-like" id="act-changing-aroc-population-task-3"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="act-changing-aroc-population-task-3-1-1">Which county had a greater average rate of change during the time interval <span class="process-math">\([2000,2010]\text{?}\)</span> Were there any intervals in which one of the counties had a negative average rate of change?<div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-task-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5cm"></div>
+<div class="autopermalink" data-description="Task 1.3.2.d"><a href="#act-changing-aroc-population-task-3" title="Copy heading and permalink for Task 1.3.2.d" aria-label="Copy heading and permalink for Task 1.3.2.d">🔗</a></div></article><article class="task exercise-like" id="act-changing-aroc-population-task-4"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="para" id="act-changing-aroc-population-task-4-1-1">Using the given data, what do you predict will be the population of Ottawa County in 2018? Why?<div class="autopermalink" data-description="Paragraph"><a href="#act-changing-aroc-population-task-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5cm"></div>
+<div class="autopermalink" data-description="Task 1.3.2.e"><a href="#act-changing-aroc-population-task-4" title="Copy heading and permalink for Task 1.3.2.e" aria-label="Copy heading and permalink for Task 1.3.2.e">🔗</a></div></article><div class="autopermalink" data-description="Activity 1.3.2"><a href="#act-changing-aroc-population" title="Copy heading and permalink for Activity 1.3.2" aria-label="Copy heading and permalink for Activity 1.3.2">🔗</a></div></article><div class="autopermalink" data-description="  1.3.2"><a href="#ws-act-changing-aroc-population" title="Copy heading and permalink for   1.3.2" aria-label="Copy heading and permalink for   1.3.2">🔗</a></div></section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-changing-aroc.html#subsec-changing-aroc-defn" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-changing-aroc.html#subsec-changing-aroc-behavior-trends" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

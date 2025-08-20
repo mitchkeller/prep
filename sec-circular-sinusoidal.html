@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: blues                        *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>APC Sinusoidal Functions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="https://activecalculus.org/prelude/external/images/APC-cover.jpg">
+<meta property="book:title" content="Active Prelude to Calculus">
+<meta property="book:author" content="Matthew Boelkins">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.9.8';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
+<script src="_static/pretext/js/pretext-webwork/2.20/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
+<a id="logo-link" class="logo-link" target="_blank" href="https://activecalculus.org"><img src="external/images/APC-cover.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="root-1-2.html"><span class="title">Active Prelude to Calculus</span></a></h1>
+<p class="byline">Matthew Boelkins</p>
+</div>
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-2.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-circular-sine-cosine.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="C-circular.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="C-exp.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="frontmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-acknowledgement"><div class="toc-title-box"><a href="frontmatter-4.html" class="internal"><span class="title">Acknowledgements</span></a></div></li>
+<li class="toc-item toc-preface">
+<div class="toc-title-box"><a href="frontmatter-5.html" class="internal"><span class="title">Contributors</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-contributors"><div class="toc-title-box"><a href="frontmatter-5.html#frontmatter-5-4" class="internal"><span class="title"></span></a></div></li></ul>
+</li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-our-goals.html" class="internal"><span class="title">Our Goals</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="frontmatter-7.html" class="internal"><span class="title">Features of the Text</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-students.html" class="internal"><span class="title">Students!  Read this!</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a href="preface-for-instructors.html" class="internal"><span class="title">Instructors!  Read this!</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-changing.html" class="internal"><span class="codenumber">1</span> <span class="title">Relating Changing Quantities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Changing in Tandem</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html#sec-changing-in-tandem-3" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ws-PA-changing-aquarium" class="internal"><span class="codenumber">1.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html#subsec-changing-tandem-graphs" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Using Graphs to Represent Relationships</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ws-act-tandem-conical-tank" class="internal"><span class="codenumber">1.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-in-tandem.html#subsec-changing-algebra-perspective" class="internal"><span class="codenumber">1.1.3</span> <span class="title">Using Algebra to Add Perspective</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ws-act-tandem-spherical-tank" class="internal"><span class="codenumber">1.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#subsec-changing-tandem-summary" class="internal"><span class="codenumber">1.1.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-in-tandem.html#ez-changing-tandem" class="internal"><span class="codenumber">1.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Functions:  Modeling Relationships</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#sec-changing-functions-models-3" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-PA-crickets" class="internal"><span class="codenumber">1.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-functions" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-act-changing-functions-spherical-tank" class="internal"><span class="codenumber">1.2.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-models" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Comparing models and abstract functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-act-changing-functions-spherical-tank-draining" class="internal"><span class="codenumber">1.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-is-it" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Determining whether a relationship is a function or not</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ws-act-changing-functions-is-it" class="internal"><span class="codenumber">1.2.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-functions-models.html#subsec-changing-functions-models-summary" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-functions-models.html#ez-changing-functions" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-aroc.html" class="internal"><span class="codenumber">1.3</span> <span class="title">The Average Rate of Change of a Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-aroc.html#sec-changing-aroc-3" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-PA-changing-aroc" class="internal"><span class="codenumber">1.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-aroc.html#subsec-changing-aroc-defn" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Defining and interpreting the average rate of change of a function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-act-changing-aroc-population" class="internal"><span class="codenumber">1.3.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-aroc.html#subsec-changing-aroc-behavior-trends" class="internal"><span class="codenumber">1.3.3</span> <span class="title">How average rate of change indicates function trends</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-act-changing-aroc-trends" class="internal"><span class="codenumber">1.3.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-aroc.html#ws-act-changing-aroc-graphs" class="internal"><span class="codenumber">1.3.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-aroc.html#subsec-changing-aroc-summary" class="internal"><span class="codenumber">1.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-aroc.html#ez-changing-aroc" class="internal"><span class="codenumber">1.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-linear.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Linear Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-linear.html#sec-changing-linear-3" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-PA-changing-linear-3-ex" class="internal"><span class="codenumber">1.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-linear.html#subsec-changing-linear-properties" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Properties of linear functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-act-changing-linear-finding-eqs" class="internal"><span class="codenumber">1.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-linear.html#subsec-changing-linear-context" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Interpreting linear functions in context</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-act-changing-linear-Kilimanjaro" class="internal"><span class="codenumber">1.4.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-linear.html#ws-act-changing-linear-in-context" class="internal"><span class="codenumber">1.4.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-linear.html#subsec-changing-linear-summary" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-linear.html#ez-changing-linear" class="internal"><span class="codenumber">1.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html#sec-changing-quadratic-3" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-PA-changing-quadratic" class="internal"><span class="codenumber">1.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html#subsec-changing-quadratic-properties" class="internal"><span class="codenumber">1.5.2</span> <span class="title">Properties of Quadratic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-act-changing-quadratic-parameters" class="internal"><span class="codenumber">1.5.2</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-act-changing-quadratic-properties" class="internal"><span class="codenumber">1.5.2</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-quadratic.html#subsec-changing-quadratic-falling-gravity" class="internal"><span class="codenumber">1.5.3</span> <span class="title">Modeling falling objects</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ws-act-changing-quadratic-falling-ball" class="internal"><span class="codenumber">1.5.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-quadratic.html#subsec-changing-quadratic-change-patterns" class="internal"><span class="codenumber">1.5.4</span> <span class="title">How quadratic functions change</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-quadratic.html#sec-changing-quadratic-7" class="internal"><span class="codenumber">1.5.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-quadratic.html#ez-changing-quadratic" class="internal"><span class="codenumber">1.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-composite.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Composite Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#sec-changing-composite-3" class="internal"><span class="codenumber">1.6.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-PA-changing-composite" class="internal"><span class="codenumber">1.6.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-composing" class="internal"><span class="codenumber">1.6.2</span> <span class="title">Composing two functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-act-changing-composite-tables-graphs" class="internal"><span class="codenumber">1.6.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-in-context" class="internal"><span class="codenumber">1.6.3</span> <span class="title">Composing functions in context</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-act-changing-composite-crickets-celcius" class="internal"><span class="codenumber">1.6.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-aroc" class="internal"><span class="codenumber">1.6.4</span> <span class="title">Function composition and average rate of change</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-composite.html#ws-act-changing-composite-aroc" class="internal"><span class="codenumber">1.6.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-composite.html#subsec-changing-composite-summary" class="internal"><span class="codenumber">1.6.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-composite.html#ez-changing-composite" class="internal"><span class="codenumber">1.6.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-inverse.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Inverse Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#sec-changing-inverse-3" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-PA-changing-inverse-F-C" class="internal"><span class="codenumber">1.7.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#changing-inverse-definition" class="internal"><span class="codenumber">1.7.2</span> <span class="title">When a function has an inverse function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-act-changing-inverse-Dolbear" class="internal"><span class="codenumber">1.7.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#changing-inverse-does-it" class="internal"><span class="codenumber">1.7.3</span> <span class="title">Determining whether a function has an inverse function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-act-changing-inverse-does-it" class="internal"><span class="codenumber">1.7.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-inverse.html#changing-inverse-properties" class="internal"><span class="codenumber">1.7.4</span> <span class="title">Properties of an inverse function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-inverse.html#ws-act-0-0-0" class="internal"><span class="codenumber">1.7.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-inverse.html#subsec-changing-inverse-summary" class="internal"><span class="codenumber">1.7.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-inverse.html#ez-changing-inverse" class="internal"><span class="codenumber">1.7.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-transformations.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Transformations of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#sec-changing-transformations-3" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-PA-changing-transformations-quadratic" class="internal"><span class="codenumber">1.8.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-translation" class="internal"><span class="codenumber">1.8.2</span> <span class="title">Translations of Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-act-changing-transformations-translations" class="internal"><span class="codenumber">1.8.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-vert-stretch" class="internal"><span class="codenumber">1.8.3</span> <span class="title">Vertical stretches and reflections</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-act-changing-transformations-vert-stretch" class="internal"><span class="codenumber">1.8.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-combining" class="internal"><span class="codenumber">1.8.4</span> <span class="title">Combining shifts and stretches: why order sometimes matters</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-transformations.html#ws-act-changing-transformations-combined" class="internal"><span class="codenumber">1.8.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-transformations.html#subsec-changing-transformations-summary" class="internal"><span class="codenumber">1.8.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-transformations.html#ez-changing-transformations" class="internal"><span class="codenumber">1.8.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-changing-combining.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Combining Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#sec-changing-combining-3" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-PA-changing-combining" class="internal"><span class="codenumber">1.9.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-functions-algebra" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Arithmetic with functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-act-changing-combining-arithmetic" class="internal"><span class="codenumber">1.9.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-functions-context" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Combining functions in context</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-act-changing-combining-context" class="internal"><span class="codenumber">1.9.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-piecewise" class="internal"><span class="codenumber">1.9.4</span> <span class="title">Piecewise functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-changing-combining.html#ws-act-changing-combining-piecewise" class="internal"><span class="codenumber">1.9.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-changing-combining.html#subsec-changing-combining-summary" class="internal"><span class="codenumber">1.9.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-changing-combining.html#ez-changing-combining" class="internal"><span class="codenumber">1.9.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="C-circular.html" class="internal"><span class="codenumber">2</span> <span class="title">Circular Functions</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-traversing.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Traversing Circles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#sec-circular-traversing-3" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-PA-circular-traversing" class="internal"><span class="codenumber">2.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-functions" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Circular Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-act-circular-traversing-2nd-ex" class="internal"><span class="codenumber">2.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-function-properties" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Properties of Circular Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-act-circular-traversing-oscillator" class="internal"><span class="codenumber">2.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-aroc" class="internal"><span class="codenumber">2.1.4</span> <span class="title">The average rate of change of a circular function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-traversing.html#ws-act-circular-traversing-oscillator-aroc" class="internal"><span class="codenumber">2.1.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-traversing.html#subsec-circular-traversing-summary" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-traversing.html#ez-circular-traversing" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The Unit Circle</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#sec-circular-unit-circle-3" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-PA-circular-unit-circle" class="internal"><span class="codenumber">2.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#subsec-circular-unit-circle-radians-degrees" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Radians and degrees</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-act-circular-unit-circle-radians-degrees" class="internal"><span class="codenumber">2.2.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#subsec-circular-unit-circle-special-points" class="internal"><span class="codenumber">2.2.3</span> <span class="title">Special points on the unit circle</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-act-circular-unit-circle-special-triangles" class="internal"><span class="codenumber">2.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-unit-circle.html#subsec-circular-unit-circle-non-unit-circles" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Special points and arc length in non-unit circles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ws-act-circular-unit-circle-non-unit" class="internal"><span class="codenumber">2.2.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#sec-circular-unit-circle-7" class="internal"><span class="codenumber">2.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-unit-circle.html#ez-circular-unit-circle" class="internal"><span class="codenumber">2.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html" class="internal"><span class="codenumber">2.3</span> <span class="title">The Sine and Cosine Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#sec-circular-sine-cosine-3" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-PA-circular-sine" class="internal"><span class="codenumber">2.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-defn" class="internal"><span class="codenumber">2.3.2</span> <span class="title">The definition of the sine function</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-cosine-defn" class="internal"><span class="codenumber">2.3.3</span> <span class="title">The definition of the cosine function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-act-circular-sine-cosine" class="internal"><span class="codenumber">2.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-cosine-properties" class="internal"><span class="codenumber">2.3.4</span> <span class="title">Properties of the sine and cosine functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-act-sine-cosine-incr-CCU" class="internal"><span class="codenumber">2.3.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-cosine-computing" class="internal"><span class="codenumber">2.3.5</span> <span class="title">Using computing technology</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ws-act-circular-sine-cosine-computing" class="internal"><span class="codenumber">2.3.5</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#subsec-circular-sine-summary" class="internal"><span class="codenumber">2.3.6</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-sine-cosine.html#ez-circular-sine-cosine" class="internal"><span class="codenumber">2.3.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Sinusoidal Functions</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#sec-circular-sinusoidal-3" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-PA-circular-sinusoidal" class="internal"><span class="codenumber">2.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#subsec-circular-sinusoidal-shifts-stretches" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Shifts and vertical stretches of the sine and cosine functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-oscillator" class="internal"><span class="codenumber">2.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#subsec-circular-sinusoidal-horiz-scaling" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Horizontal scaling</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-horiz-stretch" class="internal"><span class="codenumber">2.4.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-circular-sinusoidal.html#sec-circular-sinusoidal-6" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Circular functions with different periods</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-period" class="internal"><span class="codenumber">2.4.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ws-act-circular-sinusoidal-model" class="internal"><span class="codenumber">2.4.4</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#subsec-circular-sinusoidal-summary" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-circular-sinusoidal.html#ez-circular-sinusoidal" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-exp.html" class="internal"><span class="codenumber">3</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-growth.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Exponential Growth and Decay</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#sec-exp-growth-3" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-PA-exp-growth" class="internal"><span class="codenumber">3.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#subsec-exp-growth-functions" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Exponential functions of form <span class="process-math">\(f(t) = ab^t\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-act-exp-growth-a-b-t" class="internal"><span class="codenumber">3.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#subsec-exp-growth-find-a-b" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Determining formulas for exponential functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-act-exp-growth-find-a-b" class="internal"><span class="codenumber">3.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-growth.html#subsec-exp-growth-trends" class="internal"><span class="codenumber">3.1.4</span> <span class="title">Trends in the behavior of exponential functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-growth.html#ws-act-exp-growth-rates" class="internal"><span class="codenumber">3.1.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-growth.html#sec-exp-growth-7" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-growth.html#ez-exp-growth" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-modeling.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Modeling with exponential functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-modeling.html#sec-exp-modeling-3" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-PA-exp-modeling" class="internal"><span class="codenumber">3.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-long-term" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Long-term behavior of exponential functions</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-transformations" class="internal"><span class="codenumber">3.2.3</span> <span class="title">The role of <span class="process-math">\(c\)</span> in <span class="process-math">\(g(t) = ab^t + c\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-act-exp-modeling-behavior" class="internal"><span class="codenumber">3.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-temperature" class="internal"><span class="codenumber">3.2.4</span> <span class="title">Modeling temperature data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-act-exp-modeling-soda" class="internal"><span class="codenumber">3.2.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-modeling.html#ws-act-exp-modeling-potato" class="internal"><span class="codenumber">3.2.4</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-modeling.html#subsec-exp-modeling-summary" class="internal"><span class="codenumber">3.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-modeling.html#ez-exp-modeling" class="internal"><span class="codenumber">3.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-e.html" class="internal"><span class="codenumber">3.3</span> <span class="title">The special number <span class="process-math">\(e\)</span></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-e.html#sec-exp-e-3" class="internal"><span class="codenumber">3.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-e.html#ws-PA-exp-e" class="internal"><span class="codenumber">3.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-e.html#subsec-exp-e-definition" class="internal"><span class="codenumber">3.3.2</span> <span class="title">The natural base <span class="process-math">\(e\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-e.html#ws-act-exp-e-aroc" class="internal"><span class="codenumber">3.3.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-e.html#subsec-exp-e-inverse" class="internal"><span class="codenumber">3.3.3</span> <span class="title">Why any exponential function can be written in terms of <span class="process-math">\(e\)</span></span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-e.html#ws-act-exp-e-graph-solve" class="internal"><span class="codenumber">3.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-e.html#subsec-exp-e-summary" class="internal"><span class="codenumber">3.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-e.html#ez-exp-e" class="internal"><span class="codenumber">3.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-log.html" class="internal"><span class="codenumber">3.4</span> <span class="title">What a logarithm is</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-3" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-PA-exp-log" class="internal"><span class="codenumber">3.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#subsec-exp-log-base-10" class="internal"><span class="codenumber">3.4.2</span> <span class="title">The base-<span class="process-math">\(10\)</span> logarithm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-act-exp-log-base-10" class="internal"><span class="codenumber">3.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#subsec-exp-log-base-e" class="internal"><span class="codenumber">3.4.3</span> <span class="title">The natural logarithm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-act-exp-log-natural" class="internal"><span class="codenumber">3.4.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log.html#sec-exp-log-6" class="internal"><span class="codenumber">3.4.4</span> <span class="title"><span class="process-math">\(f(t) = b^t\)</span> revisited</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log.html#ws-act-exp-log-equations" class="internal"><span class="codenumber">3.4.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log.html#subsec-exp-log-summary" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log.html#ez-exp-log" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Properties and applications of logarithmic functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#sec-exp-log-properties-3" class="internal"><span class="codenumber">3.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-PA-exp-log-properties" class="internal"><span class="codenumber">3.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-key-properties" class="internal"><span class="codenumber">3.5.2</span> <span class="title">Key properties of logarithms</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-act-exp-log-exponential-equations" class="internal"><span class="codenumber">3.5.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-properties-graph" class="internal"><span class="codenumber">3.5.3</span> <span class="title">The graph of the natural logarithm</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-act-exp-log-properties-exp-or-log" class="internal"><span class="codenumber">3.5.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-properties-applications" class="internal"><span class="codenumber">3.5.4</span> <span class="title">Putting logarithms to work</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ws-act-exp-log-properties-find-k" class="internal"><span class="codenumber">3.5.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-log-properties.html#subsec-exp-log-properties-summary" class="internal"><span class="codenumber">3.5.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-log-properties.html#ez-exp-log-properties" class="internal"><span class="codenumber">3.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Modeling temperature and population</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html#sec-exp-temp-pop-3" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-PA-exp-temp-pop" class="internal"><span class="codenumber">3.6.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html#subsec-exp-temp-pop-Newton" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Newton’s Law of Cooling revisited</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-act-exp-temp-log-NLOC1" class="internal"><span class="codenumber">3.6.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-exp-temp-pop.html#subsec-exp-temp-pop-logistic" class="internal"><span class="codenumber">3.6.3</span> <span class="title">A more realistic model for population growth</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-act-exp-temp-pop-logistic-Desmos" class="internal"><span class="codenumber">3.6.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ws-act-exp-temp-pop-logistic-exact" class="internal"><span class="codenumber">3.6.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#subsec-exp-temp-pop-summary" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exp-temp-pop.html#ez-exp-temp-pop" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-trig.html" class="internal"><span class="codenumber">4</span> <span class="title">Trigonometry</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-right.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Right triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#sec-trig-right-3" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-PA-trig-right" class="internal"><span class="codenumber">4.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#subsec-trig-right-similar" class="internal"><span class="codenumber">4.1.2</span> <span class="title">The geometry of triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-act-trig-right-similar" class="internal"><span class="codenumber">4.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#subsec-trig-right-ratios" class="internal"><span class="codenumber">4.1.3</span> <span class="title">Ratios of sides in right triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-act-trig-right-SOH-CAH" class="internal"><span class="codenumber">4.1.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-right.html#subsec-trig-right-ratios-sin-cos" class="internal"><span class="codenumber">4.1.4</span> <span class="title">Using a ratio involving sine and cosine</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-right.html#ws-act-trig-right-sine-cosine-ratio" class="internal"><span class="codenumber">4.1.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-right.html#sec-trig-right-7" class="internal"><span class="codenumber">4.1.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-right.html#ez-trig-right" class="internal"><span class="codenumber">4.1.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-tangent.html" class="internal"><span class="codenumber">4.2</span> <span class="title">The Tangent Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-tangent.html#sec-trig-tangent-3" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-PA-trig-tangent" class="internal"><span class="codenumber">4.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-two-persp" class="internal"><span class="codenumber">4.2.2</span> <span class="title">Two perspectives on the tangent function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-properties" class="internal"><span class="codenumber">4.2.3</span> <span class="title">Properties of the tangent function</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-applications" class="internal"><span class="codenumber">4.2.4</span> <span class="title">Using the tangent function in right triangles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-act-trig-tangent-tower" class="internal"><span class="codenumber">4.2.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-act-trig-tangent-two-towers" class="internal"><span class="codenumber">4.2.4</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-tangent.html#ws-act-trig-tangent-mountain" class="internal"><span class="codenumber">4.2.4</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-tangent.html#subsec-trig-tangent-summary" class="internal"><span class="codenumber">4.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-tangent.html#ez-trig-tangent" class="internal"><span class="codenumber">4.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-inverse.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Inverses of trigonometric functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#sec-trig-inverse-3" class="internal"><span class="codenumber">4.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-PA-trig-inverse" class="internal"><span class="codenumber">4.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-arccos" class="internal"><span class="codenumber">4.3.2</span> <span class="title">The arccosine function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-act-trig-inverse-arccos" class="internal"><span class="codenumber">4.3.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-arcsin" class="internal"><span class="codenumber">4.3.3</span> <span class="title">The arcsine function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-act-trig-inverse-arcsin" class="internal"><span class="codenumber">4.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-arctan" class="internal"><span class="codenumber">4.3.4</span> <span class="title">The arctangent function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-inverse.html#ws-act-trig-inverse-arctan" class="internal"><span class="codenumber">4.3.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-inverse.html#subsec-trig-inverse-summary" class="internal"><span class="codenumber">4.3.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-inverse.html#ez-trig-inverse" class="internal"><span class="codenumber">4.3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Finding Angles</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html#sec-trig-finding-angles-3" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-PA-trig-finding-angles" class="internal"><span class="codenumber">4.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html#subsec-trig-finding-angles-evaluating" class="internal"><span class="codenumber">4.4.2</span> <span class="title">Evaluating inverse trigonometric functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-trig-finding-angles-exactly" class="internal"><span class="codenumber">4.4.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-finding-angles.html#subsec-trig-finding-angles-applied" class="internal"><span class="codenumber">4.4.3</span> <span class="title">Finding angles in applied contexts</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-finding-angles-roof" class="internal"><span class="codenumber">4.4.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-finding-angles-baseball" class="internal"><span class="codenumber">4.4.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ws-act-finding-angles-rocket" class="internal"><span class="codenumber">4.4.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#subsec-trig-finding-angles-summary" class="internal"><span class="codenumber">4.4.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-finding-angles.html#ez-trig-finding-angles" class="internal"><span class="codenumber">4.4.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-trig-other.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Other Trigonometric Functions and Identities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#sec-trig-other-3" class="internal"><span class="codenumber">4.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-PA-trig-other" class="internal"><span class="codenumber">4.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-triangles" class="internal"><span class="codenumber">4.5.2</span> <span class="title">Ratios in right triangles</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-special" class="internal"><span class="codenumber">4.5.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-properties" class="internal"><span class="codenumber">4.5.3</span> <span class="title">Properties of the secant, cosecant, and cotangent functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-csc" class="internal"><span class="codenumber">4.5.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-cot" class="internal"><span class="codenumber">4.5.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-identities" class="internal"><span class="codenumber">4.5.4</span> <span class="title">A few important identities</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-trig-other.html#ws-act-trig-other-aroc-sine" class="internal"><span class="codenumber">4.5.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-trig-other.html#subsec-trig-other-summary" class="internal"><span class="codenumber">4.5.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-trig-other.html#ez-trig-other" class="internal"><span class="codenumber">4.5.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="C-poly.html" class="internal"><span class="codenumber">5</span> <span class="title">Polynomial and Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-infty.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Infinity, limits, and power functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-infty.html#sec-poly-infty-3" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-PA-poly-infty" class="internal"><span class="codenumber">5.1.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-infty.html#subsec-poly-infty-limit" class="internal"><span class="codenumber">5.1.2</span> <span class="title">Limit notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-act-poly-infty-limit" class="internal"><span class="codenumber">5.1.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-infty.html#subsec-poly-infty-power" class="internal"><span class="codenumber">5.1.3</span> <span class="title">Power functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-act-poly-infty-natural-powers" class="internal"><span class="codenumber">5.1.3</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-infty.html#ws-act-poly-infty-negative-powers" class="internal"><span class="codenumber">5.1.3</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-infty.html#subsec-poly-infty-summary" class="internal"><span class="codenumber">5.1.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-infty.html#ez-poly-infty" class="internal"><span class="codenumber">5.1.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Polynomials</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#sec-poly-polynomials-3" class="internal"><span class="codenumber">5.2.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-PA-poly-polynomials" class="internal"><span class="codenumber">5.2.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-results" class="internal"><span class="codenumber">5.2.2</span> <span class="title">Key results about polynomial functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-act-poly-polynomials-find" class="internal"><span class="codenumber">5.2.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-zeros-signs" class="internal"><span class="codenumber">5.2.3</span> <span class="title">Using zeros and signs to understand polynomial behavior</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-act-poly-polynomials-sign-chart" class="internal"><span class="codenumber">5.2.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-multiplicity" class="internal"><span class="codenumber">5.2.4</span> <span class="title">Multiplicity of polynomial zeros</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ws-act-poly-polynomials-multiple-zeros" class="internal"><span class="codenumber">5.2.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-polynomials.html#subsec-poly-polynomials-summary" class="internal"><span class="codenumber">5.2.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-polynomials.html#ez-poly-polynomials" class="internal"><span class="codenumber">5.2.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Modeling with polynomial functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#sec-poly-polynomial-applications-3" class="internal"><span class="codenumber">5.3.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-PA-poly-polynomial-applications" class="internal"><span class="codenumber">5.3.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#subsec-poly-polynomial-applications-volume" class="internal"><span class="codenumber">5.3.2</span> <span class="title">Volume, surface area, and constraints</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-act-poly-polynomial-applications-postal" class="internal"><span class="codenumber">5.3.2</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-act-poly-polynomial-applications-soup" class="internal"><span class="codenumber">5.3.2</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#subsec-poly-polynomial-applications-other" class="internal"><span class="codenumber">5.3.3</span> <span class="title">Other applications of polynomial functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ws-act-poly-polynomial-applications-Taylor" class="internal"><span class="codenumber">5.3.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#subsec-poly-polynomial-applications-summary" class="internal"><span class="codenumber">5.3.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-polynomial-applications.html#ez-poly-polynomial-applications" class="internal"><span class="codenumber">5.3.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-rational.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Rational Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#sec-poly-rational-3" class="internal"><span class="codenumber">5.4.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-PA-poly-rational" class="internal"><span class="codenumber">5.4.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-long-term" class="internal"><span class="codenumber">5.4.2</span> <span class="title">Long-range behavior of rational functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-long-term-1" class="internal"><span class="codenumber">5.4.2</span> <span class="title"> </span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-long-term-2" class="internal"><span class="codenumber">5.4.2</span> <span class="title"> </span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-domain" class="internal"><span class="codenumber">5.4.3</span> <span class="title">The domain of a rational function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-domain" class="internal"><span class="codenumber">5.4.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-applications" class="internal"><span class="codenumber">5.4.4</span> <span class="title">Applications of rational functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational.html#ws-act-poly-rational-application" class="internal"><span class="codenumber">5.4.4</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-rational.html#subsec-poly-rational-summary" class="internal"><span class="codenumber">5.4.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-rational.html#ez-poly-rational" class="internal"><span class="codenumber">5.4.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Key features of rational functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html#sec-poly-rational-features-3" class="internal"><span class="codenumber">5.5.1</span> <span class="title">Introduction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ws-PA-poly-rational-features" class="internal"><span class="codenumber">5.5.1</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html#subsec-poly-rational-features-hole" class="internal"><span class="codenumber">5.5.2</span> <span class="title">When a rational function has a “hole”</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ws-act-poly-rational-features-ZAH" class="internal"><span class="codenumber">5.5.2</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-poly-rational-features.html#subsec-poly-rational-features-signs" class="internal"><span class="codenumber">5.5.3</span> <span class="title">Sign charts and finding formulas for rational functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ws-act-poly-rational-formula" class="internal"><span class="codenumber">5.5.3</span> <span class="title"> </span></a></div></li></ul>
+</li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-poly-rational-features.html#subsec-poly-rational-features-summary" class="internal"><span class="codenumber">5.5.4</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-poly-rational-features.html#ez-poly-rational-features" class="internal"><span class="codenumber">5.5.5</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-2.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-3.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-circular-sinusoidal"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sinusoidal Functions</span>
+</h2>
+<article class="objectives goal-like" id="sec-circular-sinusoidal-2"><h3 class="heading"><span class="type">Motivating Questions</span></h3>
+<ul class="disc" id="sec-circular-sinusoidal-2-1">
+<li id="sec-circular-sinusoidal-2-1-1">
+<div class="para" id="sec-circular-sinusoidal-2-1-1-1">How do the three standard transformations (vertical translation, horizontal translation, and vertical scaling) affect the midline, amplitude, range, and period of sine and cosine curves?<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-circular-sinusoidal-2-1-1" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-circular-sinusoidal-2-1-2">
+<div class="para" id="sec-circular-sinusoidal-2-1-2-1">What algebraic transformation results in horizontal stretching or scaling of a function?<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-circular-sinusoidal-2-1-2" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+<li id="sec-circular-sinusoidal-2-1-3">
+<div class="para" id="sec-circular-sinusoidal-2-1-3-1">How can we determine a formula involving sine or cosine that models any circular periodic function for which the midline, amplitude, period, and an anchor point are known?<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Objective"><a href="#sec-circular-sinusoidal-2-1-3" title="Copy heading and permalink for Objective" aria-label="Copy heading and permalink for Objective">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Motivating Questions 2.4"><a href="#sec-circular-sinusoidal-2" title="Copy heading and permalink for Motivating Questions 2.4" aria-label="Copy heading and permalink for Motivating Questions 2.4">🔗</a></div></article><section class="subsection" id="sec-circular-sinusoidal-3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Introduction</span>
+</h3>
+<div class="para" id="sec-circular-sinusoidal-3-2">Recall our work in <a href="sec-changing-transformations.html" class="internal" title="Section 1.8: Transformations of Functions">Section 1.8</a>, where we studied how the graph of the function <span class="process-math">\(g\)</span> defined by <span class="process-math">\(g(x) = af(x-b) + c\)</span> is related to the graph of <span class="process-math">\(f\text{,}\)</span> where <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> are real numbers with <span class="process-math">\(a \ne 0\text{.}\)</span>  Because such transformations can shift and stretch a function, we are interested in understanding how we can use transformations of the sine and cosine functions to fit formulas to circular functions.<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="worksheet" id="ws-PA-circular-sinusoidal" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type"> </span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"> </span><div class="print-links"><a href="ws-PA-circular-sinusoidal-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<article class="exploration project-like" id="PA-circular-sinusoidal"><h5 class="heading">
+<span class="type">Preview Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="introduction" id="PA-circular-sinusoidal-1">
+<div class="para" id="PA-circular-sinusoidal-1-1">Let <span class="process-math">\(f(t) = \cos(t)\text{.}\)</span>  First, answer all of the questions below <em class="emphasis">without</em> using <em class="emphasis">Desmos</em>; then use <em class="emphasis">Desmos</em> to confirm your conjectures.  For each prompt, describe the graphs of <span class="process-math">\(g\)</span> and <span class="process-math">\(h\)</span> as transformations of <span class="process-math">\(f\)</span> and, in addition, state the amplitude, midline, and period of both <span class="process-math">\(g\)</span> and <span class="process-math">\(h\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#PA-circular-sinusoidal-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="PA-circular-sinusoidal-1-2"><div class="autopermalink" data-description="Paragraph"><a href="#PA-circular-sinusoidal-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div>
+<article class="task exercise-like" id="PA-circular-sinusoidal-task-0"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="PA-circular-sinusoidal-task-0-1-1">
+<span class="process-math">\(g(t) = 3\cos(t)\)</span> and <span class="process-math">\(h(t) = -\frac{1}{4}\cos(t)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#PA-circular-sinusoidal-task-0-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5cm"></div>
+<div class="autopermalink" data-description="Task 2.4.1.a"><a href="#PA-circular-sinusoidal-task-0" title="Copy heading and permalink for Task 2.4.1.a" aria-label="Copy heading and permalink for Task 2.4.1.a">🔗</a></div></article><article class="task exercise-like" id="PA-circular-sinusoidal-task-1"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="PA-circular-sinusoidal-task-1-1-1">
+<span class="process-math">\(g(t) = \cos(t-\pi)\)</span> and <span class="process-math">\(h(t) = \cos\left(t+ \frac{\pi}{2}\right)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#PA-circular-sinusoidal-task-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.1.b"><a href="#PA-circular-sinusoidal-task-1" title="Copy heading and permalink for Task 2.4.1.b" aria-label="Copy heading and permalink for Task 2.4.1.b">🔗</a></div></article><article class="task exercise-like" id="PA-circular-sinusoidal-task-2"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="PA-circular-sinusoidal-task-2-1-1">
+<span class="process-math">\(g(t) = \cos(t)+4\)</span> and <span class="process-math">\(h(t) = \cos\left(t\right)-2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#PA-circular-sinusoidal-task-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.1.c"><a href="#PA-circular-sinusoidal-task-2" title="Copy heading and permalink for Task 2.4.1.c" aria-label="Copy heading and permalink for Task 2.4.1.c">🔗</a></div></article><article class="task exercise-like" id="PA-circular-sinusoidal-task-3"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="PA-circular-sinusoidal-task-3-1-1">
+<span class="process-math">\(g(t) = 3\cos(t-\pi)+4\)</span> and <span class="process-math">\(h(t) = -\frac{1}{4}\cos\left(t+ \frac{\pi}{2}\right)-2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#PA-circular-sinusoidal-task-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.1.d"><a href="#PA-circular-sinusoidal-task-3" title="Copy heading and permalink for Task 2.4.1.d" aria-label="Copy heading and permalink for Task 2.4.1.d">🔗</a></div></article><div class="autopermalink" data-description="Preview Activity 2.4.1"><a href="#PA-circular-sinusoidal" title="Copy heading and permalink for Preview Activity 2.4.1" aria-label="Copy heading and permalink for Preview Activity 2.4.1">🔗</a></div></article><div class="autopermalink" data-description="  2.4.1"><a href="#ws-PA-circular-sinusoidal" title="Copy heading and permalink for   2.4.1" aria-label="Copy heading and permalink for   2.4.1">🔗</a></div></section><div class="autopermalink" data-description="Subsection 2.4.1: Introduction"><a href="#sec-circular-sinusoidal-3" title="Copy heading and permalink for Subsection 2.4.1: Introduction" aria-label="Copy heading and permalink for Subsection 2.4.1: Introduction">🔗</a></div></section><section class="subsection" id="subsec-circular-sinusoidal-shifts-stretches"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Shifts and vertical stretches of the sine and cosine functions</span>
+</h3>
+<div class="para" id="subsec-circular-sinusoidal-shifts-stretches-2">We know that the standard functions <span class="process-math">\(f(t) = \sin(t)\)</span> and <span class="process-math">\(g(t) = \cos(t)\)</span> are circular functions that each have midline <span class="process-math">\(y = 0\text{,}\)</span> amplitude <span class="process-math">\(a = 1\text{,}\)</span> period <span class="process-math">\(p = 2\pi\text{,}\)</span> and range <span class="process-math">\([-1,1]\text{.}\)</span>  Our work in <a href="sec-circular-sinusoidal.html#PA-circular-sinusoidal" class="xref" data-knowl="./knowl/xref/PA-circular-sinusoidal.html" data-reveal-label="Reveal" data-close-label="Close" title="Preview Activity 2.4.1">Preview Activity 2.4.1</a> suggests the following general principles.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-shifts-stretches-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="asm-sinusoidal-first-transformations"><h4 class="heading"><span class="title">Transformations of sine and cosine.</span></h4>
+<div class="para logical" id="asm-sinusoidal-first-transformations-2">
+<div class="para">Given real numbers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> with <span class="process-math">\(a \ne 0\text{,}\)</span> the functions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(t) = a\cos(t-b)+c \ \text{ and } \ h(t) = a\sin(t-b) + c
+\end{equation*}
+</div>
+<div class="para">each represent a horizontal shift by <span class="process-math">\(b\)</span> units to the right, followed by a vertical stretch by <span class="process-math">\(|a|\)</span> units (if <span class="process-math">\(a \lt 0\text{,}\)</span> there is also a reflection across the <span class="process-math">\(x\)</span>-axis), followed by a vertical shift of <span class="process-math">\(c\)</span> units, applied to the parent function (<span class="process-math">\(\cos(t)\)</span> or <span class="process-math">\(\sin(t)\text{,}\)</span> respectively).  The resulting circular functions have midline <span class="process-math">\(y = c\text{,}\)</span> amplitude <span class="process-math">\(|a|\text{,}\)</span> range <span class="process-math">\([c-|a|,c+|a|]\text{,}\)</span> and period <span class="process-math">\(p = 2\pi\text{.}\)</span>  In addition, the point <span class="process-math">\((b,a+c)\)</span> lies on the graph of <span class="process-math">\(k\)</span> and the point <span class="process-math">\((b,c)\)</span> lies on the graph of <span class="process-math">\(h\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#asm-sinusoidal-first-transformations-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Transformations of sine and cosine"><a href="#asm-sinusoidal-first-transformations" title="Copy heading and permalink for Assemblage: Transformations of sine and cosine" aria-label="Copy heading and permalink for Assemblage: Transformations of sine and cosine">🔗</a></div></article><div class="para" id="subsec-circular-sinusoidal-shifts-stretches-4">In <a href="sec-circular-sinusoidal.html#F-sinusoidal-cosine-transf" class="xref" data-knowl="./knowl/xref/F-sinusoidal-cosine-transf.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.1">Figure 2.4.1</a>, we see how the overall transformation <span class="process-math">\(k(t) = a\cos(t-b)+c\)</span> comes from executing a sequence of simpler ones.  The original parent function <span class="process-math">\(y = \cos(t)\)</span> (in dark gray) is first shifted <span class="process-math">\(b\)</span> units right to generate the light red graph of <span class="process-math">\(y = \cos(t - b)\text{.}\)</span>  In turn, that graph is then scaled vertically by <span class="process-math">\(a\)</span> to generate the purple graph of <span class="process-math">\(y = a\cos(t-b)\text{.}\)</span>  Finally, the purple graph is shifted <span class="process-math">\(c\)</span> units vertically to result in the final graph of <span class="process-math">\(y = a\cos(t-b) + c\)</span> in blue.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-shifts-stretches-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="F-sinusoidal-cosine-transf"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/images/sinusoidal-transformed-cosine.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A sequence of transformations of <span class="process-math">\(y = \cos(t)\text{.}\)</span><div class="autopermalink" data-description="Figure 2.4.1"><a href="#F-sinusoidal-cosine-transf" title="Copy heading and permalink for Figure 2.4.1" aria-label="Copy heading and permalink for Figure 2.4.1">🔗</a></div></figcaption></figure><div class="para" id="subsec-circular-sinusoidal-shifts-stretches-6">It is often useful to follow one particular point through a sequence of transformations.  In <a href="sec-circular-sinusoidal.html#F-sinusoidal-cosine-transf" class="xref" data-knowl="./knowl/xref/F-sinusoidal-cosine-transf.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.1">Figure 2.4.1</a>, we see the red point that is located at <span class="process-math">\((0,1)\)</span> on the original function <span class="process-math">\(y = \cos(t)\text{,}\)</span> as well as the point <span class="process-math">\((b, a+c)\)</span> that is the corresponding point on <span class="process-math">\(k(t) = a\cos(t-b) + c\)</span> under the overall transformation.  Note that the point <span class="process-math">\((b,a+c)\)</span> results from the input, <span class="process-math">\(t = b\text{,}\)</span> that makes the argument of the cosine function zero:  <span class="process-math">\(k(b) = a\cos(b-b) + c = a\cos(0) + c\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-shifts-stretches-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-circular-sinusoidal-shifts-stretches-7">While the sine and cosine functions extend infinitely in either direction, it’s natural to think of the point <span class="process-math">\((0,1)\)</span> as the “starting point” of the cosine function, and similarly the point <span class="process-math">\((0,0)\)</span> as the starting point of the sine function.  We will refer to the corresponding point <span class="process-math">\((b,a+c)\)</span> on <span class="process-math">\(k(t) = a\cos(t-b) + c\text{,}\)</span> and <span class="process-math">\((b,c)\)</span> on <span class="process-math">\(h(t) = a\sin(t-b) + c\text{,}\)</span> respectively, as the <dfn class="terminology">anchor point</dfn>.   The anchor point, along with other information about a circular function’s amplitude, midline, and period help us to determine a formula for a function that fits a given situation.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-shifts-stretches-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-circular-sinusoidal-shifts-stretches-8">For example, in <a href="sec-circular-sinusoidal.html#F-sinusoidal-cosine-transf" class="xref" data-knowl="./knowl/xref/F-sinusoidal-cosine-transf.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.1">Figure 2.4.1</a>, the anchor point <span class="process-math">\((b,a+c)\)</span> on <span class="process-math">\(y = a\cos(t-b)+c\)</span> corresponds to the “starting point” <span class="process-math">\((0,1)\)</span> on <span class="process-math">\(y = \cos(t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-shifts-stretches-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="worksheet" id="ws-act-circular-sinusoidal-oscillator" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type"> </span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"> </span><div class="print-links"><a href="ws-act-circular-sinusoidal-oscillator-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<article class="activity project-like" id="act-circular-sinusoidal-oscillator"><h5 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="act-circular-sinusoidal-oscillator-1-1">Consider a spring-mass system where a weight is resting on a frictionless table.  We let <span class="process-math">\(d(t)\)</span> denote the distance from the wall (where the spring is attached) to the weight at time <span class="process-math">\(t\)</span> in seconds and know that the weight oscillates periodically with a minimum value of <span class="process-math">\(2\)</span> feet and a maximum value of <span class="process-math">\(7\)</span> feet with a period of <span class="process-math">\(2 \pi\text{.}\)</span>  We also know that <span class="process-math">\(d(0) = 4.5\)</span> and <span class="process-math">\(d\left(\frac{\pi}{2}\right) = 2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-oscillator-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="act-circular-sinusoidal-oscillator-1-2">Determine a formula for <span class="process-math">\(d(t)\)</span> in the form <span class="process-math">\(d(t) = a\cos(t-b)+c\)</span> or <span class="process-math">\(d(t) = a\sin(t-b)+c\text{.}\)</span>  Is it possible to find two different formulas that work?  For any formula you find, identify the anchor point.<div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-oscillator-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 2.4.2"><a href="#act-circular-sinusoidal-oscillator" title="Copy heading and permalink for Activity 2.4.2" aria-label="Copy heading and permalink for Activity 2.4.2">🔗</a></div></article><div class="autopermalink" data-description="  2.4.2"><a href="#ws-act-circular-sinusoidal-oscillator" title="Copy heading and permalink for   2.4.2" aria-label="Copy heading and permalink for   2.4.2">🔗</a></div></section><div class="autopermalink" data-description="Subsection 2.4.2: Shifts and vertical stretches of the sine and cosine functions"><a href="#subsec-circular-sinusoidal-shifts-stretches" title="Copy heading and permalink for Subsection 2.4.2: Shifts and vertical stretches of the sine and cosine functions" aria-label="Copy heading and permalink for Subsection 2.4.2: Shifts and vertical stretches of the sine and cosine functions">🔗</a></div></section><section class="subsection" id="subsec-circular-sinusoidal-horiz-scaling"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Horizontal scaling</span>
+</h3>
+<div class="para" id="subsec-circular-sinusoidal-horiz-scaling-2">There is one more very important transformation of a function that we’ve not yet explored.  Given a function <span class="process-math">\(y = f(x)\text{,}\)</span> we want to understand the related function <span class="process-math">\(g(x) = f(kx)\text{,}\)</span> where <span class="process-math">\(k\)</span> is a positive real number.  The sine and cosine functions are ideal functions with which to explore these effects; moreover, this transformation is crucial for being able to use the sine and cosine functions to model phenomena that oscillate at different frequencies.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-horiz-scaling-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-circular-sinusoidal-horiz-scaling-3">In the interactive <a href="sec-circular-sinusoidal.html#F-transformations-horizontal-scaling" class="xref" data-knowl="./knowl/xref/F-transformations-horizontal-scaling.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.2">Figure 2.4.2</a>,  we can explore the effect of the transformation <span class="process-math">\(g(t) = f(kt)\text{,}\)</span> where <span class="process-math">\(f(t) = \sin(t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-horiz-scaling-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="F-transformations-horizontal-scaling"><iframe id="I-transformations-horizontal-scaling" width="450" height="563" src="I-transformations-horizontal-scaling-if.html"></iframe><div class="instructions"><details id="I-transformations-horizontal-scaling-3" class="solution-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading"><span class="type">Instructions<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4></summary><div class="solution-like knowl__content">
+<div class="para" id="I-transformations-horizontal-scaling-3-1">Move the slider by clicking and dragging on the red point to see how changing <span class="process-math">\(k\)</span> affects the graph of <span class="process-math">\(y = f(kt)\text{.}\)</span>  The graph of <span class="process-math">\(y = f(t)\)</span> will appear in grey and remain fixed.<div class="autopermalink" data-description="Paragraph"><a href="#I-transformations-horizontal-scaling-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Instructions"><a href="#I-transformations-horizontal-scaling-3" title="Copy heading and permalink for Instructions" aria-label="Copy heading and permalink for Instructions">🔗</a></div>
+</div></details></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Interactive horizontal scaling demonstration (in the HTML version only).<div class="autopermalink" data-description="Figure 2.4.2"><a href="#F-transformations-horizontal-scaling" title="Copy heading and permalink for Figure 2.4.2" aria-label="Copy heading and permalink for Figure 2.4.2">🔗</a></div></figcaption></figure><div class="para" id="subsec-circular-sinusoidal-horiz-scaling-5">By experimenting with the slider, we gain an intuitive sense for how the value of <span class="process-math">\(k\)</span> affects the graph of <span class="process-math">\(h(t) = f(kt)\)</span> in comparision to the graph of <span class="process-math">\(f(t)\text{.}\)</span>  When <span class="process-math">\(k = 2\text{,}\)</span> we see that the graph of <span class="process-math">\(h\)</span> is oscillating twice as fast as the graph of <span class="process-math">\(f\)</span> since <span class="process-math">\(h(t) = f(2t)\)</span> completes two full cycles over an interval in which <span class="process-math">\(f\)</span> completes one full cycle.  In contrast, when <span class="process-math">\(k = \frac{1}{2}\text{,}\)</span> the graph of <span class="process-math">\(h\)</span> oscillates half as fast as the graph of <span class="process-math">\(f\text{,}\)</span> as <span class="process-math">\(h(t) = f(\frac{1}{2}t)\)</span> completes only half of one cycle over an interval where <span class="process-math">\(f(t)\)</span> completes a full one.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-horiz-scaling-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-circular-sinusoidal-horiz-scaling-6">
+<div class="para">We can also understand this from the perspective of function composition.  To evaluate <span class="process-math">\(h(t) = f(2t)\text{,}\)</span> at a given value of <span class="process-math">\(t\text{,}\)</span> we first multiply the input <span class="process-math">\(t\)</span> by a factor of <span class="process-math">\(2\text{,}\)</span> and then evaluate the function <span class="process-math">\(f\)</span> at the result.  An important observation is that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+h\left( \frac{1}{2}t \right) = f\left( 2 \cdot \frac{1}{2}t \right) = f(t)\text{.}
+\end{equation*}
+</div>
+<div class="para">This tells us that the point <span class="process-math">\((\frac{1}{2}t, f(t))\)</span> lies on the graph of <span class="process-math">\(h\)</span> since an input of <span class="process-math">\(\frac{1}{2}t\)</span> in <span class="process-math">\(h\)</span> results in the value <span class="process-math">\(f(t)\text{.}\)</span>  At the same time, the point <span class="process-math">\((t,f(t))\)</span> lies on the graph of <span class="process-math">\(f\text{.}\)</span>  Thus we see that the correlation between points on the graphs of <span class="process-math">\(f\)</span> and <span class="process-math">\(h\)</span> (where <span class="process-math">\(h(t) = f(2t)\)</span>) is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+(t, f(t)) \rightarrow \left( \frac{1}{2}t, f(t) \right)\text{.}
+\end{equation*}
+</div>
+<div class="para">We can therefore think of the transformation <span class="process-math">\(h(t) = f(2t)\)</span> as achieving the output values of <span class="process-math">\(f\)</span> twice as fast as the original function <span class="process-math">\(f(t)\)</span> does.  Analogously, the transformation <span class="process-math">\(h(t) = f(\frac{1}{2}t)\)</span> will achieve the output values of <span class="process-math">\(f\)</span> only half as quickly as the original function.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-horiz-scaling-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="asm-transformations-horizontal-stretch"><h4 class="heading"><span class="title">Horizontal scaling.</span></h4>
+<div class="para" id="asm-transformations-horizontal-stretch-3">Given a function <span class="process-math">\(y = f(t)\)</span> and a real number <span class="process-math">\(k \gt 0\text{,}\)</span> the transformed function <span class="process-math">\(y = h(t) = f(kt)\)</span> is a <em class="emphasis">horizontal stretch</em> of the graph of <span class="process-math">\(f\text{.}\)</span>  Every point <span class="process-math">\((t,f(t))\)</span> on the graph of <span class="process-math">\(f\)</span> gets stretched horizontally to the corresponding point <span class="process-math">\((\frac{1}{k}t,f(t))\)</span> on the graph of <span class="process-math">\(h\text{.}\)</span>  If <span class="process-math">\(0 \lt k \lt 1\text{,}\)</span> the graph of <span class="process-math">\(h\)</span> is a stretch of <span class="process-math">\(f\)</span> away from the <span class="process-math">\(y\)</span>-axis by a factor of <span class="process-math">\(\frac{1}{k}\text{;}\)</span> if <span class="process-math">\(k \gt 1\text{,}\)</span> the graph of <span class="process-math">\(h\)</span> is a compression of <span class="process-math">\(f\)</span> toward the <span class="process-math">\(y\)</span>-axis by a factor of <span class="process-math">\(\frac{1}{k}\text{.}\)</span>  The only point on the graph of <span class="process-math">\(f\)</span> that is unchanged by the transformation is <span class="process-math">\((0,f(0))\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#asm-transformations-horizontal-stretch-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Horizontal scaling"><a href="#asm-transformations-horizontal-stretch" title="Copy heading and permalink for Assemblage: Horizontal scaling" aria-label="Copy heading and permalink for Assemblage: Horizontal scaling">🔗</a></div></article><div class="para" id="subsec-circular-sinusoidal-horiz-scaling-8">While we will soon focus on horizontal stretches of the sine and cosine functions for the remainder of this section, it’s important to note that horizontal scaling follows the same principles for any function we choose.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-horiz-scaling-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="worksheet" id="ws-act-circular-sinusoidal-horiz-stretch" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type"> </span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"> </span><div class="print-links"><a href="ws-act-circular-sinusoidal-horiz-stretch-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<article class="activity project-like" id="act-circular-sinusoidal-horiz-stretch"><h5 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="introduction" id="act-circular-sinusoidal-horiz-stretch-1">
+<div class="para" id="act-circular-sinusoidal-horiz-stretch-1-1">Consider the functions <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> given in the following figures.<div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-horiz-stretch-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:47.3684210526316% 47.3684210526316%;column-gap:5%;">
+<div class="sbspanel sbspanel--top top" style=""><img src="external/images/sinusoidal-horiz-scaling-1.svg" role="img" class="contained"></div>
+<div class="sbspanel sbspanel--top top" style=""><img src="external/images/sinusoidal-horiz-scaling-2.svg" role="img" class="contained"></div>
+</div></div>
+<div class="para" id="act-circular-sinusoidal-horiz-stretch-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-horiz-stretch-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div>
+<article class="task exercise-like" id="act-circular-sinusoidal-horiz-stretch-task-0"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="act-circular-sinusoidal-horiz-stretch-task-0-1-1">On the same axes as the plot of <span class="process-math">\(y = f(t)\text{,}\)</span> sketch the following graphs:  <span class="process-math">\(y = h(t) = f(\frac{1}{3}t)\)</span> and <span class="process-math">\(y = j(t) = f(4t)\text{.}\)</span>  Be sure to label several points on each of <span class="process-math">\(f\text{,}\)</span> <span class="process-math">\(h\text{,}\)</span> and <span class="process-math">\(j\)</span> with arrows to indicate their correspondence.  In addition, write one sentence to explain the overall transformations that have resulted in <span class="process-math">\(h\)</span> and <span class="process-math">\(j\)</span> from <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-horiz-stretch-task-0-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="5cm"></div>
+<div class="autopermalink" data-description="Task 2.4.3.a"><a href="#act-circular-sinusoidal-horiz-stretch-task-0" title="Copy heading and permalink for Task 2.4.3.a" aria-label="Copy heading and permalink for Task 2.4.3.a">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-horiz-stretch-task-1"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="act-circular-sinusoidal-horiz-stretch-task-1-1-1">On the same axes as the plot of <span class="process-math">\(y = g(t)\text{,}\)</span> sketch the following graphs:  <span class="process-math">\(y = k(t) = g(2t)\)</span> and <span class="process-math">\(y = m(t) = g(\frac{1}{2}t)\text{.}\)</span>  Be sure to label several points on each of <span class="process-math">\(g\text{,}\)</span> <span class="process-math">\(k\text{,}\)</span> and <span class="process-math">\(m\)</span> with arrows to indicate their correspondence.  In addition, write one sentence to explain the overall transformations that have resulted in <span class="process-math">\(k\)</span> and <span class="process-math">\(m\)</span> from <span class="process-math">\(g\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-horiz-stretch-task-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="4cm"></div>
+<div class="autopermalink" data-description="Task 2.4.3.b"><a href="#act-circular-sinusoidal-horiz-stretch-task-1" title="Copy heading and permalink for Task 2.4.3.b" aria-label="Copy heading and permalink for Task 2.4.3.b">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-horiz-stretch-task-2"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="act-circular-sinusoidal-horiz-stretch-task-2-1-1">On the additional copies of the two figures below, sketch the graphs of the following transformed functions:  <span class="process-math">\(y = r(t) = 2f(\frac{1}{2}t)\)</span> (at left) and <span class="process-math">\(y = s(t) = \frac{1}{2}g(2t)\text{.}\)</span>  As above, be sure to label several points on each graph and indicate their correspondence to points on the original parent function.<div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-horiz-stretch-task-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;grid-template-columns:47.3684210526316% 47.3684210526316%;column-gap:5%;">
+<div class="sbspanel sbspanel--top top" style=""><img src="external/images/sinusoidal-horiz-scaling-1.svg" role="img" class="contained"></div>
+<div class="sbspanel sbspanel--top top" style=""><img src="external/images/sinusoidal-horiz-scaling-2.svg" role="img" class="contained"></div>
+</div></div>
+<div class="workspace" data-space="4cm"></div>
+<div class="autopermalink" data-description="Task 2.4.3.c"><a href="#act-circular-sinusoidal-horiz-stretch-task-2" title="Copy heading and permalink for Task 2.4.3.c" aria-label="Copy heading and permalink for Task 2.4.3.c">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-horiz-stretch-task-3"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="act-circular-sinusoidal-horiz-stretch-task-3-1-1">Describe in words how the function <span class="process-math">\(y = r(t) = 2f(\frac{1}{2}t)\)</span> is the result of composing two elementary transformations of <span class="process-math">\(y = f(t)\text{.}\)</span>  Does the order in which these transformations are composed matter?  Why or why not?<div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-horiz-stretch-task-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="4cm"></div>
+<div class="autopermalink" data-description="Task 2.4.3.d"><a href="#act-circular-sinusoidal-horiz-stretch-task-3" title="Copy heading and permalink for Task 2.4.3.d" aria-label="Copy heading and permalink for Task 2.4.3.d">🔗</a></div></article><div class="autopermalink" data-description="Activity 2.4.3"><a href="#act-circular-sinusoidal-horiz-stretch" title="Copy heading and permalink for Activity 2.4.3" aria-label="Copy heading and permalink for Activity 2.4.3">🔗</a></div></article><div class="autopermalink" data-description="  2.4.3"><a href="#ws-act-circular-sinusoidal-horiz-stretch" title="Copy heading and permalink for   2.4.3" aria-label="Copy heading and permalink for   2.4.3">🔗</a></div></section><div class="autopermalink" data-description="Subsection 2.4.3: Horizontal scaling"><a href="#subsec-circular-sinusoidal-horiz-scaling" title="Copy heading and permalink for Subsection 2.4.3: Horizontal scaling" aria-label="Copy heading and permalink for Subsection 2.4.3: Horizontal scaling">🔗</a></div></section><section class="subsection" id="sec-circular-sinusoidal-6"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Circular functions with different periods</span>
+</h3>
+<div class="para" id="sec-circular-sinusoidal-6-2">Because the circumference of the unit circle is <span class="process-math">\(2\pi\text{,}\)</span> the sine and cosine functions each have period <span class="process-math">\(2\pi\text{.}\)</span>  Of course, as we think about using transformations of the sine and cosine functions to model different phenomena, it is apparent that we will need to generate functions with different periods than <span class="process-math">\(2\pi\text{.}\)</span>  For instance, if a ferris wheel makes one revolution every <span class="process-math">\(5\)</span> minutes, we’d want the period of the function that models the height of one car as a function of time to be <span class="process-math">\(P = 5\text{.}\)</span>  Horizontal scaling of functions enables us to generate circular functions with any period we desire.<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-circular-sinusoidal-6-3">We begin by considering two basic examples.  First, let <span class="process-math">\(f(t) = \sin(t)\)</span> and <span class="process-math">\(g(t) = f(2t) = \sin(2t)\text{.}\)</span>  We know from our most recent work that this transformation results in a horizontal compression of the graph of <span class="process-math">\(\sin(t)\)</span> by a factor of <span class="process-math">\(\frac{1}{2}\)</span> toward the <span class="process-math">\(y\)</span>-axis.  If we plot the two functions on the same axes as seen in <a href="sec-circular-sinusoidal.html#F-sinusoidal-sine-compressed" class="xref" data-knowl="./knowl/xref/F-sinusoidal-sine-compressed.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.3">Figure 2.4.3</a>, it becomes apparent how this transformation affects the period of <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-6-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="F-sinusoidal-sine-compressed"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/images/sinusoidal-sine-horiz-scaling.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A plot of the parent function, <span class="process-math">\(f(t) = \sin(t)\)</span> (dashed, in gray), and the transformed function <span class="process-math">\(g(t) = f(2t) = \sin(2t)\)</span> (in blue).<div class="autopermalink" data-description="Figure 2.4.3"><a href="#F-sinusoidal-sine-compressed" title="Copy heading and permalink for Figure 2.4.3" aria-label="Copy heading and permalink for Figure 2.4.3">🔗</a></div></figcaption></figure><div class="para" id="sec-circular-sinusoidal-6-5">From the graph, we see that <span class="process-math">\(g(t) = \sin(2t)\)</span> oscillates twice as frequently as <span class="process-math">\(f(t) = \sin(t)\text{,}\)</span> and that <span class="process-math">\(g\)</span> completes a full cycle on the interval <span class="process-math">\([0,\pi]\text{,}\)</span> which is half the length of the period of <span class="process-math">\(f\text{.}\)</span>  Thus, the  “<span class="process-math">\(2\)</span>” in <span class="process-math">\(f(2t)\)</span> causes the period of <span class="process-math">\(f\)</span> to be <span class="process-math">\(\frac{1}{2}\)</span> as long; specifially, the period of <span class="process-math">\(g\)</span> is <span class="process-math">\(P = \frac{1}{2} (2\pi) = \pi\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-6-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="F-sinusoidal-sine-stretched"><div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="external/images/sinusoidal-sine-horiz-scaling-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A plot of the parent function, <span class="process-math">\(f(t) = \sin(t)\)</span> (dashed, in gray), and the transformed function <span class="process-math">\(h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)\)</span> (in blue).<div class="autopermalink" data-description="Figure 2.4.4"><a href="#F-sinusoidal-sine-stretched" title="Copy heading and permalink for Figure 2.4.4" aria-label="Copy heading and permalink for Figure 2.4.4">🔗</a></div></figcaption></figure><div class="para" id="sec-circular-sinusoidal-6-7">On the other hand, if we let <span class="process-math">\(h(t) = f(\frac{1}{2}t) = \sin(\frac{1}{2}t)\text{,}\)</span> the transformed graph <span class="process-math">\(h\)</span> is stretched away from the <span class="process-math">\(y\)</span>-axis by a factor of <span class="process-math">\(2\text{.}\)</span>  This has the effect of doubling the period of <span class="process-math">\(f\text{,}\)</span> so that the period of <span class="process-math">\(h\)</span> is <span class="process-math">\(P = 2 \cdot 2\pi = 4\pi\text{,}\)</span> as seen in <a href="sec-circular-sinusoidal.html#F-sinusoidal-sine-stretched" class="xref" data-knowl="./knowl/xref/F-sinusoidal-sine-stretched.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.4.4">Figure 2.4.4</a>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-6-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-circular-sinusoidal-6-8">Our observations generalize for any positive constant <span class="process-math">\(k \gt 0\text{.}\)</span>  In the case where <span class="process-math">\(k = 2\text{,}\)</span> we saw that the period of <span class="process-math">\(g(t) = \sin(2t)\)</span> is <span class="process-math">\(P = \frac{1}{2} \cdot 2\pi\text{,}\)</span> whereas in the case where <span class="process-math">\(k = \frac{1}{2}\text{,}\)</span> the period of <span class="process-math">\(h(t) = \sin(\frac{1}{2}t)\)</span> is <span class="process-math">\(P = 2 \cdot 2\pi = \frac{1}{\frac{1}{2}} \cdot 2\pi\text{.}\)</span>  Identical reasoning holds if we are instead working with the cosine function.  In general, we can say the following.<div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-6-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="assemblage assemblage-like" id="asm-sinusoidal-period"><h4 class="heading"><span class="title">The period of a circular function.</span></h4>
+<div class="para logical" id="asm-sinusoidal-period-2">
+<div class="para">For any constant <span class="process-math">\(k \gt 0\text{,}\)</span> the period of the functions <span class="process-math">\(\sin(kt)\)</span> and <span class="process-math">\(\cos(kt)\)</span> is</div>
+<div class="displaymath process-math">
+\begin{equation*}
+P = \frac{2\pi}{k}\text{.}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#asm-sinusoidal-period-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: The period of a circular function"><a href="#asm-sinusoidal-period" title="Copy heading and permalink for Assemblage: The period of a circular function" aria-label="Copy heading and permalink for Assemblage: The period of a circular function">🔗</a></div></article><div class="para" id="sec-circular-sinusoidal-6-10">Thus, if we know the <span class="process-math">\(k\)</span>-value from the given function, we can deduce the period.  If instead we know the desired period, we can determine <span class="process-math">\(k\)</span> by the rule <span class="process-math">\(k = \frac{2\pi}{P}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-circular-sinusoidal-6-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="worksheet" id="ws-act-circular-sinusoidal-period" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type"> </span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"> </span><div class="print-links"><a href="ws-act-circular-sinusoidal-period-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<article class="activity project-like" id="act-circular-sinusoidal-period"><h5 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="introduction" id="act-circular-sinusoidal-period-1">
+<div class="para" id="act-circular-sinusoidal-period-1-1">Determine the exact period, amplitude, and midline of each of the following functions.  In addition,  state the range of each function, any horizontal shift that has been introduced to the graph, and identify an anchor point.  Make your conclusions without consulting <em class="emphasis">Desmos</em>, and then use the program to check your work.<div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="act-circular-sinusoidal-period-1-2"><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+</div>
+<article class="task exercise-like" id="act-circular-sinusoidal-period-task-0"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<div class="para" id="act-circular-sinusoidal-period-task-0-1-1">
+<span class="process-math">\(p(x) = \sin(10x) + 2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-task-0-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.4.a"><a href="#act-circular-sinusoidal-period-task-0" title="Copy heading and permalink for Task 2.4.4.a" aria-label="Copy heading and permalink for Task 2.4.4.a">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-period-task-1"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<div class="para" id="act-circular-sinusoidal-period-task-1-1-1">
+<span class="process-math">\(q(x) = -3\cos(0.25x) - 4\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-task-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.4.b"><a href="#act-circular-sinusoidal-period-task-1" title="Copy heading and permalink for Task 2.4.4.b" aria-label="Copy heading and permalink for Task 2.4.4.b">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-period-task-2"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<div class="para" id="act-circular-sinusoidal-period-task-2-1-1">
+<span class="process-math">\(r(x) = 2\sin\left( \frac{\pi}{4} x\right) + 5\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-task-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.4.c"><a href="#act-circular-sinusoidal-period-task-2" title="Copy heading and permalink for Task 2.4.4.c" aria-label="Copy heading and permalink for Task 2.4.4.c">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-period-task-3"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<div class="para" id="act-circular-sinusoidal-period-task-3-1-1">
+<span class="process-math">\(w(x) = 2\cos\left( \frac{\pi}{2} (x-3) \right) + 5\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-task-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.4.d"><a href="#act-circular-sinusoidal-period-task-3" title="Copy heading and permalink for Task 2.4.4.d" aria-label="Copy heading and permalink for Task 2.4.4.d">🔗</a></div></article><article class="task exercise-like" id="act-circular-sinusoidal-period-task-4"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<div class="para" id="act-circular-sinusoidal-period-task-4-1-1">
+<span class="process-math">\(u(x) = -0.25\sin\left(3x-6\right) + 5\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-period-task-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="6cm"></div>
+<div class="autopermalink" data-description="Task 2.4.4.e"><a href="#act-circular-sinusoidal-period-task-4" title="Copy heading and permalink for Task 2.4.4.e" aria-label="Copy heading and permalink for Task 2.4.4.e">🔗</a></div></article><div class="autopermalink" data-description="Activity 2.4.4"><a href="#act-circular-sinusoidal-period" title="Copy heading and permalink for Activity 2.4.4" aria-label="Copy heading and permalink for Activity 2.4.4">🔗</a></div></article><div class="autopermalink" data-description="  2.4.4"><a href="#ws-act-circular-sinusoidal-period" title="Copy heading and permalink for   2.4.4" aria-label="Copy heading and permalink for   2.4.4">🔗</a></div></section><section class="worksheet" id="ws-act-circular-sinusoidal-model" data-margins="0.75in 0.75in 0.75in 0.75in"><h4 class="heading hide-type">
+<span class="type"> </span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title"> </span><div class="print-links"><a href="ws-act-circular-sinusoidal-model-printable.html" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h4>
+<article class="activity project-like" id="act-circular-sinusoidal-model"><h5 class="heading">
+<span class="type">Activity</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h5>
+<div class="para" id="act-circular-sinusoidal-model-1-1">Consider a spring-mass system where the weight is hanging from the ceiling in such a way that the following is known: we let <span class="process-math">\(d(t)\)</span> denote the distance from the ceiling to the weight at time <span class="process-math">\(t\)</span> in seconds and know that the weight oscillates periodically with a minimum value of <span class="process-math">\(1.5\)</span> feet and a maximum value of <span class="process-math">\(4\)</span> feet, with a period of <span class="process-math">\(3\text{,}\)</span> and you know <span class="process-math">\(d(0.5) = 2.75\)</span> and <span class="process-math">\(d\left(1.25\right) = 4\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-model-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="act-circular-sinusoidal-model-1-2">State the midline, amplitude, range, and an anchor point for the function, and hence determine a formula for <span class="process-math">\(d(t)\)</span> in the form <span class="process-math">\(a\cos(k(t-b))+c\)</span> or <span class="process-math">\(a\sin(k(t-b))+c\text{.}\)</span> Show your work and thinking, and use <em class="emphasis">Desmos</em> appropriately to check that your formula generates the desired behavior.<div class="autopermalink" data-description="Paragraph"><a href="#act-circular-sinusoidal-model-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Activity 2.4.5"><a href="#act-circular-sinusoidal-model" title="Copy heading and permalink for Activity 2.4.5" aria-label="Copy heading and permalink for Activity 2.4.5">🔗</a></div></article><div class="autopermalink" data-description="  2.4.4"><a href="#ws-act-circular-sinusoidal-model" title="Copy heading and permalink for   2.4.4" aria-label="Copy heading and permalink for   2.4.4">🔗</a></div></section><div class="autopermalink" data-description="Subsection 2.4.4: Circular functions with different periods"><a href="#sec-circular-sinusoidal-6" title="Copy heading and permalink for Subsection 2.4.4: Circular functions with different periods" aria-label="Copy heading and permalink for Subsection 2.4.4: Circular functions with different periods">🔗</a></div></section><section class="subsection" id="subsec-circular-sinusoidal-summary"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Summary</span>
+</h3>
+<div class="para logical" id="subsec-circular-sinusoidal-summary-2">
+<ul class="disc" id="subsec-circular-sinusoidal-summary-2-1">
+<li id="subsec-circular-sinusoidal-summary-2-1-1">
+<div class="para logical" id="subsec-circular-sinusoidal-summary-2-1-1-1">
+<div class="para">Given real numbers <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(b\text{,}\)</span> and <span class="process-math">\(c\)</span> with <span class="process-math">\(a \ne 0\text{,}\)</span> the functions</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(t) = a\cos(t-b)+c \text{ and } h(t) = a\sin(t-b) + c
+\end{equation*}
+</div>
+<div class="para">each represent a horizontal shift by <span class="process-math">\(b\)</span> units to the right, followed by a vertical stretch by <span class="process-math">\(|a|\)</span> units (with a reflection across the <span class="process-math">\(x\)</span>-axis if <span class="process-math">\(a \lt 0\)</span>), followed by a vertical shift of <span class="process-math">\(c\)</span> units, applied to the parent function (<span class="process-math">\(\cos(t)\)</span> or <span class="process-math">\(\sin(t)\text{,}\)</span> respectively).  The resulting circular functions have midline <span class="process-math">\(y = c\text{,}\)</span> amplitude <span class="process-math">\(|a|\text{,}\)</span> range <span class="process-math">\([c-|a|,c+|a|]\text{,}\)</span> and period <span class="process-math">\(p = 2\pi\text{.}\)</span>  In addition, the anchor point <span class="process-math">\((b,a+c)\)</span> lies on the graph of <span class="process-math">\(k\)</span> and the anchor point <span class="process-math">\((b,c)\)</span> lies on the graph of <span class="process-math">\(h\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-summary-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-circular-sinusoidal-summary-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-circular-sinusoidal-summary-2-1-2">
+<div class="para" id="subsec-circular-sinusoidal-summary-2-1-2-1">Given a function <span class="process-math">\(f\)</span> and a constant <span class="process-math">\(k \gt 0\text{,}\)</span> the algebraic transformation <span class="process-math">\(h(t) = f(kt)\)</span> results in horizontal scaling of <span class="process-math">\(f\)</span> by a factor of <span class="process-math">\(\frac{1}{k}\text{.}\)</span>  In particular, when <span class="process-math">\(k \gt 1\text{,}\)</span> the graph of <span class="process-math">\(f\)</span> is compressed toward the <span class="process-math">\(y\)</span>-axis by a factor of <span class="process-math">\(\frac{1}{k}\)</span> to create the graph of <span class="process-math">\(h\text{,}\)</span> while when <span class="process-math">\(0 \lt k \lt 1\text{,}\)</span> the graph of <span class="process-math">\(f\)</span> is stretched away from the <span class="process-math">\(y\)</span>-axis by a factor of <span class="process-math">\(\frac{1}{k}\)</span> to create the graph of <span class="process-math">\(h\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-summary-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-circular-sinusoidal-summary-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="subsec-circular-sinusoidal-summary-2-1-3">
+<div class="para logical" id="subsec-circular-sinusoidal-summary-2-1-3-1">
+<div class="para">Given any circular periodic function for which the midline, amplitude, period, and an anchor point are known, we can find a corresponding formula for the function of the form</div>
+<div class="displaymath process-math">
+\begin{equation*}
+k(t) = a\cos(k(t-b))+c \text{ or } h(t) = a\sin(k(t-b)) + c\text{.}
+\end{equation*}
+</div>
+<div class="para">Each of these functions has midline <span class="process-math">\(y = c\text{,}\)</span> amplitude <span class="process-math">\(|a|\text{,}\)</span> and period <span class="process-math">\(P = \frac{2\pi}{k}\text{.}\)</span>  The point <span class="process-math">\((b,a+c)\)</span> lies on <span class="process-math">\(k\)</span> and the point <span class="process-math">\((b,c)\)</span> lies on <span class="process-math">\(h\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-summary-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-circular-sinusoidal-summary-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-circular-sinusoidal-summary-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Subsection 2.4.5: Summary"><a href="#subsec-circular-sinusoidal-summary" title="Copy heading and permalink for Subsection 2.4.5: Summary" aria-label="Copy heading and permalink for Subsection 2.4.5: Summary">🔗</a></div></section><section class="exercises" id="ez-circular-sinusoidal"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exercises</span>
+</h3>
+<article class="exercise exercise-like" id="ez-circular-sinusoidal-WW1"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-76" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="76" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-76')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-76-1-1-1">Without a calculator, match each of the equations below to one of the graphs by placing the corresponding letter of the equation under the appropriate graph.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-76-1-1-2">A. <span class="process-math">\(y = \sin{(t)} + 2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-76-1-1-3">B. <span class="process-math">\(y = \sin{(t+  2)}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-76-1-1-4">C. <span class="process-math">\(y = \sin{(2 t)}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-76-1-1-5">D. <span class="process-math">\(y = 2 \sin{(t)}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b2 r2 l2 t2 lines"><div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-76-image-1.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2 lines"><div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-76-image-2.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2 lines"><div class="image-box" style="width: 33%; margin-left: 33.5%; margin-right: 33.5%;"><img src="generated/webwork/images/webwork-76-image-3.png" class="contained"></div></td>
+<td class="l m b2 r2 l0 t2" style="max-width:120"><div class="para" id="extracted-webwork-76-1-1-6-1-4-2"><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-6-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div></td>
+</tr>
+<tr>
+<td class="l m b2 r2 l2 t0 lines">1. <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</td>
+<td class="l m b2 r2 l0 t0 lines">2. <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</td>
+<td class="l m b2 r2 l0 t0 lines">3. <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</td>
+<td class="l m b2 r2 l0 t0 lines">4. <span class="fillin underline" role="img" aria-label="5-character blank" style="width: 2.272727272727273em;"></span>
+</td>
+</tr>
+</table></div> <div class="para" id="extracted-webwork-76-1-1-7">
+<em class="emphasis">(click on an image to enlarge each individual graph)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-76-1-1-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.1"><a href="#ez-circular-sinusoidal-WW1" title="Copy heading and permalink for Exercise 2.4.6.1" aria-label="Copy heading and permalink for Exercise 2.4.6.1">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-WW2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-77" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="77" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Review/Q20.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-77')">Activate</button></div>
+<div class="problem-contents">
+<div class="para logical" id="extracted-webwork-77-1-1-1">
+<div class="para">Find period, amplitude, and midline of the following function:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = -6 \cos{(7 \pi x + 2)} - 9
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-77-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-77-1-1-2">(a) The period of the graph is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-77-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-77-1-1-3">(b) The midline of the graph is <span class="process-math">\(y =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-77-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-77-1-1-4">(c) The amplitude of the graph is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-77-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.2"><a href="#ez-circular-sinusoidal-WW2" title="Copy heading and permalink for Exercise 2.4.6.2" aria-label="Copy heading and permalink for Exercise 2.4.6.2">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-WW3"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-78" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="78" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-78')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-78-1-1-1">Estimate the amplitude, midline, and period of the sinusoidal function graphed below:<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-78-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/webwork/images/webwork-78-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-78-1-1-3">
+<em class="emphasis">(Click on the graph to get a larger version.)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-78-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-78-1-1-4">(a) The amplitude is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-78-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-78-1-1-5">(b) The midline is <span class="process-math">\(y =\)</span> <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-78-1-1-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-78-1-1-6">(c) The period is <span class="fillin underline" role="img" aria-label="10-character blank" style="width: 4.545454545454546em;"></span>.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-78-1-1-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.3"><a href="#ez-circular-sinusoidal-WW3" title="Copy heading and permalink for Exercise 2.4.6.3" aria-label="Copy heading and permalink for Exercise 2.4.6.3">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-WW4"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-79" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="79" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q12.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-79')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-79-1-1-1">Find a possible formula for the trigonometric function graphed below. Use <span class="process-math">\(x\)</span> as the independent variable in your formula.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-79-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-79-1-1-2">
+<span class="process-math">\(f(x) =\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-79-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 66%; margin-left: 17%; margin-right: 17%;"><img src="generated/webwork/images/webwork-79-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-79-1-1-4">
+<em class="emphasis">(Click on graph to enlarge)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-79-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.4"><a href="#ez-circular-sinusoidal-WW4" title="Copy heading and permalink for Exercise 2.4.6.4" aria-label="Copy heading and permalink for Exercise 2.4.6.4">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-WW5"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-80" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="80" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-80')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-80-1-1-1">Find a formula for the trigonometric function graphed below. Use <span class="process-math">\(x\)</span> as the independent variable in your formula.<div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-80-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-80-1-1-2">
+<span class="process-math">\(f(x) =\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-80-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="image-box" style="width: 66%; margin-left: 17%; margin-right: 17%;"><img src="generated/webwork/images/webwork-80-image-1.png" class="contained"></div> <div class="para" id="extracted-webwork-80-1-1-4">
+<em class="emphasis">(Click on graph to enlarge)</em><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-80-1-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.5"><a href="#ez-circular-sinusoidal-WW5" title="Copy heading and permalink for Exercise 2.4.6.5" aria-label="Copy heading and permalink for Exercise 2.4.6.5">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-WW6"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div id="webwork-81" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="81" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-localize-hint="Hint" data-localize-solution="Solution" data-origin="webwork2" data-sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q28.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
+<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-81')">Activate</button></div>
+<div class="problem-contents">
+<div class="para" id="extracted-webwork-81-1-1-1">A ferris wheel is 40 meters in diameter and boarded at ground level.  The wheel makes one full rotation every 8 minutes, and at time <span class="process-math">\(t = 0\)</span> you are at the 9 o’clock position and descending.  Let <span class="process-math">\(f(t)\)</span> denote your height (in meters) above ground at <span class="process-math">\(t\)</span> minutes.  Find a formula for <span class="process-math">\(f(t)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-81-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="extracted-webwork-81-1-1-2">
+<span class="process-math">\(f(t) =\)</span> <span class="fillin underline" role="img" aria-label="30-character blank" style="width: 13.6363636363636em;"></span><div class="autopermalink" data-description="Paragraph"><a href="#extracted-webwork-81-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.6"><a href="#ez-circular-sinusoidal-WW6" title="Copy heading and permalink for Exercise 2.4.6.6" aria-label="Copy heading and permalink for Exercise 2.4.6.6">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-data"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ez-circular-sinusoidal-data-1-1">Find a possible formula for the circular function whose values are in the following table.<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-data-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <figure class="table table-like" id="ez-circular-sinusoidal-data-1-2"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4.5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Data for a circular function.<div class="autopermalink" data-description="Table 2.4.5: Data for a circular function."><a href="#ez-circular-sinusoidal-data-1-2" title="Copy heading and permalink for Table 2.4.5: Data for a circular function." aria-label="Copy heading and permalink for Table 2.4.5: Data for a circular function.">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r0 l0 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r0 l0 t0 lines">0</td>
+<td class="c m b1 r0 l0 t0 lines">0.1</td>
+<td class="c m b1 r0 l0 t0 lines">0.2</td>
+<td class="c m b1 r0 l0 t0 lines">0.3</td>
+<td class="c m b1 r0 l0 t0 lines">0.4</td>
+<td class="c m b1 r0 l0 t0 lines">0.5</td>
+<td class="c m b1 r0 l0 t0 lines">0.6</td>
+<td class="c m b1 r0 l0 t0 lines">0.7</td>
+<td class="c m b1 r0 l0 t0 lines">0.8</td>
+<td class="c m b1 r0 l0 t0 lines">0.9</td>
+<td class="c m b1 r0 l0 t0 lines">1.0</td>
+</tr>
+<tr>
+<td class="c m b0 r0 l0 t0 lines"><span class="process-math">\(g(x)\)</span></td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+<td class="c m b0 r0 l0 t0 lines">2.6</td>
+<td class="c m b0 r0 l0 t0 lines">3</td>
+<td class="c m b0 r0 l0 t0 lines">3</td>
+<td class="c m b0 r0 l0 t0 lines">2.6</td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+<td class="c m b0 r0 l0 t0 lines">1.4</td>
+<td class="c m b0 r0 l0 t0 lines">1</td>
+<td class="c m b0 r0 l0 t0 lines">1</td>
+<td class="c m b0 r0 l0 t0 lines">1.4</td>
+<td class="c m b0 r0 l0 t0 lines">2</td>
+</tr>
+</table></div></figure> <div class="para" id="ez-circular-sinusoidal-data-1-3">
+<em class="emphasis">Hint:</em> Plot the points first; doing so in <em class="emphasis">Desmos</em> is ideal.<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-data-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.7"><a href="#ez-circular-sinusoidal-data" title="Copy heading and permalink for Exercise 2.4.6.7" aria-label="Copy heading and permalink for Exercise 2.4.6.7">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-daylight"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ez-circular-sinusoidal-daylight-1-1">In 2018, on the summer solstice, June 21, Grand Rapids, MI, experiences <span class="process-math">\(15\)</span> hours, <span class="process-math">\(21\)</span> minutes, and <span class="process-math">\(25\)</span> seconds of daylight.  Said differently, on the <span class="process-math">\(172\)</span>nd day of the year, people on earth at the latitude of Grand Rapids experience <span class="process-math">\(15.3569\)</span> hours of daylight.  On the winter solstice, December 21, 2018, the same latitude has <span class="process-math">\(9\)</span> hours, <span class="process-math">\(0\)</span> minutes, and <span class="process-math">\(31\)</span> seconds of daylight; equivalently, on  day <span class="process-math">\(355\text{,}\)</span> there are <span class="process-math">\(9.0086\)</span> hours of daylight.  This data is essentially identical every year as the patterns of the earth’s rotation repeat.<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-daylight-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="ez-circular-sinusoidal-daylight-1-2">Let <span class="process-math">\(t\)</span> be the day of the year starting with <span class="process-math">\(t = 0\)</span> on December 31, 2017.  In addition, let <span class="process-math">\(s(t)\)</span> be the number of hours of daylight on day <span class="process-math">\(t\)</span> in Grand Rapids, MI.  Find a formula for a circular function <span class="process-math">\(s(t)\)</span> that fits this data.  What is the function’s midline, amplitude, and period?  What are you using as an anchor point?  Explain fully, and then graph your function to check your conclusions.<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-daylight-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.8"><a href="#ez-circular-sinusoidal-daylight" title="Copy heading and permalink for Exercise 2.4.6.8" aria-label="Copy heading and permalink for Exercise 2.4.6.8">🔗</a></div></article><article class="exercise exercise-like" id="ez-circular-sinusoidal-horiz-reflection"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-1">We now understand the effects of the transformation <span class="process-math">\(h(t) = f(kt)\)</span> where <span class="process-math">\(k \gt 0\)</span> for a given function <span class="process-math">\(f\text{.}\)</span>  Our goal is to understand what happens when <span class="process-math">\(k \lt 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para logical" id="ez-circular-sinusoidal-horiz-reflection-1-2">
+<ol class="lower-alpha ol-marker-1" id="ez-circular-sinusoidal-horiz-reflection-1-2-1">
+<li id="ez-circular-sinusoidal-horiz-reflection-1-2-1-1">
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-2-1-1-1">We first consider the special case where <span class="process-math">\(k = -1\text{.}\)</span>  Let <span class="process-math">\(f(t) = 2t - 1\text{,}\)</span> and let <span class="process-math">\(g(t) = f(-1 \cdot t) = f(-t) = -2t - 1\text{.}\)</span>  Plot <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> on the same coordinate axes.  How are their graphs related to one another?<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.4.6.9.a"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-1" title="Copy heading and permalink for Item 2.4.6.9.a" aria-label="Copy heading and permalink for Item 2.4.6.9.a">🔗</a></div>
+</li>
+<li id="ez-circular-sinusoidal-horiz-reflection-1-2-1-2">
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-2-1-2-1">Given any function <span class="process-math">\(p\text{,}\)</span> how do you expect the graph of <span class="process-math">\(y = q(t) = p(-t)\)</span> to be related to the graph of <span class="process-math">\(p\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.4.6.9.b"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-2" title="Copy heading and permalink for Item 2.4.6.9.b" aria-label="Copy heading and permalink for Item 2.4.6.9.b">🔗</a></div>
+</li>
+<li id="ez-circular-sinusoidal-horiz-reflection-1-2-1-3">
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-2-1-3-1">How is the graph of <span class="process-math">\(y = \sin(-3t)\)</span> related to the graph of <span class="process-math">\(y = \sin(t)\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.4.6.9.c"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-3" title="Copy heading and permalink for Item 2.4.6.9.c" aria-label="Copy heading and permalink for Item 2.4.6.9.c">🔗</a></div>
+</li>
+<li id="ez-circular-sinusoidal-horiz-reflection-1-2-1-4">
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-2-1-4-1">How is the graph of <span class="process-math">\(y = \cos(-3t)\)</span> related to the graph of <span class="process-math">\(y = \cos(t)\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.4.6.9.d"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-4" title="Copy heading and permalink for Item 2.4.6.9.d" aria-label="Copy heading and permalink for Item 2.4.6.9.d">🔗</a></div>
+</li>
+<li id="ez-circular-sinusoidal-horiz-reflection-1-2-1-5">
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-2-1-5-1">Given any function <span class="process-math">\(p\)</span> and a constant <span class="process-math">\(k \lt 0\text{,}\)</span> how do you expect the graph of <span class="process-math">\(y = q(t) = p(kt)\)</span> to be related to the graph of <span class="process-math">\(p\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.4.6.9.e"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-5" title="Copy heading and permalink for Item 2.4.6.9.e" aria-label="Copy heading and permalink for Item 2.4.6.9.e">🔗</a></div>
+</li>
+<li id="ez-circular-sinusoidal-horiz-reflection-1-2-1-6">
+<div class="para" id="ez-circular-sinusoidal-horiz-reflection-1-2-1-6-1">How are <span class="process-math">\(\sin(-t)\)</span> and <span class="process-math">\(\sin(t)\)</span> related?  How are <span class="process-math">\(\cos(t)\)</span> and <span class="process-math">\(\cos(-t)\)</span> related?<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2.4.6.9.f"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2-1-6" title="Copy heading and permalink for Item 2.4.6.9.f" aria-label="Copy heading and permalink for Item 2.4.6.9.f">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#ez-circular-sinusoidal-horiz-reflection-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Exercise 2.4.6.9"><a href="#ez-circular-sinusoidal-horiz-reflection" title="Copy heading and permalink for Exercise 2.4.6.9" aria-label="Copy heading and permalink for Exercise 2.4.6.9">🔗</a></div></article><div class="autopermalink" data-description="Exercises 2.4.6"><a href="#ez-circular-sinusoidal" title="Copy heading and permalink for Exercises 2.4.6" aria-label="Copy heading and permalink for Exercises 2.4.6">🔗</a></div></section><div class="autopermalink" data-description="Section 2.4: Sinusoidal Functions"><a href="#sec-circular-sinusoidal" title="Copy heading and permalink for Section 2.4: Sinusoidal Functions" aria-label="Copy heading and permalink for Section 2.4: Sinusoidal Functions">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-circular-sine-cosine.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="C-exp.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
