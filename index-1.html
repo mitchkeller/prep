@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>APC Index</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="og:image" content="https://activecalculus.org/prelude/external/images/APC-cover.jpg">
+<meta property="book:title" content="Active Prelude to Calculus">
+<meta property="book:author" content="Matthew Boelkins">
+<link rel="icon" type="image/png" sizes="32x32" href="external/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="external/favicon/favicon-16x16.png">
+<script>var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+    renderActions: {
+        findScript: [10, function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        }, '']
+    },
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+  startup: {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+},
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><link href="https://webwork-ptx.aimath.org/webwork2_files/js/apps/MathView/mathview.css" rel="stylesheet">
+<script src="https://pretextbook.org/js/0.13/pretext-webwork/2.16/pretext-webwork.js"></script><script src="https://webwork-ptx.aimath.org/webwork2_files/node_modules/iframe-resizer/js/iframeResizer.min.js"></script><script async="" src="https://cse.google.com/cse.js?cx=015103900096539427448:ngwuia10qci"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href="https://activecalculus.org" target="_blank"><img src="external/images/APC-cover.jpg" alt="Logo image"></a><div class="title-container">
+<h1 class="heading"><a href="book-1.html"><span class="title">Active Prelude to Calculus</span></a></h1>
+<p class="byline">Matthew Boelkins</p>
+</div>
+<div class="searchwrapper" role="search"><div class="gcse-search"></div></div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3">
+<span class="mininav">Jump to:</span><span class="indexnav"><a href="#indexletter-a">A </a><a href="#indexletter-b">B </a><a href="#indexletter-c">C </a><a href="#indexletter-d">D </a><a href="#indexletter-e">E </a><a href="#indexletter-f">F </a><a href="#indexletter-g">G </a><a href="#indexletter-h">H </a><a href="#indexletter-i">I </a><a href="#indexletter-j">J </a><a href="#indexletter-k">K </a><a href="#indexletter-l">L </a><a href="#indexletter-m">M </a><br><a href="#indexletter-n">N </a><a href="#indexletter-o">O </a><a href="#indexletter-p">P </a><a href="#indexletter-q">Q </a><a href="#indexletter-r">R </a><a href="#indexletter-s">S </a><a href="#indexletter-t">T </a><a href="#indexletter-u">U </a><a href="#indexletter-v">V </a><a href="#indexletter-w">W </a><a href="#indexletter-x">X </a><a href="#indexletter-y">Y </a><a href="#indexletter-z">Z </a></span><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="backmatter.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="backmatter.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="colophon-2.html" title="Next">Next</a></span>
+</div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="backmatter.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="backmatter.html" title="Up">Up</a><a class="next-button button toolbar-item" href="colophon-2.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="acknowledgement-1.html" data-scroll="acknowledgement-1" class="internal">Acknowledgements</a></li>
+<li><a href="preface-1.html" data-scroll="preface-1" class="internal">Contributors</a></li>
+<li><a href="preface-our-goals.html" data-scroll="preface-our-goals" class="internal">Our Goals</a></li>
+<li><a href="preface-3.html" data-scroll="preface-3" class="internal">Features of the Text</a></li>
+<li><a href="preface-for-students.html" data-scroll="preface-for-students" class="internal">Students!  Read this!</a></li>
+<li><a href="preface-for-instructors.html" data-scroll="preface-for-instructors" class="internal">Instructors!  Read this!</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C-changing.html" data-scroll="C-changing" class="internal"><span class="codenumber">1</span> <span class="title">Relating Changing Quantities</span></a><ul>
+<li><a href="sec-changing-in-tandem.html" data-scroll="sec-changing-in-tandem" class="internal">Changing in Tandem</a></li>
+<li><a href="sec-changing-functions-models.html" data-scroll="sec-changing-functions-models" class="internal">Functions:  Modeling Relationships</a></li>
+<li><a href="sec-changing-aroc.html" data-scroll="sec-changing-aroc" class="internal">The Average Rate of Change of a Function</a></li>
+<li><a href="sec-changing-linear.html" data-scroll="sec-changing-linear" class="internal">Linear Functions</a></li>
+<li><a href="sec-changing-quadratic.html" data-scroll="sec-changing-quadratic" class="internal">Quadratic Functions</a></li>
+<li><a href="sec-changing-composite.html" data-scroll="sec-changing-composite" class="internal">Composite Functions</a></li>
+<li><a href="sec-changing-inverse.html" data-scroll="sec-changing-inverse" class="internal">Inverse Functions</a></li>
+<li><a href="sec-changing-transformations.html" data-scroll="sec-changing-transformations" class="internal">Transformations of Functions</a></li>
+<li><a href="sec-changing-combining.html" data-scroll="sec-changing-combining" class="internal">Combining Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C-circular.html" data-scroll="C-circular" class="internal"><span class="codenumber">2</span> <span class="title">Circular Functions</span></a><ul>
+<li><a href="sec-circular-traversing.html" data-scroll="sec-circular-traversing" class="internal">Traversing Circles</a></li>
+<li><a href="sec-circular-unit-circle.html" data-scroll="sec-circular-unit-circle" class="internal">The Unit Circle</a></li>
+<li><a href="sec-circular-sine-cosine.html" data-scroll="sec-circular-sine-cosine" class="internal">The Sine and Cosine Functions</a></li>
+<li><a href="sec-circular-sinusoidal.html" data-scroll="sec-circular-sinusoidal" class="internal">Sinusoidal Functions</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C-exp.html" data-scroll="C-exp" class="internal"><span class="codenumber">3</span> <span class="title">Exponential and Logarithmic Functions</span></a><ul>
+<li><a href="sec-exp-growth.html" data-scroll="sec-exp-growth" class="internal">Exponential Growth and Decay</a></li>
+<li><a href="sec-exp-modeling.html" data-scroll="sec-exp-modeling" class="internal">Modeling with exponential functions</a></li>
+<li><a href="sec-exp-e.html" data-scroll="sec-exp-e" class="internal">The special number <span class="process-math">\(e\)</span></a></li>
+<li><a href="sec-exp-log.html" data-scroll="sec-exp-log" class="internal">What a logarithm is</a></li>
+<li><a href="sec-exp-log-properties.html" data-scroll="sec-exp-log-properties" class="internal">Properties and applications of logarithmic functions</a></li>
+<li><a href="sec-exp-temp-pop.html" data-scroll="sec-exp-temp-pop" class="internal">Modeling temperature and population</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C-trig.html" data-scroll="C-trig" class="internal"><span class="codenumber">4</span> <span class="title">Trigonometry</span></a><ul>
+<li><a href="sec-trig-right.html" data-scroll="sec-trig-right" class="internal">Right triangles</a></li>
+<li><a href="sec-trig-tangent.html" data-scroll="sec-trig-tangent" class="internal">The Tangent Function</a></li>
+<li><a href="sec-trig-inverse.html" data-scroll="sec-trig-inverse" class="internal">Inverses of trigonometric functions</a></li>
+<li><a href="sec-trig-finding-angles.html" data-scroll="sec-trig-finding-angles" class="internal">Finding Angles</a></li>
+<li><a href="sec-trig-other.html" data-scroll="sec-trig-other" class="internal">Other Trigonometric Functions and Identities</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C-poly.html" data-scroll="C-poly" class="internal"><span class="codenumber">5</span> <span class="title">Polynomial and Rational Functions</span></a><ul>
+<li><a href="sec-poly-infty.html" data-scroll="sec-poly-infty" class="internal">Infinity, limits, and power functions</a></li>
+<li><a href="sec-poly-polynomials.html" data-scroll="sec-poly-polynomials" class="internal">Polynomials</a></li>
+<li><a href="sec-poly-polynomial-applications.html" data-scroll="sec-poly-polynomial-applications" class="internal">Modeling with polynomial functions</a></li>
+<li><a href="sec-poly-rational.html" data-scroll="sec-poly-rational" class="internal">Rational Functions</a></li>
+<li><a href="sec-poly-rational-features.html" data-scroll="sec-poly-rational-features" class="internal">Key features of rational functions</a></li>
+</ul>
+</li>
+<li class="link backmatter"><a href="backmatter.html" data-scroll="backmatter" class="internal"><span class="title">Back Matter</span></a></li>
+<li class="link active"><a href="index-1.html" data-scroll="index-1" class="internal"><span class="title">Index</span></a></li>
+<li class="link"><a href="colophon-2.html" data-scroll="colophon-2" class="internal"><span class="title">Colophon</span></a></li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="index" id="index-1"><h2 class="heading hide-type">
+<span class="type">Index</span> <span class="codenumber"></span> <span class="title">Index</span>
+</h2>
+<div class="indexletter" id="indexletter-a">
+<div class="indexitem">absolute value function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-combining-abs-val.html" title="Definition 1.9.7">Definition</a></span>
+</div>
+<div class="indexitem">approaching <span class="process-math">\(0\)</span><span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2071.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">average rate of change<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-aroc-aroc.html" title="Definition 1.3.4">Definition</a></span>
+</div>
+<div class="subindexitem">of position<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-308.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">units<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-320.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">average velocity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-317.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-b"><div class="indexitem">Bezier curves<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3426.html" title="Paragraph">Paragraph</a></span>
+</div></div>
+<div class="indexletter" id="indexletter-c">
+<div class="indexitem">circular cylinder</div>
+<div class="subindexitem">surface area<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3405.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">volume<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3404.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">circular function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1392.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">amplitude<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1409.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">midline<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1409.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">range<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1410.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">circular functions<span class="indexknowl">, <a href="sec-circular-traversing.html#subsec-circular-traversing-functions" class="internal" title="Subsection 2.1.1: Circular Functions">Subsection</a></span>
+</div>
+<div class="indexitem">composite function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-composite-compose-functions.html" title="Definition 1.6.2">Definition</a></span>
+</div>
+<div class="indexitem">continuously compounded interest<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/li-828.html" title="Item 3.3.4.6.e">Item</a></span>
+</div>
+<div class="indexitem">cosecant function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-trig-other-3.html" title="Definition 4.5.1: The secant, cosecant, and cotangent functions">Definition</a></span>
+</div>
+<div class="indexitem">cosine function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-cosine.html" title="Definition 2.3.8">Definition</a></span>
+</div>
+<div class="indexitem">cotangent function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-trig-other-3.html" title="Definition 4.5.1: The secant, cosecant, and cotangent functions">Definition</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-d">
+<div class="indexitem">Dolbear's Law<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-124.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">double angle identity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3057.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-e">
+<div class="indexitem">e<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-exp-natural-base-e.html" title="Definition 3.3.2: The natural base, e">Definition</a></span>
+</div>
+<div class="indexitem">exponential function</div>
+<div class="subindexitem">base<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-growth-exponential-function.html" title="Definition 3.1.2">Definition</a></span>
+</div>
+<div class="subindexitem">doubling time<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/ez-exp-log-properties-doubling-time.html" title="Exercise 3.5.5.6">Exercise</a></span>
+</div>
+<div class="subindexitem">exponential decay<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1903.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">growth factor<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1903.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">growth rate<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1903.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">with the natural base, <span class="process-math">\(e\)</span><span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-exp-natural-base-e.html" title="Definition 3.3.2: The natural base, e">Definition</a></span>
+</div>
+<div class="indexitem">exponential growth</div>
+<div class="subindexitem">introduction<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1892.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-f">
+<div class="indexitem">function</div>
+<div class="subindexitem">codomain<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-function-domain-codomain.html" title="Definition 1.2.5">Definition</a></span>
+</div>
+<div class="subindexitem">definition<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-function-process.html" title="Definition 1.2.4">Definition</a></span>
+</div>
+<div class="subindexitem">dependent variable<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-139.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">domain<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-function-domain-codomain.html" title="Definition 1.2.5">Definition</a></span>
+</div>
+<div class="subindexitem">exponential<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-growth-exponential-function.html" title="Definition 3.1.2">Definition</a></span>
+</div>
+<div class="subindexitem">graph<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-function-graph.html" title="Definition 1.2.18">Definition</a></span>
+</div>
+<div class="subindexitem">independent variable<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-139.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">introduction to<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-133.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">notation<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-139.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">periodic<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-13.html" title="Definition 2.1.11">Definition</a></span>
+</div>
+<div class="subindexitem">range<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-function-range.html" title="Definition 1.2.6">Definition</a></span>
+</div>
+<div class="indexitem">function arithmetic</div>
+<div class="subindexitem">difference of<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-11.html" title="Definition 1.9.3">Definition</a></span>
+</div>
+<div class="subindexitem">product of<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-11.html" title="Definition 1.9.3">Definition</a></span>
+</div>
+<div class="subindexitem">quotient of<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-11.html" title="Definition 1.9.3">Definition</a></span>
+</div>
+<div class="subindexitem">sum of<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-11.html" title="Definition 1.9.3">Definition</a></span>
+</div>
+<div class="indexitem">function trends</div>
+<div class="subindexitem">concave down<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-quadratic-concave.html" title="Definition 1.5.12">Definition</a></span>
+</div>
+<div class="subindexitem">concave up<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-quadratic-concave.html" title="Definition 1.5.12">Definition</a></span>
+</div>
+<div class="subindexitem">decreasing<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-aroc-increasing-decreasing.html" title="Definition 1.3.7">Definition</a></span>
+</div>
+<div class="subindexitem">increasing<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-aroc-increasing-decreasing.html" title="Definition 1.3.7">Definition</a></span>
+</div>
+<div class="indexitem">fundamental trigonometric identity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2608.html" title="Paragraph">Paragraph</a> <a href="" class="xref" data-knowl="./knowl/asm-other-trig-fundamental-identity.html" title="Assemblage: The fundamental trigonometric identity">Assemblage</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-g">
+<div class="indexitem">gravity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-686.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">falling object<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-quadratic-falling-ball-model.html" title="Assemblage: Height of an object falling under the force of gravity">Assemblage</a></span>
+</div>
+<div class="subindexitem">gravitational constant<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-689.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-h">
+<div class="indexitem">harmonic oscillator<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1414.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">horizontal asymptote<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3149.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">horizontal scaling<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-transformations-horizontal-stretch.html" title="Assemblage: Horizontal scaling">Assemblage</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-i">
+<div class="indexitem">increasing</div>
+<div class="subindexitem">without bound<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2070.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">increasing without bound<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-infty-limit.html" title="Definition 5.1.3">Definition</a></span>
+</div>
+<div class="indexitem">infinity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2072.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">inverse function</div>
+<div class="subindexitem">definition<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-inverse-inverse-function.html" title="Definition 1.7.1">Definition</a></span>
+</div>
+<div class="subindexitem">horizontal line test<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-inverse-H-L-test.html" title="Assemblage: Horizontal Line Test">Assemblage</a></span>
+</div>
+<div class="subindexitem">notation<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-951.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">two perspectives<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-inverse-two-perspectives.html" title="Assemblage: Two perspectives from a function and its inverse function">Assemblage</a></span>
+</div>
+<div class="indexitem">inverse trigonometric functions</div>
+<div class="subindexitem">arccosine<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-inverse-trig-arccosine.html" title="Definition 4.3.2">Definition</a></span>
+</div>
+<div class="subindexitem">arcsine<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-inverse-trig-arcsine.html" title="Definition 4.3.3">Definition</a></span>
+</div>
+<div class="subindexitem">arctangent<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-inverse-trig-arctan.html" title="Definition 4.3.5">Definition</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-l">
+<div class="indexitem">limit</div>
+<div class="subindexitem">involving infinity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-infty-limit.html" title="Definition 5.1.3">Definition</a></span>
+</div>
+<div class="indexitem">line</div>
+<div class="subindexitem">
+<span class="process-math">\(y\)</span>-intercept<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-505.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">point-slope form<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-linear-point-slope-form.html" title="Assemblage: Point-slope form of a line">Assemblage</a></span>
+</div>
+<div class="subindexitem">slope-intercept form<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-linear-slope-intercept-form.html" title="Assemblage: Slope-intercept form">Assemblage</a></span>
+</div>
+<div class="indexitem">linear function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-linear-function.html" title="Definition 1.4.3">Definition</a></span>
+</div>
+<div class="subindexitem">slope<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-linear-function.html" title="Definition 1.4.3">Definition</a></span>
+</div>
+<div class="indexitem">logarithm</div>
+<div class="subindexitem">base <span class="process-math">\(10\)</span>
+</div>
+<div class="subsubindexitem">definition<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-log-base-10.html" title="Definition 3.4.3">Definition</a></span>
+</div>
+<div class="subindexitem">base-<span class="process-math">\(b\)</span>
+</div>
+<div class="subsubindexitem">definition<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/ez-exp-log-base-b.html" title="Exercise 3.4.5.7">Exercise</a></span>
+</div>
+<div class="subindexitem">natural</div>
+<div class="subsubindexitem">definition<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/D-log-natural.html" title="Definition 3.4.4">Definition</a></span>
+</div>
+<div class="subindexitem">of a product<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-log-properties-prod-quot.html" title="Assemblage: Logarithms of products and quotients">Assemblage</a></span>
+</div>
+<div class="subindexitem">of a quotient<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-log-properties-prod-quot.html" title="Assemblage: Logarithms of products and quotients">Assemblage</a></span>
+</div>
+<div class="indexitem">logistic function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2541.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-n">
+<div class="indexitem">natural base, <span class="process-math">\(e\)</span><span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-exp-natural-base-e.html" title="Definition 3.3.2: The natural base, e">Definition</a></span>
+</div>
+<div class="indexitem">Newton's Law of Cooling<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2098.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-p">
+<div class="indexitem">parabola<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-668.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">vertex<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-quadratic-vertex.html" title="Assemblage: The vertex of a parabola">Assemblage</a></span>
+</div>
+<div class="indexitem">period<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-13.html" title="Definition 2.1.11">Definition</a></span>
+</div>
+<div class="indexitem">point-slope form<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-492.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">polynomial</div>
+<div class="subindexitem">coefficients<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-polynomial-function.html" title="Definition 5.2.1">Definition</a></span>
+</div>
+<div class="subindexitem">degree<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-polynomial-function.html" title="Definition 5.2.1">Definition</a></span>
+</div>
+<div class="subindexitem">long-range behavior<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-polynomials-long-range.html" title="Assemblage: The long-range behavior of a polynomial">Assemblage</a></span>
+</div>
+<div class="subindexitem">multiple zeros<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-polynomials-multiple-zeros.html" title="Assemblage: Polynomial zeros of multiplicity n">Assemblage</a></span>
+</div>
+<div class="subindexitem">number of turning points<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-polynomials-turning-points.html" title="Assemblage: The turning points of a polynomial">Assemblage</a></span>
+</div>
+<div class="subindexitem">terms<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-polynomial-function.html" title="Definition 5.2.1">Definition</a></span>
+</div>
+<div class="subindexitem">zero<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-polynomial-function.html" title="Definition 5.2.1">Definition</a></span>
+</div>
+<div class="subindexitem">zero of multiplicity <span class="process-math">\(n\)</span><span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3277.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">polynomial function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-polynomial-function.html" title="Definition 5.2.1">Definition</a></span>
+</div>
+<div class="subindexitem">zero<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/li-1187.html" title="Item a">Item</a></span>
+</div>
+<div class="indexitem">power function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-poly-power-function.html" title="Definition 5.1.5">Definition</a></span>
+</div>
+<div class="indexitem">Pythagorean Theorem<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2608.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-q">
+<div class="indexitem">quadratic formula<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-quadratic-x-intercepts.html" title="Assemblage: Solutions to q(x) = 0">Assemblage</a></span>
+</div>
+<div class="indexitem">quadratic function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-646.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">vertex<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-quadratic-vertex.html" title="Assemblage: The vertex of a parabola">Assemblage</a></span>
+</div>
+<div class="subindexitem">vertex form<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-quadratic-vertex-form.html" title="Assemblage: Vertex form of a quadratic function">Assemblage</a></span>
+</div>
+<div class="subindexitem">x-intercepts<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-666.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">y-intercept<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-667.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-r">
+<div class="indexitem">radian<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/li-589.html" title="Item c">Item</a></span>
+</div>
+<div class="indexitem">radian measure</div>
+<div class="subindexitem">definition of<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-14.html" title="Definition 2.2.5">Definition</a></span>
+</div>
+<div class="indexitem">rational function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-rational-function.html" title="Definition 5.4.1">Definition</a></span>
+</div>
+<div class="subindexitem">domain<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-rational-functions-domain.html" title="Assemblage: The domain of a rational function">Assemblage</a></span>
+</div>
+<div class="subindexitem">hole<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3682.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">long-term behavior<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-rational-functions-long-term.html" title="Assemblage: The long-term behavior of a rational function">Assemblage</a></span>
+</div>
+<div class="indexitem">rectangular box</div>
+<div class="subindexitem">surface area<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3405.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">volume<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3403.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-s">
+<div class="indexitem">secant function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-trig-other-3.html" title="Definition 4.5.1: The secant, cosecant, and cotangent functions">Definition</a></span>
+</div>
+<div class="indexitem">sign chart<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3259.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">similar triangles<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2623.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">sine function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/def-sine.html" title="Definition 2.3.4">Definition</a></span>
+</div>
+<div class="indexitem">sinusoidal function</div>
+<div class="subindexitem">anchor point<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1787.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">sum of two angles identity<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3057.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">surface area</div>
+<div class="subindexitem">box<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3405.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">cylinder<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3405.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-t">
+<div class="indexitem">tangent function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/definition-21.html" title="Definition 4.2.2: The tangent function">Definition</a></span>
+</div>
+<div class="indexitem">transformation of a function<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1094.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">horizontal translation<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-transformations-horizontal.html" title="Assemblage: Horizontal Translation of a Function">Assemblage</a></span>
+</div>
+<div class="subindexitem">vertical scaling<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-transformations-vertical-stretch.html" title="Assemblage: Vertical Scaling of a Function">Assemblage</a></span>
+</div>
+<div class="subindexitem">vertical translation<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-transformations-vertical.html" title="Assemblage: Vertical Translation of a Function">Assemblage</a></span>
+</div>
+<div class="indexitem">trigonometry<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-2608.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">turning point<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/li-1189.html" title="Item c">Item</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-u"><div class="indexitem">unit circle<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-1535.html" title="Paragraph">Paragraph</a></span>
+</div></div>
+<div class="indexletter" id="indexletter-v">
+<div class="indexitem">vertical asymptote<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3149.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="indexitem">vertical line test<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/asm-functions-V-L-test.html" title="Assemblage: Vertical Line Test">Assemblage</a></span>
+</div>
+<div class="indexitem">volume</div>
+<div class="subindexitem">box<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3403.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">cone<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-66.html" title="Paragraph">Paragraph</a></span>
+</div>
+<div class="subindexitem">cylinder<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3404.html" title="Paragraph">Paragraph</a></span>
+</div>
+</div>
+<div class="indexletter" id="indexletter-z"><div class="indexitem">Zero Product Property<span class="indexknowl">, <a href="" class="xref" data-knowl="./knowl/p-3259.html" title="Paragraph">Paragraph</a></span>
+</div></div></section></div></main>
+</div>
+</body>
+</html>

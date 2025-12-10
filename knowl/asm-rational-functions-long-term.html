@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow">
+</head>
+<body class="ignore-math">
+<article class="assemblage assemblage-like"><h4 class="heading"><span class="title">The long-term behavior of a rational function.</span></h4>
+<p>Let <span class="process-math">\(p\)</span> and <span class="process-math">\(q\)</span> be polynomial functions so that <span class="process-math">\(r(x) = \frac{p(x)}{q(x)}\)</span> is a rational function.  Suppose that <span class="process-math">\(p\)</span> has degree <span class="process-math">\(n\)</span> with leading term <span class="process-math">\(a_n x^n\)</span> and <span class="process-math">\(q\)</span> has degree <span class="process-math">\(m\)</span> with leading term <span class="process-math">\(b_m x^m\)</span> for some nonzero constants <span class="process-math">\(a_n\)</span> and <span class="process-math">\(b_m\text{.}\)</span>  There are three possibilities (<span class="process-math">\(n \lt m\text{,}\)</span> <span class="process-math">\(n = m\text{,}\)</span> and <span class="process-math">\(n \gt m\)</span>) that result in three different behaviors of <span class="process-math">\(r\text{:}\)</span></p>
+<ol class="lower-alpha">
+<li>
+<p>if <span class="process-math">\(n \lt m\text{,}\)</span> then the degree of the numerator is less than the degree of the denominator, and thus</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\lim_{n \to \infty} r(x) = \lim_{n \to \infty} \frac{a_n x^n + \cdots + a_0}{b_m x^m + \cdots + b_0} = 0\text{,}
+\end{equation*}
+</div>
+<p class="continuation">which tells us that <span class="process-math">\(y = 0\)</span> is a horizontal asymptote of <span class="process-math">\(r\text{;}\)</span></p>
+</li>
+<li>
+<p>if <span class="process-math">\(n = m\text{,}\)</span> then the degree of the numerator equals the degree of the denominator, and thus</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\lim_{n \to \infty} r(x) = \lim_{n \to \infty} \frac{a_n x^n + \cdots + a_0}{b_n x^n + \cdots + b_0} = \frac{a_n}{b_n}\text{,}
+\end{equation*}
+</div>
+<p class="continuation">which tells us that <span class="process-math">\(y = \frac{a_n}{b_n}\)</span> (the ratio of the coefficients of the highest order terms in <span class="process-math">\(p\)</span> and <span class="process-math">\(q\)</span>) is a horizontal asymptote of <span class="process-math">\(r\text{;}\)</span></p>
+</li>
+<li>
+<p>if <span class="process-math">\(n \gt m\text{,}\)</span> then the degree of the numerator is greater than the degree of the denominator, and thus</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+\lim_{n \to \infty} r(x) = \lim_{n \to \infty} \frac{a_n x^n + \cdots + a_0}{b_m x^m + \cdots + b_0} = \pm \infty\text{,}
+\end{equation*}
+</div>
+<p class="continuation">(where the sign of the limit depends on the signs of <span class="process-math">\(a_n\)</span> and <span class="process-math">\(b_m\)</span>) which tells us that <span class="process-math">\(r\)</span> is does not have a horizontal asymptote.</p>
+</li>
+</ol>
+<p>In both situations (a) and (b), the value of <span class="process-math">\(\lim_{x \to -\infty} r(x)\)</span> is identical to <span class="process-math">\(\lim_{x \to \infty} r(x)\text{.}\)</span></p></article><span class="incontext"><a href="sec-poly-rational.html#asm-rational-functions-long-term" class="internal">in-context</a></span>
+</body>
+</html>
