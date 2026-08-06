@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec2__Q12" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec2__Q12">
+  <static seed="135" source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg">
+    <statement><p>Estimate the zero(s) of <m>\ \ f(x) = x^4 + 16 x^3 + 93 x^2 + 231 x + 206</m>.  If there is more than one zero, enter your answer as a comma separated list of values.  If there are no zeros, enter <alert> NONE </alert> in the blank.</p>
+<p><m>x =</m> <fillin characters="20" name="AnSwEr0001"/>
+(retain at least 3 decimal places in your answer(s))</p>
+</statement>
+    <answer>
+      <p>
+        <m>-3.28169, -2.29789</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+See the graph below:
+
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap9Sec2__Q12-image-1.png" width="41%"/>
+
+
+
+
+There are two real zeros at <m>x \approx -3.282</m> and <m>x \approx -2.298</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q12.pg"/>
+</webwork-reps>

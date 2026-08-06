@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec1__Q16" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec1__Q16">
+  <static seed="62" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg">
+    <statement><p>A ferris wheel is 140 meters in diameter and boarded at its lowest
+point (6 O'Clock) from a platform which is 8 meters above ground.
+The wheel makes one full rotation every 14 minutes, and at time
+<m>t = 0</m> you are at the loading platform (6 O'Clock).  Let
+<m>h = f(t)</m> denote your height above ground in meters after
+<m>t</m> minutes.</p>
+<p>(a) What is the period of the function <m>h = f(t)</m>?</p>
+<p>period = <fillin characters="10" name="AnSwEr0001"/>
+Include  in your answer.</p>
+<p>(b) What is the midline of the function <m>h = f(t)</m>?</p>
+<p><m>h =</m> <fillin characters="10" name="AnSwEr0002"/>
+Include  in your answer.</p>
+<p>(c) What is the amplitude of the function <m>h = f(t)</m>?</p>
+<p>amplitude = <fillin characters="10" name="AnSwEr0003"/>
+Include  in your answer.</p>
+<p>(d) Consider the six possible graphs of <m>h = f(t)</m> below. Be sure to
+enlarge each graph and carefully read the labels on the axes in order
+distinguish the key features of each graph.</p>
+<p>Which (if any) of the graphs A-F represents two full revolutions of the
+ferris wheel described above? <ul form="popup" name="AnSwEr0004"><li>
+<p>Select</p>
+</li><li>
+<p>A</p>
+</li><li>
+<p>B</p>
+</li><li>
+<p>C</p>
+</li><li>
+<p>D</p>
+</li><li>
+<p>E</p>
+</li><li>
+<p>F</p>
+</li><li>
+<p>None of the graphs above</p>
+</li></ul></p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q16-image-1.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q16-image-2.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q16-image-3.png" width="33%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>A</cell>
+<cell>B</cell>
+<cell>C</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q16-image-4.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q16-image-5.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q16-image-6.png" width="33%"/>
+<p/></cell>
+</row>
+<row halign="center" valign="middle">
+<cell>D</cell>
+<cell>E</cell>
+<cell>F</cell>
+</row>
+</tabular>
+</statement>
+    <answer>
+      <p>
+        <m>14\ {\rm min}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>78\ {\rm m}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>70\ {\rm m}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{B}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Since the ferris wheel makes one full rotation every 14 minutes,
+the period is 14 minutes.
+
+
+
+(b) The midline is the height when you are halfway up the ferris wheel.
+If the ferris wheel has a diameter of 140 meters and the loading
+platform is 8 meters above the ground, the height midway up the ferris
+wheel is <m>\frac{140}{2} + 8 = 78</m>.  So the midline is
+<m>h = 78</m> meters.
+
+
+
+(c) The amplitude is the difference of your height on top of the ferris
+wheel and your height at the midline (or halfway up the ferris wheel).
+When you are highest on the ferris wheel, your height is
+<m>140 + 8 = 148</m>.  Therefore the amplitude is
+<m>148 - 78 = 70</m> meters.
+
+
+
+(d) Based on the answers above, the correct answer is graph B.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q16.pg"/>
+</webwork-reps>

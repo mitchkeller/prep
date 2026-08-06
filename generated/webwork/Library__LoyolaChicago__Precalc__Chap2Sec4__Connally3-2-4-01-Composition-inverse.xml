@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-01-Composition-inverse" assembly-id="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-01-Composition-inverse">
+  <static seed="37" source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg">
+    <statement><p>Suppose <m>r = f(t)</m> is the radius,
+in centimeters, of a circle at time
+<m>t</m> minutes, and <m>A(r)</m> is the
+area, in square centimeters, of a circle
+of radius <m>r</m> centimeters.</p>
+<p>Which of the following statements best
+explains the meaning of the composite
+function <m>A(f(t))</m>?</p>
+<p><var form="buttons">
+<li>
+<p>The area of a circle, in square
+centimeters, of radius <m>r</m>
+centimeters.</p>
+</li>
+<li>
+<p>The area of a circle, in square
+centimeters, at time <m>t</m> minutes.</p>
+</li>
+<li>
+<p>The radius of a circle, in centimeters,
+at time <m>t</m> minutes.</p>
+</li>
+<li>
+<p>The function <m>f</m> of the minutes
+and the area.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    <solution><alert> SOLUTION </alert>
+
+
+
+
+<m>A(f(t))</m> is the area, in square centimeters, of the circle at time
+<m>t</m> minutes.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-01-Composition-inverse.pg"/>
+</webwork-reps>

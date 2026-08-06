@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setAlgebra17FunComposition__faris1" assembly-id="Library__Rochester__setAlgebra17FunComposition__faris1">
+  <static seed="42" source="Library/Rochester/setAlgebra17FunComposition/faris1.pg">
+    <statement><p>The number of bacteria in a refrigerated food product is given by
+<m>N(T) = 27 T^2 - 97 T + 51</m>,  <m>3 \lt  T \lt  33</m>
+where <m>T</m> is the temperature of the food.</p>
+<p>When the food is removed from the refrigerator, the temperature is given by 
+<m>T(t) = 4 t + 1.7</m> , where <m>t</m> is the time in hours.</p>
+<p>Find the composite function <m>N(T(t))</m>:</p>
+<p><m>N(T(t)) =</m>  <fillin characters="40" name="AnSwEr0001"/></p>
+<p>Find the time when the bacteria count reaches 14225</p>
+<p>Time Needed =  <fillin characters="40" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>27\mathopen{}\left(4t+1.7\right)^{2}-97\mathopen{}\left(4t+1.7\right)+51</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5.76966827391021</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra17FunComposition/faris1.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra17FunComposition/faris1.pg"/>
+</webwork-reps>

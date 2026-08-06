@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec5__Q02" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec5__Q02">
+  <static seed="143" source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg">
+    <statement><p>Find all zeros and vertical asymptotes of the rational function</p>
+<p><m>\displaystyle f(x) = \frac{ x + 6}{(x + 9)^2}</m>.</p>
+<p>If there is more than one answer, enter all such values for each in a comma separated list. If are no solutions, enter <em>NONE.</em>  Do not leave a blank empty.</p>
+<p>(a) The function has zero(s) at <m>x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) The function has vertical asymptote(s) at <m>x =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) The function's long-run behavior is that <m>y \to</m> <fillin characters="5" name="AnSwEr0003"/> as <m>x \to \pm \infty</m></p>
+<p>(d) On a piece of paper, sketch a graph of this function without using your calculator.</p>
+</statement>
+    <answer>
+      <p>
+        <m>-6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-9</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+The zero of this function is at <m>x = -6</m>. It has a vertical asymptote
+at <m>x = -9</m>. Its long-run behavior is: <m>y \to 0</m> as <m>x \to
+\pm \infty</m> since the degree of the denominator is greater than the degree of the numerator.
+
+
+
+<m>f(x)</m> is graphed below:
+
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap9Sec5__Q02-image-1.png" width="50%"/>
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q02.pg"/>
+</webwork-reps>

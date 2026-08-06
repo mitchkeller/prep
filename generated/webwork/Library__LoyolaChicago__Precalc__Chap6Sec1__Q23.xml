@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec1__Q23" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec1__Q23">
+  <static seed="63" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg">
+    <statement><p>A weight is suspended from the ceiling by a spring.  Let
+<m>d</m> be the distance in centimeters from the ceiling to the
+weight.  When the weight is motionless, <m>d = 11 \, \mbox{cm}</m>.
+If the weight is disturbed, it begins to bob up and down, or
+<em>oscillate</em>.  Then <m>d</m> is a periodic function
+of <m>t</m>, the time in seconds, so <m>d = f(t)</m>.  Consider the
+graph of <m>d = f(t)</m> below, which represents the distance of
+the weight from the ceiling at time <m>t</m>.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q23-image-1.png" width="50%"/>
+<p>(a) Based on the graph of <m>d =f(t)</m> above, which of the statements
+         below correctly describes the motion of the weight as it bobs up and
+         down?</p>
+<p><var form="buttons">
+<li>
+<p>The weight starts closest to the floor and begins by bouncing up
+           towards the ceiling.</p>
+</li>
+<li>
+<p>The weight starts closest to the ceiling and begins by stretching
+           the spring down towards the floor.</p>
+</li>
+<li>
+<p>The spring starts at its average distance between the ceiling and
+           floor and begins by stretching the spring down towards the floor.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>(b) How long does it take the weight to bounce completely up and down
+(or down and up) and return to its starting position? <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(Include  in your answer.)</p>
+<p>(c) What is the closest the weight gets to the ceiling? <fillin characters="10" name="AnSwEr0002"/></p>
+<p>(Include  in your answer.)</p>
+<p>(d) What is the furthest the weights gets from the ceiling?
+<fillin characters="10" name="AnSwEr0003"/></p>
+<p>(Include  in your answer.)</p>
+<p>(e) What is the amplitdue of the graph of <m>d = f(t)</m>?
+<fillin characters="10" name="AnSwEr0004"/></p>
+<p>(Include  in your answer.)</p>
+</statement>
+    <answer>
+      <p>B</p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.5\ {\rm s}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3\ {\rm cm}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>19\ {\rm cm}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) The weight's initial distance from the ceiling is at its smallest value 3 cm.  Thus the weight starts at its closest position from the ceiling.  It then begins to head down away from the ceiling towards the floor.
+
+
+
+(b) The period of the graph is 0.5, therefore it takes the weight 0.5 seconds to go through one full oscillation and return to its starting position.
+
+
+
+(c) The weight gets as close as 3 cm to the ceiling.
+
+
+
+(d) The weight falls as far as 19 cm from the ceiling.
+
+
+
+(e) The amplitude of the graph is the distance of the maximum (or minimum) <m>y</m> value from the midline.  In this case the midline is <m>d=11</m> and the maximum value is <m>d=19</m>, so the amplitude is 8.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q23.pg"/>
+</webwork-reps>

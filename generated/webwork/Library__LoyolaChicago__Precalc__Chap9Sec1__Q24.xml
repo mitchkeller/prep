@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec1__Q24" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec1__Q24">
+  <static seed="129" source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q24.pg">
+    <statement><p>Find:</p>
+<p>(a)
+<m>\lim\limits_{t\to-\infty}\, (\frac{1}{t^{2}}+3) =</m> <fillin characters="25" name="AnSwEr0001"/></p>
+<p><em>(Enter the word <alert>infinity</alert> or <alert>-infinity</alert>
+if the limit goes to <m>\infty</m> or <m>-\infty</m>.)</em></p>
+<p>(b)
+<m>\lim\limits_{t\to\infty}\, 3\frac{1}{y} =</m> <fillin characters="25" name="AnSwEr0002"/></p>
+<p><em>(Enter the word <alert>infinity</alert> or <alert>-infinity</alert>
+if the limit goes to <m>\infty</m> or <m>-\infty</m>.)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <solution><m>\lim\limits_{t\to-\infty}\, \frac{1}{t^{2}}+3 = \lim\limits_{t\to-\infty}\frac{1}{t^2} + 3 = 0 + 3 = 3</m>.
+
+
+
+
+(b)
+<m>\lim\limits_{y\to\infty}\, 3\frac{1}{y} = \lim\limits_{y\to\infty}\,\frac{3}{y^1} = 0</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec1/Q24.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q24.pg"/>
+</webwork-reps>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__precalc__4e__Chap1Sec2__Q15" assembly-id="Library__Michigan__precalc__4e__Chap1Sec2__Q15">
+  <static seed="20" source="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg">
+    <statement><p><ol label="a.">
+<li>
+<p>What is the average rate of change of <m>g(x) = {-6-5x}</m> between the points <m>(-4, {14})</m> and <m>(5,{-31})</m>?</p>
+<p>The average rate of change is <fillin characters="5" name="AnSwEr0001"/>.</p>
+</li>
+<li>
+<p>The function <m>g</m> is <ul form="popup" name="AnSwEr0002"><li>
+<p>?</p>
+</li><li>
+<p>increasing</p>
+</li><li>
+<p>decreasing</p>
+</li></ul> on the interval <m>-4 \leq x \leq 5</m>.</p>
+</li>
+</ol></p>
+</statement>
+    <answer>
+      <p>
+        <m>-5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{decreasing}</m>
+      </p>
+    </answer>
+    <solution><p><ol label="a.">
+<li>
+<p>If <m>y = g(x)</m> then between <m>(-4 , {14})</m> and <m>(5 , {-31} )</m>,</p>
+<p><m>\displaystyle{\hbox{average rate of change of }g =\frac{\Delta y}{\Delta x}= \frac{{-31} - ({14})}{5 -(-4)}}</m> <m>\displaystyle{ =
+\frac{-31 - 14}{5  + 4}= \frac{{-45}}{{9}} = -5.}</m></p>
+</li>
+<li>
+<p>Since the graph of <m>g</m> is a straight line, the average rate of change of <m>g</m> is constant.  By part (a), this constant average rate of change is equal to <m>-5</m>, which is a negative number.  Hence <m>g</m> is decreasing on the given interval (and in fact over any interval).</p>
+</li>
+</ol></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/precalc/4e/Chap1Sec2/Q15.pg"/>
+</webwork-reps>

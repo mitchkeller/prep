@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-changing-inverse-act-doesit-1-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="prefigure-changing-inverse-act-doesit-1-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-changing-inverse-act-doesit-1-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-changing-inverse-act-doesit-1-grid-axes">
+    <g id="prefigure-changing-inverse-act-doesit-1-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="35.0" y1="305.0" x2="35.0" y2="5.0"/>
+      <line x1="65.0" y1="305.0" x2="65.0" y2="5.0"/>
+      <line x1="95.0" y1="305.0" x2="95.0" y2="5.0"/>
+      <line x1="125.0" y1="305.0" x2="125.0" y2="5.0"/>
+      <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+      <line x1="185.0" y1="305.0" x2="185.0" y2="5.0"/>
+      <line x1="215.0" y1="305.0" x2="215.0" y2="5.0"/>
+      <line x1="245.0" y1="305.0" x2="245.0" y2="5.0"/>
+      <line x1="275.0" y1="305.0" x2="275.0" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="275.0" x2="305.0" y2="275.0"/>
+      <line x1="5.0" y1="245.0" x2="305.0" y2="245.0"/>
+      <line x1="5.0" y1="215.0" x2="305.0" y2="215.0"/>
+      <line x1="5.0" y1="185.0" x2="305.0" y2="185.0"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="125.0" x2="305.0" y2="125.0"/>
+      <line x1="5.0" y1="95.0" x2="305.0" y2="95.0"/>
+      <line x1="5.0" y1="65.0" x2="305.0" y2="65.0"/>
+      <line x1="5.0" y1="35.0" x2="305.0" y2="35.0"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-changing-inverse-act-doesit-1-__line-22" x1="5.0" y1="155.0" x2="305.0" y2="155.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-23" x1="35.0" y1="158.0" x2="35.0" y2="152.0"/>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-24" x1="95.0" y1="158.0" x2="95.0" y2="152.0"/>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-25" x1="215.0" y1="158.0" x2="215.0" y2="152.0"/>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-26" x1="275.0" y1="158.0" x2="275.0" y2="152.0"/>
+      </g>
+      <line id="prefigure-changing-inverse-act-doesit-1-__line-27" x1="155.0" y1="305.0" x2="155.0" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-28" x1="152.0" y1="275.0" x2="158.0" y2="275.0"/>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-29" x1="152.0" y1="215.0" x2="158.0" y2="215.0"/>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-30" x1="152.0" y1="95.0" x2="158.0" y2="95.0"/>
+        <line id="prefigure-changing-inverse-act-doesit-1-__line-31" x1="152.0" y1="35.0" x2="158.0" y2="35.0"/>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-0" transform="translate(301.0,151.0) translate(-6.5,-11.5)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-2-TEX-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-1" transform="translate(159.0,9.0) translate(0.0,-0.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -3.712px" width="8.872px" height="11.712px" role="img" focusable="false" viewBox="0 -442 490 647" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-3-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="y">
+                <use data-c="1D466" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-3-TEX-I-1D466"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-2" transform="translate(35.0,166.0) translate(-7.5,-0.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-4-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 4">
+                <use data-c="2D" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-4-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-4-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-3" transform="translate(95.0,166.0) translate(-7.5,-0.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-5-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-5-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-5-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-5-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-4" transform="translate(215.0,166.0) translate(-4.5,-0.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-6-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-6-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-5" transform="translate(275.0,166.0) translate(-4.5,-0.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-7-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-7-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-6" transform="translate(144.0,275.0) translate(-15.1,-6.1)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.256px" role="img" focusable="false" viewBox="0 -677 833 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-8-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-8-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 4">
+                <use data-c="2D" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-8-TEX-N-2D"/>
+                <use data-c="34" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-8-TEX-N-34" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-7" transform="translate(144.0,215.0) translate(-15.1,-6.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-9-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-9-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+                <use data-c="2D" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-9-TEX-N-2D"/>
+                <use data-c="32" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-9-TEX-N-32" transform="translate(333,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-8" transform="translate(144.0,95.0) translate(-9.0,-6.0)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-10-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+                <use data-c="32" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-10-TEX-N-32"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-inverse-act-doesit-1-__label-9" transform="translate(144.0,35.0) translate(-9.0,-6.1)">
+      <g id="prefigure-changing-inverse-act-doesit-1-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-inverse-act-doesit-1-MJX-11-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="4">
+                <use data-c="34" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-11-TEX-N-34"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefigure-changing-inverse-act-doesit-1-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 5.0 52.0 L 8.0 52.3 L 11.0 52.6 L 14.0 52.9 L 17.0 53.2 L 20.0 53.6 L 23.0 54.0 L 26.0 54.3 L 29.0 54.7 L 32.0 55.1 L 35.0 55.6 L 38.0 56.0 L 41.0 56.5 L 44.0 57.0 L 47.0 57.5 L 50.0 58.1 L 53.0 58.6 L 56.0 59.3 L 59.0 59.9 L 62.0 60.6 L 65.0 61.3 L 68.0 62.1 L 71.0 62.9 L 74.0 63.8 L 77.0 64.7 L 80.0 65.7 L 83.0 66.8 L 86.0 67.9 L 89.0 69.2 L 92.0 70.5 L 95.0 72.0 L 98.0 73.5 L 101.0 75.2 L 104.0 77.1 L 107.0 79.1 L 110.0 81.3 L 113.0 83.7 L 116.0 86.4 L 119.0 89.3 L 122.0 92.5 L 125.0 96.1 L 128.0 100.0 L 131.0 104.4 L 134.0 109.2 L 137.0 114.5 L 140.0 120.2 L 143.0 126.5 L 146.0 133.1 L 149.0 140.2 L 152.0 147.5 L 155.0 155.0 L 158.0 162.5 L 161.0 169.8 L 164.0 176.9 L 167.0 183.5 L 170.0 189.8 L 173.0 195.5 L 176.0 200.8 L 179.0 205.6 L 182.0 210.0 L 185.0 213.9 L 188.0 217.5 L 191.0 220.7 L 194.0 223.6 L 197.0 226.3 L 200.0 228.7 L 203.0 230.9 L 206.0 232.9 L 209.0 234.8 L 212.0 236.5 L 215.0 238.0 L 218.0 239.5 L 221.0 240.8 L 224.0 242.1 L 227.0 243.2 L 230.0 244.3 L 233.0 245.3 L 236.0 246.2 L 239.0 247.1 L 242.0 247.9 L 245.0 248.7 L 248.0 249.4 L 251.0 250.1 L 254.0 250.7 L 257.0 251.4 L 260.0 251.9 L 263.0 252.5 L 266.0 253.0 L 269.0 253.5 L 272.0 254.0 L 275.0 254.4 L 278.0 254.9 L 281.0 255.3 L 284.0 255.7 L 287.0 256.0 L 290.0 256.4 L 293.0 256.8 L 296.0 257.1 L 299.0 257.4 L 302.0 257.7 L 305.0 258.0" clip-path="url(#prefigure-changing-inverse-act-doesit-1-__clipPath-1)"/>
+  <g id="prefigure-changing-inverse-act-doesit-1-__label-10" transform="translate(46.0,44.6) translate(0.0,-18.1)">
+    <rect x="-6" y="-6" width="73.78399999999999" height="30.096" stroke="none" fill="white"/>
+    <g id="prefigure-changing-inverse-act-doesit-1-__g-10">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="61.784px" height="18.096px" role="img" focusable="false" viewBox="0 -750 3413.6 1000" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-I-1D466" d="M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"/>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-I-1D45F" d="M21 287Q22 290 23 295T28 317T38 348T53 381T73 411T99 433T132 442Q161 442 183 430T214 408T225 388Q227 382 228 382T236 389Q284 441 347 441H350Q398 441 422 400Q430 381 430 363Q430 333 417 315T391 292T366 288Q346 288 334 299T322 328Q322 376 378 392Q356 405 342 405Q286 405 239 331Q229 315 224 298T190 165Q156 25 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 114 189T154 366Q154 405 128 405Q107 405 92 377T68 316T57 280Q55 278 41 278H27Q21 284 21 287Z"/>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-2061" d=""/>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+          <path id="prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math" data-semantic-type="relseq" data-semantic-role="equality" data-semantic-id="9" data-semantic-children="0,8" data-semantic-content="1" data-semantic-speech="y equals r left parenthesis t right parenthesis">
+            <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="9" data-semantic-speech="y">
+              <use data-c="1D466" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-I-1D466"/>
+            </g>
+            <g data-mml-node="mo" data-semantic-type="relation" data-semantic-role="equality" data-semantic-id="1" data-semantic-parent="9" data-semantic-operator="relseq,=" data-semantic-speech="equals" transform="translate(767.8,0)">
+              <use data-c="3D" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-3D"/>
+            </g>
+            <g data-mml-node="mrow" data-semantic-type="appl" data-semantic-role="simple function" data-semantic-annotation="clearspeak:simple" data-semantic-id="8" data-semantic-children="2,6" data-semantic-content="7,2" data-semantic-parent="9" data-semantic-speech="r left parenthesis t right parenthesis" transform="translate(1823.6,0)">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="simple function" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="2" data-semantic-parent="8" data-semantic-operator="appl" data-semantic-speech="r">
+                <use data-c="1D45F" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-I-1D45F"/>
+              </g>
+              <g data-mml-node="mo" data-semantic-type="punctuation" data-semantic-role="application" data-semantic-id="7" data-semantic-parent="8" data-semantic-added="true" data-semantic-operator="appl" data-semantic-speech="of" transform="translate(451,0)">
+                <use data-c="2061" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-2061"/>
+              </g>
+              <g data-mml-node="mrow" data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-id="6" data-semantic-children="4" data-semantic-content="3,5" data-semantic-parent="8" data-semantic-speech="left parenthesis t right parenthesis" transform="translate(451,0)">
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="open" data-semantic-id="3" data-semantic-parent="6" data-semantic-operator="fenced" data-semantic-speech="left parenthesis">
+                  <use data-c="28" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-28"/>
+                </g>
+                <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="4" data-semantic-parent="6" data-semantic-speech="t" transform="translate(389,0)">
+                  <use data-c="1D461" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-I-1D461"/>
+                </g>
+                <g data-mml-node="mo" data-semantic-type="fence" data-semantic-role="close" data-semantic-id="5" data-semantic-parent="6" data-semantic-operator="fenced" data-semantic-speech="right parenthesis" transform="translate(750,0)">
+                  <use data-c="29" xlink:href="#prefigure-changing-inverse-act-doesit-1-MJX-12-TEX-N-29"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

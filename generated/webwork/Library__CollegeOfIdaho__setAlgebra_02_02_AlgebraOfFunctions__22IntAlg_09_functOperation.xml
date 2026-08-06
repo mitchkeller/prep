@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_09_functOperation" assembly-id="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_09_functOperation">
+  <static seed="57" source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg">
+    <statement><p>For <m>f(x)= 2+x^{2}</m> and <m>g(x)= 2x-1</m>, find:</p>
+<p>a) <m>(f \cdot g)(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>(f \cdot g)(-3) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(2+x^{2}\right)\mathopen{}\left(2x-1\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-77</m>
+      </p>
+    </answer>
+    <solution><m>(f \cdot g)(x) = \left(2+x^{2}\right)\mathopen{}\left(2x-1\right)</m>
+
+
+
+b) <m>(f \cdot g)(-3) = -77</m>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_09_functOperation.pg"/>
+</webwork-reps>

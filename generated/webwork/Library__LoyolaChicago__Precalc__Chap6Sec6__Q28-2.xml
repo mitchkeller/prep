@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec6__Q28-2" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec6__Q28-2">
+  <static seed="123" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg">
+    <statement><p>Suppose <m>\displaystyle \sin{ \theta } = \frac{x}{7}</m> and the angle <m>\theta</m> is in the first quadrant.
+Write algebraic expressions for <m>\cos( \theta )</m> and <m>\tan( \theta )</m> in terms of <m>x</m>.</p>
+<p>(a)  <m>\cos( \theta )</m> = <fillin characters="35" name="AnSwEr0001"/></p>
+<p>(b)  <m>\tan( \theta )</m> = <fillin characters="35" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\sqrt{1-\frac{x^{2}}{7^{2}}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{x}{\sqrt{7^{2}-x^{2}}}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Using the Pythagorean Identity <m>\sin^2{ ( \theta )} + \cos^2{ ( \theta ) } =1</m>, we can solve for <m>\cos{ ( \theta )}</m>:
+<me>\cos^2{ ( \theta ) } = 1 - \sin^2{ ( \theta ) } = 1 - \left( \frac{x}{7} \right)^2 = \frac{ 49 - x^2}{49}.</me>
+Since the angle <m>\theta</m> is in the first quadrant, <m>\cos{ ( \theta ) } \ge 0</m>, so <m>\cos{ ( \theta ) } = \sqrt{ \frac{ 49 - x^2}{49} }</m>
+
+
+
+(b) <m>\tan{ (  \theta ) } = \frac{ \sin{ ( \theta )}}{\cos{ ( \theta )}} = \frac{\frac{x}{7}}{\sqrt{\frac{ 49 - x^2}{49}} } = \frac{x}{\sqrt{49 - x^2}}</m>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q28.pg"/>
+</webwork-reps>

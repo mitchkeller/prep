@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec3__Q02" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec3__Q02">
+  <static seed="66" source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg">
+    <statement><p>What is the exact radian angle measure for <m>45^{\circ}</m> as a fraction of <m>\pi</m>?
+<fillin characters="10" name="AnSwEr0001"/> radians</p>
+<p>What is a decimal approximation for the radian angle measure for <m>45^{\circ}</m> accurate to three decimal places?
+<fillin characters="10" name="AnSwEr0002"/> radians</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\pi }{4}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.785398</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+To convert <m>45^{\circ}</m> to radians, multiply by <m>\pi/180^{\circ}</m>:
+
+
+
+<m>\displaystyle 45^{\circ} \cdot \left( \frac{\pi}{180^{\circ}} \right) = \frac{45 \pi}{180}</m>
+
+
+
+Thus we say that the radian measure of a  <m>45^{\circ}</m> angle is <m>\frac{45 \pi}{180}</m> which is approximately 0.785398 radians.
+
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q02.pg"/>
+</webwork-reps>

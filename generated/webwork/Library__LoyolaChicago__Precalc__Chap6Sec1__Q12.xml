@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec1__Q12" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec1__Q12">
+  <static seed="61" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg">
+    <statement><p>Let <m>y = f(x)</m> be a periodic function whose values are given below.
+Find the period, amplitude, and midline.</p>
+<tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>x</cell>
+<cell>5</cell>
+<cell>25</cell>
+<cell>45</cell>
+<cell>65</cell>
+<cell>85</cell>
+<cell>105</cell>
+<cell>125</cell>
+<cell>145</cell>
+<cell>165</cell>
+</row>
+<row>
+<cell>f(x)</cell>
+<cell>17</cell>
+<cell>15</cell>
+<cell>-3</cell>
+<cell>17</cell>
+<cell>15</cell>
+<cell>-3</cell>
+<cell>17</cell>
+<cell>15</cell>
+<cell>-3</cell>
+</row>
+</tabular>
+<p>(a) The period of the graph is <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) The midline of the graph is <fillin characters="10" name="AnSwEr0002"/></p>
+<p>(c) The amplitude of the graph is <fillin characters="10" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>60</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>7</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) The graph appears to have a period of 60.  Every change in the
+<m>x</m> value of 60 brings us back to the same <m>y</m> value.
+
+
+
+(b) The midline of the graph is 7 since
+<me>\mbox{midline} = \frac{ y_{max} + y_{min} }{2} =
+\frac{  17  - 3 }{2} = 7.</me>
+
+
+
+(c) The amplitude is how much the maximum or minimum <m>y</m> value differs
+from the average (midline).  Since the maximum <m>y</m> value is 17 and
+the midline is 7, the amplitude is <m>17 - 7 = 10</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q12.pg"/>
+</webwork-reps>

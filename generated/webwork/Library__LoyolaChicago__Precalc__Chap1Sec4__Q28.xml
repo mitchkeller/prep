@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap1Sec4__Q28" assembly-id="Library__LoyolaChicago__Precalc__Chap1Sec4__Q28">
+  <static seed="30" source="Library/LoyolaChicago/Precalc/Chap1Sec4/Q28.pg">
+    <statement><p>Find a formula for the linear equation graphed below. You can enlarge the graph by clicking on it.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap1Sec4__Q28-image-1.png" width="33%"/>
+<p><em> (click on the image to enlarge) </em></p>
+<p><m>p = f(h) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4000h+150000</m>
+      </p>
+    </answer>
+    <solution><alert> SOLUTION </alert>
+
+
+
+Since the function is linear, we can choose any two points (from the graph) to find its formula.  We use the form <m>p = b + mh</m> to get the price of an apartment as a function of its height.  We use the two points (10, 190000) and (20, 230000).  We begin by finding the slope
+
+<me>m = \frac{ \Delta p}{\Delta h} = \frac{230000 - 190000}{20 - 10} = 4000</me>
+
+Next, we substitute a point into our equation using our slope of 4000 dollars per meter of height and solve for <m>b</m>, the <m>p</m>-intercept.  We use the point ( 10, 190000):
+<me>190000 = b + 4000 \cdot 10</me>
+so
+<m>150000 = b</m>.
+
+
+
+Therefore, <m>p = f(h) = 150000 + 4000 h</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap1Sec4/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap1Sec4/Q28.pg"/>
+</webwork-reps>

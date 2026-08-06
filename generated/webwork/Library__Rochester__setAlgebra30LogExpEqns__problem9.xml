@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setAlgebra30LogExpEqns__problem9" assembly-id="Library__Rochester__setAlgebra30LogExpEqns__problem9">
+  <static seed="102" source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg">
+    <statement><p>Solve for <m>x</m>:</p>
+<p><me>3^{x} = 38</me></p>
+<p><m>x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>3.31107361281783</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra30LogExpEqns/problem9.pg"/>
+</webwork-reps>

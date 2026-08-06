@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec4__Q13" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec4__Q13">
+  <static seed="142" source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg">
+    <statement><p>Let <m>\displaystyle r(x) = \frac{p(x)}{q(x)}</m>, where <m>p</m> and
+<m>q</m> are polynomials of degrees <m>m</m> and <m>n</m> respectively.</p>
+<p>(a)
+If <m>r(x) \to 0</m> as <m>x \to \infty</m>, then</p>
+<p><var form="checkboxes">
+<li>
+<p><m>m &gt; n</m></p>
+</li>
+<li>
+<p><m>m = n</m></p>
+</li>
+<li>
+<p><m>m \lt  n</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+<p>(b)
+If <m>r(x) \to k</m> as <m>x \to \infty</m>, with <m>k \not= 0</m>, then
+<var form="checkboxes">
+<li>
+<p><m>m \lt  n</m></p>
+</li>
+<li>
+<p><m>m &gt; n</m></p>
+</li>
+<li>
+<p><m>m = n</m></p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a)
+If <m>\lim_{x\to\infty}r(x)=0</m>, then the degree of the denominator
+is greater than the degree of the numerator, so <m>n&gt;m</m>.
+
+
+
+(b)
+If <m>\lim_{x\to\infty} r(x)=k</m>, with <m>k\ne0</m>, the degree of the
+numerator and denominator must be equal, so <m>n=m</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q13.pg"/>
+</webwork-reps>

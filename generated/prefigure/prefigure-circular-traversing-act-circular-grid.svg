@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-circular-traversing-act-circular-grid-figure" width="610" height="310" viewBox="0 0 610 310">
+  <defs>
+    <clipPath id="prefigure-circular-traversing-act-circular-grid-__clipPath-0">
+      <rect x="5.0" y="5.0" width="600.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-circular-traversing-act-circular-grid-__clipPath-1">
+      <rect x="5.0" y="5.0" width="600.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-circular-traversing-act-circular-grid-grid-axes">
+    <g id="prefigure-circular-traversing-act-circular-grid-grid" stroke="#ccc" stroke-width="1">
+      <line x1="26.7" y1="305.0" x2="26.7" y2="5.0"/>
+      <line x1="62.8" y1="305.0" x2="62.8" y2="5.0"/>
+      <line x1="99.0" y1="305.0" x2="99.0" y2="5.0"/>
+      <line x1="135.1" y1="305.0" x2="135.1" y2="5.0"/>
+      <line x1="171.3" y1="305.0" x2="171.3" y2="5.0"/>
+      <line x1="207.4" y1="305.0" x2="207.4" y2="5.0"/>
+      <line x1="243.6" y1="305.0" x2="243.6" y2="5.0"/>
+      <line x1="279.7" y1="305.0" x2="279.7" y2="5.0"/>
+      <line x1="315.8" y1="305.0" x2="315.8" y2="5.0"/>
+      <line x1="352.0" y1="305.0" x2="352.0" y2="5.0"/>
+      <line x1="388.1" y1="305.0" x2="388.1" y2="5.0"/>
+      <line x1="424.3" y1="305.0" x2="424.3" y2="5.0"/>
+      <line x1="460.4" y1="305.0" x2="460.4" y2="5.0"/>
+      <line x1="496.6" y1="305.0" x2="496.6" y2="5.0"/>
+      <line x1="532.7" y1="305.0" x2="532.7" y2="5.0"/>
+      <line x1="568.9" y1="305.0" x2="568.9" y2="5.0"/>
+      <line x1="605.0" y1="305.0" x2="605.0" y2="5.0"/>
+      <line x1="5.0" y1="287.4" x2="605.0" y2="287.4"/>
+      <line x1="5.0" y1="252.1" x2="605.0" y2="252.1"/>
+      <line x1="5.0" y1="216.8" x2="605.0" y2="216.8"/>
+      <line x1="5.0" y1="181.5" x2="605.0" y2="181.5"/>
+      <line x1="5.0" y1="146.2" x2="605.0" y2="146.2"/>
+      <line x1="5.0" y1="110.9" x2="605.0" y2="110.9"/>
+      <line x1="5.0" y1="75.6" x2="605.0" y2="75.6"/>
+      <line x1="5.0" y1="40.3" x2="605.0" y2="40.3"/>
+      <line x1="5.0" y1="5.0" x2="605.0" y2="5.0"/>
+    </g>
+    <g id="prefigure-circular-traversing-act-circular-grid-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-circular-traversing-act-circular-grid-__line-26" x1="5.0" y1="287.4" x2="605.0" y2="287.4" stroke="black" stroke-width="2"/>
+      <g id="prefigure-circular-traversing-act-circular-grid-__g-0">
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-27" x1="62.8" y1="290.4" x2="62.8" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-28" x1="99.0" y1="290.4" x2="99.0" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-29" x1="135.1" y1="290.4" x2="135.1" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-30" x1="171.3" y1="290.4" x2="171.3" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-31" x1="207.4" y1="290.4" x2="207.4" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-32" x1="243.6" y1="290.4" x2="243.6" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-33" x1="279.7" y1="290.4" x2="279.7" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-34" x1="315.8" y1="290.4" x2="315.8" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-35" x1="352.0" y1="290.4" x2="352.0" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-36" x1="388.1" y1="290.4" x2="388.1" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-37" x1="424.3" y1="290.4" x2="424.3" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-38" x1="460.4" y1="290.4" x2="460.4" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-39" x1="496.6" y1="290.4" x2="496.6" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-40" x1="532.7" y1="290.4" x2="532.7" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-41" x1="568.9" y1="290.4" x2="568.9" y2="284.4"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-42" x1="605.0" y1="290.4" x2="605.0" y2="284.4"/>
+      </g>
+      <line id="prefigure-circular-traversing-act-circular-grid-__line-43" x1="26.7" y1="305.0" x2="26.7" y2="5.0" stroke="black" stroke-width="2"/>
+      <g id="prefigure-circular-traversing-act-circular-grid-__g-1">
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-44" x1="23.7" y1="252.1" x2="29.7" y2="252.1"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-45" x1="23.7" y1="216.8" x2="29.7" y2="216.8"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-46" x1="23.7" y1="181.5" x2="29.7" y2="181.5"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-47" x1="23.7" y1="146.2" x2="29.7" y2="146.2"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-48" x1="23.7" y1="110.9" x2="29.7" y2="110.9"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-49" x1="23.7" y1="75.6" x2="29.7" y2="75.6"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-50" x1="23.7" y1="40.3" x2="29.7" y2="40.3"/>
+        <line id="prefigure-circular-traversing-act-circular-grid-__line-51" x1="23.7" y1="5.0" x2="29.7" y2="5.0"/>
+      </g>
+    </g>
+    <g id="prefigure-circular-traversing-act-circular-grid-__label-0" transform="translate(601.0,283.4) translate(-9.4,-12.7)">
+      <g id="prefigure-circular-traversing-act-circular-grid-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.184px" width="9.408px" height="12.744px" role="img" focusable="false" viewBox="0 -694 520 704" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-circular-traversing-act-circular-grid-MJX-2-TEX-I-1D451" d="M366 683Q367 683 438 688T511 694Q523 694 523 686Q523 679 450 384T375 83T374 68Q374 26 402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487H491Q506 153 506 145Q506 140 503 129Q490 79 473 48T445 8T417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157Q33 205 53 255T101 341Q148 398 195 420T280 442Q336 442 364 400Q369 394 369 396Q370 400 396 505T424 616Q424 629 417 632T378 637H357Q351 643 351 645T353 664Q358 683 366 683ZM352 326Q329 405 277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q233 26 290 98L298 109L352 326Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="d">
+                <use data-c="1D451" xlink:href="#prefigure-circular-traversing-act-circular-grid-MJX-2-TEX-I-1D451"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-circular-traversing-act-circular-grid-__label-1" transform="translate(30.7,9.0) translate(0.0,-0.0)">
+      <g id="prefigure-circular-traversing-act-circular-grid-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.424px" height="12.760px" role="img" focusable="false" viewBox="0 -694 576 705" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-circular-traversing-act-circular-grid-MJX-3-TEX-I-210E" d="M137 683Q138 683 209 688T282 694Q294 694 294 685Q294 674 258 534Q220 386 220 383Q220 381 227 388Q288 442 357 442Q411 442 444 415T478 336Q478 285 440 178T402 50Q403 36 407 31T422 26Q450 26 474 56T513 138Q516 149 519 151T535 153Q555 153 555 145Q555 144 551 130Q535 71 500 33Q466 -10 419 -10H414Q367 -10 346 17T325 74Q325 90 361 192T398 345Q398 404 354 404H349Q266 404 205 306L198 293L164 158Q132 28 127 16Q114 -11 83 -11Q69 -11 59 -2T48 16Q48 30 121 320L195 616Q195 629 188 632T149 637H128Q122 643 122 645T124 664Q129 683 137 683Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="h">
+                <use data-c="210E" xlink:href="#prefigure-circular-traversing-act-circular-grid-MJX-3-TEX-I-210E"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+</svg>

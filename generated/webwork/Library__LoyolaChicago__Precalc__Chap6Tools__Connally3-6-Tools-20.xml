@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Tools__Connally3-6-Tools-20" assembly-id="Library__LoyolaChicago__Precalc__Chap6Tools__Connally3-6-Tools-20">
+  <static seed="111" source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg">
+    <statement><p>Suppose that <m>a</m>, <m>b</m> and <m>c</m> are 
+the sides of a right triangle, where side <m>a</m> 
+is across from angle <m>A</m>, side <m>b</m> is across 
+from angle <m>B</m>, and side <m>c</m> is across from 
+the right angle.  If <m>a = 17</m> and <m>B = 33^{\circ}</m>, 
+find the missing sides and 
+angles in this right triangle.  
+All angles should be in degrees (not radians), and  
+all trig functions entered will be evaluated in degrees 
+(not radians).</p>
+<p>(a) Side <m>b</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) Side <m>c</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) Angle <m>A</m> = <fillin characters="20" name="AnSwEr0003"/> degrees</p>
+</statement>
+    <answer>
+      <p>
+        <m>17\tan\mathopen{}\left(33\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{17}{\cos\mathopen{}\left(33\right)}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>90-33</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Tools/Connally3-6-Tools-20.pg"/>
+</webwork-reps>

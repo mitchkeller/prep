@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Michigan__precalc__4e__Chap1Sec2__Q23" assembly-id="Library__Michigan__precalc__4e__Chap1Sec2__Q23">
+  <static seed="21" source="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg">
+    <statement><p>Find the average rate of change of <m>f(x) = 3 x^2 +7</m> between each of the pairs of points below.</p>
+<p><alert> (a) </alert>
+Between <m>(3, 34)</m> and <m>(5, 82)</m></p>
+<p>answer = <fillin characters="35" name="AnSwEr0001"/></p>
+<p><alert> (b) </alert> 
+Between <m>(c, k)</m> and <m>(q, t)</m></p>
+<p>answer = <fillin characters="35" name="AnSwEr0002"/></p>
+<p><alert> (c) </alert> 
+Between <m>(x,\ f(x))</m> and <m>(x+h,\ f(x+h))</m></p>
+<p>answer = <fillin characters="35" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>24</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{t-k}{q-c}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>6x+3h</m>
+      </p>
+    </answer>
+    <solution><alert> (a) </alert>
+Between <m>(3, 34)</m> and <m>(5, 82)</m>, 
+<me>\hbox{average rate of change }=\frac{\Delta y}{\Delta x}=
+\frac{82 - 34}{5 - 3}= \frac{48}{2} = 24 .</me>
+
+
+
+
+<alert> (b) </alert> 
+Between <m>(c, k)</m> and <m>(q, t)</m>,
+<me>\hbox{average rate of change }=\frac{\Delta y}{\Delta x}=
+\frac{t - k}{q - c}.</me>
+
+
+
+
+<alert> (c) </alert> 
+Between <m>(x,\ f(x))</m> and <m>(x+h,\ f(x+h))</m>,
+<me>\begin{aligned}
+ \hbox{average rate of change } \amp =\frac{\Delta y}{\Delta x} = \frac{f(x+h)-f(x)}{(x+h)-x}\\
+\amp  = \frac{3\mathopen{}\left(x+h\right)^{2}+7-\left(3x^{2}+7\right)}{x+h-x}  \\
+\amp  =\frac{3 x^2 + 6 x h + 3 h^2 + 7 - (3 x^2 + 7)}{h}\\
+\amp  = \frac{6 x h + 3 h^2}{h}\\
+\amp  = 6x+3h.
+\end{aligned}</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Michigan/precalc/4e/Chap1Sec2/Q23.pg"/>
+</webwork-reps>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec3__Q44" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec3__Q44">
+  <static seed="138" source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg">
+    <statement><p>You wish to pack a cardboard box inside a wooden crate.  In order to have room for the packing materials, you need to leave a <m>0.5 \ \mbox{ft}</m> space around the front, back, and sides of the box, and a <m>1 \ \mbox{ft}</m> space around the top and bottom of the box.</p>
+<p>If the cardboard box is
+<m>x</m> feet long, <m>(x+2)</m> feet wide, and <m>(x-1)</m> feet deep, find a
+formula in terms of <m>x</m> for the amount of packing material, <m>M</m>, needed.</p>
+<p><m>M(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>4x^{2}+9x+3</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Let <m>M</m> be the amount of packing material you will need, then 
+
+
+<m>M = \left( \mbox{Volume of crate} \right) -\left( \hbox{ Volume of box} \right) = V_c-V_b</m>
+where <m>V_c</m> and <m>V_b</m> are the volumes of the crate and box, respectively. We have for the box's volume, <m>V_b = x(x+ 2)(x-1)</m>.
+
+
+
+The wooden crate must be <m>1</m> ft longer than the cardboard box, so
+its length is <m>(x + 1)</m>. This gives the required <m>0.5</m> ft clearance
+between the crate and the front and back of the box.  Similarly, the
+crate's width must be <m>1</m> ft greater than the box's width of <m>(x + 2)</m>, and its depth must be 2 ft greater than the box's depth of <m>(x-1)</m>.
+
+
+
+We have for the crate's volume
+<me>V_c = (x+1)(x+2+1)(x-1+2) = (x+1)(x+3)(x+1).</me>
+Thus, the total amount of packing material will be
+<me>M = V_c - V_b = (x+1)(x+3)(x+1)-x(x+2)(x-1).</me>
+
+
+
+The formula for <m>M</m> is a difference of two third-degree polynomials.
+The format is not terribly convenient, so we simplify the
+formula by multiplying the factors for <m>V_b</m> and <m>V_c</m> and gathering
+like terms.  Then for <m>M</m> we have
+<me>\begin{aligned}
+M \amp = (x+1)(x+3)(x+1)-x(x+2)(x-1) \\
+\amp = ( x^3 + 5 x^2 + 7 x + 3 )-( x^3 + 1 x^2  - 2 x) \\
+\amp = 4 x^2 + 9 x + 3.
+\end{aligned}</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q44.pg"/>
+</webwork-reps>

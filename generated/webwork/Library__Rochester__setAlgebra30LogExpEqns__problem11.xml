@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setAlgebra30LogExpEqns__problem11" assembly-id="Library__Rochester__setAlgebra30LogExpEqns__problem11">
+  <static seed="103" source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg">
+    <statement><p>Solve for <m>x</m>:</p>
+<p><me>6 \cdot 4^{4 x -4} = 65</me></p>
+<p><m>x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.42967566403841</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra30LogExpEqns/problem11.pg"/>
+</webwork-reps>

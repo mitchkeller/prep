@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-changing-tandem-heightgraph-blankaxes-1-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="prefigure-changing-tandem-heightgraph-blankaxes-1-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-changing-tandem-heightgraph-blankaxes-1-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-grid-axes">
+    <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="26.4" y1="305.0" x2="26.4" y2="5.0"/>
+      <line x1="47.9" y1="305.0" x2="47.9" y2="5.0"/>
+      <line x1="69.3" y1="305.0" x2="69.3" y2="5.0"/>
+      <line x1="90.7" y1="305.0" x2="90.7" y2="5.0"/>
+      <line x1="112.1" y1="305.0" x2="112.1" y2="5.0"/>
+      <line x1="133.6" y1="305.0" x2="133.6" y2="5.0"/>
+      <line x1="155.0" y1="305.0" x2="155.0" y2="5.0"/>
+      <line x1="176.4" y1="305.0" x2="176.4" y2="5.0"/>
+      <line x1="197.9" y1="305.0" x2="197.9" y2="5.0"/>
+      <line x1="219.3" y1="305.0" x2="219.3" y2="5.0"/>
+      <line x1="240.7" y1="305.0" x2="240.7" y2="5.0"/>
+      <line x1="262.1" y1="305.0" x2="262.1" y2="5.0"/>
+      <line x1="283.6" y1="305.0" x2="283.6" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="305.0" y2="305.0"/>
+      <line x1="5.0" y1="283.6" x2="305.0" y2="283.6"/>
+      <line x1="5.0" y1="262.1" x2="305.0" y2="262.1"/>
+      <line x1="5.0" y1="240.7" x2="305.0" y2="240.7"/>
+      <line x1="5.0" y1="219.3" x2="305.0" y2="219.3"/>
+      <line x1="5.0" y1="197.9" x2="305.0" y2="197.9"/>
+      <line x1="5.0" y1="176.4" x2="305.0" y2="176.4"/>
+      <line x1="5.0" y1="155.0" x2="305.0" y2="155.0"/>
+      <line x1="5.0" y1="133.6" x2="305.0" y2="133.6"/>
+      <line x1="5.0" y1="112.1" x2="305.0" y2="112.1"/>
+      <line x1="5.0" y1="90.7" x2="305.0" y2="90.7"/>
+      <line x1="5.0" y1="69.3" x2="305.0" y2="69.3"/>
+      <line x1="5.0" y1="47.9" x2="305.0" y2="47.9"/>
+      <line x1="5.0" y1="26.4" x2="305.0" y2="26.4"/>
+      <line x1="5.0" y1="5.0" x2="305.0" y2="5.0"/>
+    </g>
+    <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-30" x1="5.0" y1="262.1" x2="305.0" y2="262.1" stroke="black" stroke-width="2"/>
+      <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-__g-0">
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-31" x1="90.7" y1="265.1" x2="90.7" y2="259.1"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-32" x1="133.6" y1="265.1" x2="133.6" y2="259.1"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-33" x1="176.4" y1="265.1" x2="176.4" y2="259.1"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-34" x1="219.3" y1="265.1" x2="219.3" y2="259.1"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-35" x1="262.1" y1="265.1" x2="262.1" y2="259.1"/>
+      </g>
+      <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-36" x1="47.9" y1="305.0" x2="47.9" y2="5.0" stroke="black" stroke-width="2"/>
+      <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-__g-1">
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-37" x1="44.9" y1="219.3" x2="50.9" y2="219.3"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-38" x1="44.9" y1="176.4" x2="50.9" y2="176.4"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-39" x1="44.9" y1="133.6" x2="50.9" y2="133.6"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-40" x1="44.9" y1="90.7" x2="50.9" y2="90.7"/>
+        <line id="prefigure-changing-tandem-heightgraph-blankaxes-1-__line-41" x1="44.9" y1="47.9" x2="50.9" y2="47.9"/>
+      </g>
+    </g>
+    <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-__label-0" transform="translate(301.0,258.1) translate(-6.5,-11.5)">
+      <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-tandem-heightgraph-blankaxes-1-MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#prefigure-changing-tandem-heightgraph-blankaxes-1-MJX-2-TEX-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-__label-1" transform="translate(51.9,9.0) translate(0.0,-0.0)">
+      <g id="prefigure-changing-tandem-heightgraph-blankaxes-1-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="10.424px" height="12.760px" role="img" focusable="false" viewBox="0 -694 576 705" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-changing-tandem-heightgraph-blankaxes-1-MJX-3-TEX-I-210E" d="M137 683Q138 683 209 688T282 694Q294 694 294 685Q294 674 258 534Q220 386 220 383Q220 381 227 388Q288 442 357 442Q411 442 444 415T478 336Q478 285 440 178T402 50Q403 36 407 31T422 26Q450 26 474 56T513 138Q516 149 519 151T535 153Q555 153 555 145Q555 144 551 130Q535 71 500 33Q466 -10 419 -10H414Q367 -10 346 17T325 74Q325 90 361 192T398 345Q398 404 354 404H349Q266 404 205 306L198 293L164 158Q132 28 127 16Q114 -11 83 -11Q69 -11 59 -2T48 16Q48 30 121 320L195 616Q195 629 188 632T149 637H128Q122 643 122 645T124 664Q129 683 137 683Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="h">
+                <use data-c="210E" xlink:href="#prefigure-changing-tandem-heightgraph-blankaxes-1-MJX-3-TEX-I-210E"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+</svg>

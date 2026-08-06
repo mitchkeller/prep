@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Review__Q28" assembly-id="Library__LoyolaChicago__Precalc__Chap6Review__Q28">
+  <static seed="78" source="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg">
+    <statement><p>Estimate the amplitude, midline, and period of the sinusoidal function
+graphed below:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Review__Q28-image-1.png" width="50%"/>
+<p><em>(Click on the graph to get a larger version.)</em></p>
+<p>(a) The amplitude is <fillin characters="10" name="AnSwEr0001"/>.</p>
+<p>(b) The midline is <m>y =</m> <fillin characters="10" name="AnSwEr0002"/>.</p>
+<p>(c) The period is <fillin characters="10" name="AnSwEr0003"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>6</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>10</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>24</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+The amplitude is <m>6</m>, the midline is <m>10</m>, and the period is
+<m>24</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Review/Q28.pg"/>
+</webwork-reps>

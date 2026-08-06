@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setAlgebra28ExpFunctions__sw6_2_5" assembly-id="Library__Rochester__setAlgebra28ExpFunctions__sw6_2_5">
+  <static seed="94" source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg">
+    <statement><p>The graph of the function 
+<m>f(x)=e^{-x}-4</m>
+can be obtained from the graph of
+<m>g(x)=e^x</m>
+by two of the following actions:</p>
+<p>(a) reflecting the graph of <m>g(x)</m> in the <m>y</m>-axis;</p>
+<p>(b) reflecting the graph of <m>g(x)</m> in the <m>x</m>-axis;</p>
+<p>(c) shifting the graph of <m>g(x)</m> to the right 4 units;</p>
+<p>(d) shifting the graph of <m>g(x)</m> to the left 4 units;</p>
+<p>(e) shifting the graph of <m>g(x)</m> upward 4 units;</p>
+<p>(f) shifting the graph of <m>g(x)</m> downward 4 units;</p>
+<p>Your answer: Apply the action
+<fillin characters="15" name="first_ans"/> (input a, b, c, d, e, or f) then apply the action <fillin characters="15" name="AnSwEr0001"/></p>
+<p>(Please give your answer in the order the changes are applied, e.g. a first, then b second.)</p>
+<p>The range of the function <m>f(x)</m> is <m>f(x) &gt; A</m>, find <m>A</m>.</p>
+<p>The value of <m>A</m> is <fillin characters="15" name="AnSwEr0002"/></p>
+<p>Is the domain  of the function <m>f(x)</m> still <m>(-\infty,\infty)</m>?</p>
+<p>Your answer is (input Yes or No) <fillin characters="15" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>a</p>
+    </answer>
+    <answer>
+      <p>
+        <m>-4</m>
+      </p>
+    </answer>
+    <answer>
+      <p>Yes</p>
+    </answer>
+    <answer>
+      <p>f</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_5.pg"/>
+</webwork-reps>

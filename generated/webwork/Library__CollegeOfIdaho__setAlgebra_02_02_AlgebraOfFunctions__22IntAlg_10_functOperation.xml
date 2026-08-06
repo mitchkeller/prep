@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_10_functOperation" assembly-id="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_10_functOperation">
+  <static seed="58" source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg">
+    <statement><image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_10_functOperation-image-1.png" width="66%"/>
+<p>The graph of <m>f</m> is shown in red, and the graph of <m>g</m> is shown in blue. Use the graphs to evaluate each quantity given below.</p>
+<p>NOTE: If only a blue section of graph shows up, that means the red
+graph is behind it.</p>
+<p>NOTE: Write 'Does not exist' if the value does not exist.</p>
+<p>a) <m>f(3) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>g(3) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>f(3) + g(3) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d) <m>(f - g)(3) =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-5</m>
+      </p>
+    </answer>
+    <solution><m>f(3) = 0</m>
+
+
+
+b) <m>g(3) =  5</m>
+
+
+
+c) <m>f(3) + g(3) =  5</m>
+
+
+
+d) <m>(f - g)(3) =  -5</m>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_10_functOperation.pg"/>
+</webwork-reps>

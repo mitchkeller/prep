@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec2__Q08" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec2__Q08">
+  <static seed="133" source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg">
+    <statement><p>Let <m>\ y = 9 x^{6} - 3961 x^{2}  + 6 \ </m>.</p>
+<p>(a) What power function does the function above resemble?
+<fillin characters="10" name="AnSwEr0001"/>  
+(Enter the entire power function, not just the degree of the power function.)</p>
+<p>(b) Describe the long-run behavior of the polynomial.
+Enter <alert> INFINITY </alert> or  <alert> -INFINITY </alert>
+for <m>\infty</m> or <m>- \infty</m>.</p>
+<p><m>y</m> goes to <fillin characters="15" name="AnSwEr0002"/> as <m>x \to \infty</m></p>
+<p><m>y</m> goes to <fillin characters="15" name="AnSwEr0003"/> as <m>x \to - \infty</m>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>9x^{6}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\infty </m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\infty </m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since the leading term of the polynomial is <m>9 x^{6}</m>,
+the value of <m>y</m> goes to <m>\infty</m> as <m>x \to \infty</m> and
+<m>\infty</m> as <m>x \to - \infty</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec2/Q08.pg"/>
+</webwork-reps>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec4__Q15" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec4__Q15">
+  <static seed="151" source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg">
+    <statement><p>Let
+<me>f(x) = \frac{ 6 x - 6}{7 x + 4}.</me>
+Find and simplify
+<m>f^{-1}(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{4x+6}{6-7x}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Start with our property of inverse functions
+<m>f \left( f^{-1}(x) \right) = x</m>, and substitute <m>y</m> for
+<m>f^{-1}(x)</m> to get <m>f(y)=x</m>. Now, using the formula for
+<m>f</m> we get <m>\displaystyle f(y) = \frac{6 y - 6}{7 y + 4} =x</m>
+and solving for <m>y</m> yields
+<me>\begin{aligned}
+\frac{6 y - 6}{7 y + 4} \amp =x \\
+6 y -6 \amp = x(7 y+4) \\
+6 y -6 \amp = 7 xy + 4 x \\
+6 y- 7 yx \amp = 4 x +6 \\
+y(6- 7 x) \amp = 4 x +6 \\
+y \amp = \frac{4 x + 6}{6 - 7 x}.
+\end{aligned}</me>
+Now replacing <m>y</m> by <m>f^{-1}(x)</m>, we have our formula,
+<me>f^{-1}(x) = \frac{4 x + 6}{6 - 7 x}.</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q15.pg"/>
+</webwork-reps>

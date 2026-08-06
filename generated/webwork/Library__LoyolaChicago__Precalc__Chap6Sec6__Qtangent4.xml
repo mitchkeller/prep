@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec6__Qtangent4" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec6__Qtangent4">
+  <static seed="127" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg">
+    <statement><p>Suppose the angle <m>\theta</m> is in the fourth quadrant, 
+<m>\frac{3\pi}{2} \leq \theta \leq 2\pi</m>, and 
+<m>\displaystyle \tan(\theta) = \frac{-2}{3}.</m>  Find 
+exact values (as fractions, not decimal approximations) 
+for the following.</p>
+<p>(a)  <m>\sec(\theta)</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b)  <m>\sin(\theta)</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\sqrt{{\frac{13}{9}}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-2}{3\sqrt{{\frac{13}{9}}}}</m>
+      </p>
+    </answer>
+    <solution><p><alert>SOLUTION</alert></p>
+<p>(a) We begin by using the identity <m>1 + \tan^2(\theta) = \sec^2(\theta)</m> 
+to find <m>\sec(\theta).</m></p>
+<p><me>\begin{array}{rcl} 
+1 + \tan^2(\theta) \amp  = \amp  \sec^2(\theta) 
+\\[1ex] 
+1 + \left( \frac{-2}{3} \right)^2 \amp  = \amp  \sec^2(\theta) 
+\\[1ex] 
+\pm \sqrt{ \frac{13}{9} } \amp  = \amp  \sec(\theta). 
+\end{array}</me></p>
+<p>Since <m>\frac{3\pi}{2} \le \theta \le 2\pi</m>, 
+<m>\sec(\theta ) = \frac{1}{\cos(\theta)} \ge 0</m>, and thus
+<m>\sec(\theta) = \sqrt{ \frac{13}{9} } = \frac{\sqrt{13}}{3}.</m></p>
+<p>(b) Since <m>\tan(\theta) = \frac{ \sin(\theta) }{ \cos(\theta) } 
+= \sin(\theta) \sec(\theta)</m>, we have</p>
+<p><me>\sin(\theta) 
+= \frac{ \tan(\theta) }{ \sec(\theta) } 
+= \frac{ -2/3 }{ \sqrt{13} / 3 } 
+= \frac{-2}{\sqrt{13}}.</me></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Qtangent4.pg"/>
+</webwork-reps>

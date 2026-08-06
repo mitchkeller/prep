@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Review__Q13" assembly-id="Library__LoyolaChicago__Precalc__Chap6Review__Q13">
+  <static seed="70" source="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg">
+    <statement><p>What angle (in degrees) corresponds to 17.7 rotations around the unit circle?</p>
+<p>17.7 rotations is an angle of <fillin characters="8" name="AnSwEr0001"/> degrees.</p>
+</statement>
+    <answer>
+      <p>
+        <m>6372</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+If we go around 17.7 times, we make 17.7 full circles, which is
+<m>17.7\cdot 360^{\circ} = 6372^{\circ}</m> .
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Review/Q13.pg"/>
+</webwork-reps>

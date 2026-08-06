@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-04-Composition-inverse" assembly-id="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-04-Composition-inverse">
+  <static seed="38" source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg">
+    <statement><p>A swinging pendulum is constructed from a
+piece of string with a weight attached to
+the bottom.  The length of the pendulum
+depends on how much string is let out.
+Suppose <m>L = f(t)</m> is the length,
+in centimeters, of the pendulum at time
+<m>t</m> minutes, and <m>P(L)</m> is the
+period, in seconds, of a pendulum of
+length <m>L</m>.</p>
+<p>Which of the following statements best
+explains the meaning of the composite
+function <m>P(f(t))</m>?</p>
+<p><var form="buttons">
+<li>
+<p>The period <m>P</m> of the pendulum, 
+in minutes, after <m>t</m> minutes have 
+elapsed.</p>
+</li>
+<li>
+<p>The period <m>P</m> of the pendulum, 
+in seconds, when the pendulum has
+length <m>L</m> meters.</p>
+</li>
+<li>
+<p>The period <m>P</m> of the pendulum, 
+in minutes, when the pendulum has
+length <m>L</m> meters.</p>
+</li>
+<li>
+<p>The period <m>P</m> of the pendulum, 
+in seconds, after <m>t</m> minutes have 
+elapsed.</p>
+</li>
+<li>
+<p>None of the above</p>
+</li>
+</var></p>
+</statement>
+    <solution><alert> SOLUTION </alert>
+
+
+
+
+<m>P(f(t))</m> is the period, in seconds, of the pendulum at time <m>t</m> minutes.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-04-Composition-inverse.pg"/>
+</webwork-reps>

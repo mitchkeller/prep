@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__NAU__setSineCosine__SinCosDeg" assembly-id="Library__NAU__setSineCosine__SinCosDeg">
+  <static seed="73" source="Library/NAU/setSineCosine/SinCosDeg.pg">
+    <statement><p>Evaluate the  following expressions.</p>
+<tabular>
+<row>
+<cell>1.</cell>
+<cell><m>\cos \left(-225^\circ\right)</m> </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="10" name="AnSwEr0001"/></cell>
+</row>
+<row>
+<cell>2.</cell>
+<cell><m>\sin \left(135^\circ\right)</m> </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="10" name="AnSwEr0002"/></cell>
+</row>
+<row>
+<cell>3.</cell>
+<cell><m>\cos \left(-150^\circ\right)</m> </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="10" name="AnSwEr0003"/></cell>
+</row>
+<row>
+<cell>4.</cell>
+<cell><m>\sin \left(240^\circ\right)</m> </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="10" name="AnSwEr0004"/></cell>
+</row>
+<row>
+<cell>5.</cell>
+<cell><m>\cos \left(225^\circ\right)</m> </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="10" name="AnSwEr0005"/></cell>
+</row>
+<row>
+<cell>6.</cell>
+<cell><m>\sin \left(-180^\circ\right)</m> </cell>
+<cell><m>=</m></cell>
+<cell><fillin characters="10" name="AnSwEr0006"/></cell>
+</row>
+</tabular>
+<p>Remark: Your answer cannot contain trigonometric functions;
+it must be a fraction (not a decimal) and it may contain square roots (e.g., sqrt(2)).</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{-\sqrt{2}}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{\sqrt{2}}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-\sqrt{3}}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-\sqrt{3}}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{-\sqrt{2}}{2}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/NAU/setSineCosine/SinCosDeg.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/NAU/setSineCosine/SinCosDeg.pg"/>
+</webwork-reps>

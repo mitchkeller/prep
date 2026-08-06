@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap3Sec3__Q33" assembly-id="Library__LoyolaChicago__Precalc__Chap3Sec3__Q33">
+  <static seed="90" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg">
+    <statement><p>Find the long run behavior of each of the following functions.  If the function goes to <m>\infty</m> or <m>- \infty</m> enter INFINITY or - INFINITY respectively.</p>
+<p>(a) As <m>x \longrightarrow \infty</m>,  <m>\ \ 18(0.8)^x \longrightarrow</m> 
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) As <m>t \longrightarrow - \infty</m>,  <m>\ \ 9(2.2)^t \longrightarrow</m> 
+<fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) As <m>t \longrightarrow \infty</m>, <m>\ \ 0.6(2 + (0.1)^t) \longrightarrow</m> 
+<fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1.2</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+ 
+a) <m>\displaystyle \lim_{x \to \infty} 18(0.8)^x = 0</m>
+
+
+   
+
+
+b) <m>\displaystyle \lim_{t \to -\infty} 9(2.2)^t=0</m>
+
+
+   
+
+
+c) <m>\displaystyle \lim_{t \to \infty} 0.6 (2 + (0.1)^t) = 0.6 (2 + 0)= 1.2</m>
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q33.pg"/>
+</webwork-reps>

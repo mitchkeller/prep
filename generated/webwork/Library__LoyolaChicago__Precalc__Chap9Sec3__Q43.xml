@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec3__Q43" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec3__Q43">
+  <static seed="139" source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg">
+    <statement><p>An open-top box is to be constructed from a <m>6 \ \mbox{in}</m> by <m>14 \ \mbox{in}</m> rectangular
+sheet of tin by cutting out squares of equal size at each corner,
+then folding up the resulting flaps.
+Let <m>x</m> denote the length of the side of each cut-out square.  Assume negligible thickness.</p>
+<p>(a) Find a formula for the volume, <m>V</m>, of the box as a function of <m>x</m>. <m>\ \ V(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<p>(b) For what values of <m>x</m> does the formula from part (a) make sense
+in the context of the problem?</p>
+<p><fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) On a separate piece of paper, sketch a graph of the volume function.</p>
+<p>(d) What, approximately, is the maximum volume of the box?</p>
+<p><fillin characters="20" name="AnSwEr0003"/> (include units: )</p>
+</statement>
+    <answer>
+      <p>
+        <m>\left(6-2x\right)\mathopen{}\left(14-2x\right)x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\left(0,\frac{6}{2}\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>50.3888\ {\rm in^{3}}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) <m>V(x) = x(6-2x)(14-2x)</m>
+
+
+
+(b) Values of <m>x</m> for which <m>V(x)</m> makes sense are <m>0\lt x\lt  3</m>, since if <m>x\lt 0</m> or <m>x&gt; 3</m> the volume is negative.  If <m>x &gt; 7</m>, then you would need to cut out a corner which is larger then the length of each side of the paper.
+
+
+
+(c) 
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap9Sec3__Q43-image-1.png" width="50%"/>
+
+
+
+
+(d) Using a graphing calculator, we find the peak between <m>x=0</m> and
+<m>x= 3</m> to occur at <m>x \approx 1.306</m>. The maximum volume is
+ <m>V \approx 50.39 \ \mbox{in}^3</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec3/Q43.pg"/>
+</webwork-reps>

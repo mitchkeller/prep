@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec7__Q07" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec7__Q07">
+  <static seed="118" source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg">
+    <statement><p>Without using a calculator, find all solutions to
+<m>\displaystyle \cos(\theta) = \frac{\sqrt{3}}{2}</m> in the interval
+<m>0 \leq \theta \leq 2\pi</m>.  If there is more than
+one answer, enter your answers as a comma separated list.
+Your answers should be exact values (given as fractions,
+not decimal approximations).</p>
+<p><m>\theta</m> = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.523599, 5.75959</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since <m>\cos(\theta) = \frac{\sqrt{3}}{2}</m>, we have <m>\theta = \frac{\pi}{6}, \frac{11\pi}{6}</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q07.pg"/>
+</webwork-reps>

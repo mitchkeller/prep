@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec1__Q23" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec1__Q23">
+  <static seed="128" source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q23.pg">
+    <statement><p>Find the long run behavior of each of the following functions.  If the function goes to <m>\infty</m> or <m>- \infty</m>, enter <em>INFINITY</em> or <em>-INFINITY</em>.</p>
+<p>(a) As <m>x \to -\infty</m>,  <m>-6 x^{-3} \to</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) As <m>x \to \infty</m>,  <m>\left( 14 - 6 x^{3} \right) \to</m>
+<fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-\infty </m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) <m>\lim_{x \to - \infty} -6 x^{-3} = \lim_{x \to - \infty} \frac{-6}{x^{3}} = 0</m>.
+
+
+
+(b) <m>\lim_{x \to \infty} \left( 14 - 6 x^{3} \right) = 14 - \lim_{x \to \infty} 6 x^{3} = - \infty</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec1/Q23.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec1/Q23.pg"/>
+</webwork-reps>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap3Sec3__Q14" assembly-id="Library__LoyolaChicago__Precalc__Chap3Sec3__Q14">
+  <static seed="89" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg">
+    <statement><p>If <m>b &gt; 1</m>, what is the horizontal asymptote of <m>y=ab^t</m> as <m>t \rightarrow - \infty</m>?</p>
+<p>Enter NONE if there is no horizontal asymptote (that is, if the graph goes to <m>\pm \infty</m> as <m>t \rightarrow - \infty</m>).  Otherwise enter an equation for the line that is the horizontal asymptote.</p>
+<p>The horizontal asymptote has equation <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>y = 0</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+As <m>t \rightarrow - \infty</m> the graph gets closer and closer to the <m>t</m>-axis, so there is a horizontal asymptote at <m>y = 0</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q14.pg"/>
+</webwork-reps>

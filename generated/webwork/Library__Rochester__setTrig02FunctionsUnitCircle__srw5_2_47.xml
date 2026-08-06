@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setTrig02FunctionsUnitCircle__srw5_2_47" assembly-id="Library__Rochester__setTrig02FunctionsUnitCircle__srw5_2_47">
+  <static seed="112" source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg">
+    <statement><p>From the information given, find the quadrant in which the terminal point 
+determined by <m>t</m> lies. Input I, II, III, or IV.</p>
+<p>(a) <m>\sin (t)\lt 0</m> and <m>\cos (t)\lt 0</m>, quadrant <fillin characters="15" name="AnSwEr0001"/>;</p>
+<p>(b) <m>\sin (t)&gt;0</m> and <m>\cos (t)\lt 0</m>, quadrant <fillin characters="15" name="AnSwEr0002"/>;</p>
+<p>(c) <m>\sin (t)&gt;0</m> and <m>\cos (t)&gt;0</m>, quadrant <fillin characters="15" name="AnSwEr0003"/>;</p>
+<p>(d) <m>\sin (t)\lt 0</m> and <m>\cos (t)&gt;0</m>, quadrant <fillin characters="15" name="AnSwEr0004"/>;</p>
+</statement>
+    <answer>
+      <p>III</p>
+    </answer>
+    <answer>
+      <p>II</p>
+    </answer>
+    <answer>
+      <p>I</p>
+    </answer>
+    <answer>
+      <p>IV</p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setTrig02FunctionsUnitCircle/srw5_2_47.pg"/>
+</webwork-reps>

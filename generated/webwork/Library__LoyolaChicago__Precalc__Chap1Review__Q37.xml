@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap1Review__Q37" assembly-id="Library__LoyolaChicago__Precalc__Chap1Review__Q37">
+  <static seed="12" source="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg">
+    <statement><p>The graph below shows the fuel consumption (in miles per gallon, mpg) of
+a car driving at various speeds (in miles per hour, mph).</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap1Review__Q37-image-1.png" width="33%"/>
+<p>(click on image to enlarge)</p>
+<p>(a)  How much gas is used on a 400 mile trip at 80 mph?</p>
+<p>amount of gas = <fillin characters="20" name="AnSwEr0001"/> gallons</p>
+<p>(b) How much gas is saved by traveling 60 mph instead of 70 mph on a
+600 mile trip?</p>
+<p>saved gas = <fillin characters="20" name="AnSwEr0002"/> gallons</p>
+<p>(c) According to this graph, what is the most fuel efficient speed to
+travel?</p>
+<p>most fuel efficient speed = <fillin characters="20" name="AnSwEr0003"/> mph</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{400}{23.9188}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>600\cdot \left(\frac{1}{27.1373}-\frac{1}{29.6322}\right)</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>55</m>
+      </p>
+    </answer>
+    <solution><alert> SOLUTION </alert>
+
+
+
+(a) At 80 mph, fuel consumption is about 24 mpg, so fuel used is
+<m>400  / 23.9188079597599 \approx 16.7 \ \mbox{gallons}</m>.
+
+
+
+(b) At 60 mph, fuel consumption is about 30 mpg, so fuel used on
+a 600 mile trip is
+<m>600  / 30 \approx 20.2 \mbox{ gallons}</m>.
+At 70 mph, fuel consumption is about 27 mpg, so fuel used on this trip
+is <m>600  / 27 \approx 22.1 \mbox{ gallons}</m>.
+Altogether we would then save
+<m>22.1 - 20.2 \approx 1.9 \mbox{ gallons}</m>.
+
+
+
+(c) The most fuel efficient speed is where mpg is a maximum, which is
+about 55 mph.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap1Review/Q37.pg"/>
+</webwork-reps>

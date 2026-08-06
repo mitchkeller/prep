@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setAlgebra17FunComposition__ur_fn_2_6" assembly-id="Library__Rochester__setAlgebra17FunComposition__ur_fn_2_6">
+  <static seed="43" source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg">
+    <statement><p>Let <m>f(x) = 5 x + 2</m> and <m>g(x) = 4 x^2 + 3 x</m>.</p>
+<p>Then <m>(f\circ g)(-2) =</m> <fillin characters="30" name="AnSwEr0001"/>,</p>
+<p><m>(f \circ g)(x ) =</m> <fillin characters="30" name="AnSwEr0002"/>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>52</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>20x^{2}+15x+2</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra17FunComposition/ur_fn_2_6.pg"/>
+</webwork-reps>

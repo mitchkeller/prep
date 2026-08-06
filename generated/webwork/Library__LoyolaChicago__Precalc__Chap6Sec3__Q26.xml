@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec3__Q26" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec3__Q26">
+  <static seed="69" source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg">
+    <statement><p>What is the length of an arc cut off by an angle of 2.5 radians on a
+circle of radius 4 inches?</p>
+<p><fillin characters="18" name="AnSwEr0001"/> (include units: )</p>
+</statement>
+    <answer>
+      <p>
+        <m>10\ {\rm in}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+The arc length, <m>s</m>, corresponding to an angle of <m>\theta</m> radians in a circle of radius <m>r</m> is <m>s = r \cdot \theta</m>.
+
+
+
+Thus our arc length is <m>s = ( 4 ) ( 2.5 ) = 10 \mbox{in}</m>
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q26.pg"/>
+</webwork-reps>

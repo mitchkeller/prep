@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-1-19-Exponential-functions" assembly-id="Library__LoyolaChicago__Precalc__Chap3Sec1__Connally3-3-1-19-Exponential-functions">
+  <static seed="83" source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg">
+    <statement><p>Find a formula for <m>P = f(t)</m>, the  size of the population that begins in year
+<m>t = 0</m> with <m>2090</m> members and decreases at a <m>3.7</m>%  annual
+rate.  Assume that time is measured in years.</p>
+<p><m>P = f(t) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>2090\cdot 0.963^{t}</m>
+      </p>
+    </answer>
+    <solution><p>The starting value is <m>a=2090</m>. The growth rate is <m>r=-0.037</m>% (note that it is negative), 
+so <m>b=1+r=0.963</m>. The formula is</p>
+<p><me>P = {2090\cdot 0.963^{t}}</me></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec1/Connally3-3-1-19-Exponential-functions.pg"/>
+</webwork-reps>

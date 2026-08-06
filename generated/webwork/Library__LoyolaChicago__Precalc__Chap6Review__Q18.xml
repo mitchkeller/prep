@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Review__Q18" assembly-id="Library__LoyolaChicago__Precalc__Chap6Review__Q18">
+  <static seed="76" source="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg">
+    <statement><p>Without a calculator, match each of the equations below to one of the
+graphs by placing the corresponding letter of the equation under the
+appropriate graph.</p>
+<p>A. <m>y = \sin{(t)} + 2</m></p>
+<p>B. <m>y = \sin{(t+  2)}</m></p>
+<p>C. <m>y = \sin{(2 t)}</m></p>
+<p>D. <m>y = 2 \sin{(t)}</m></p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Review__Q18-image-1.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Review__Q18-image-2.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Review__Q18-image-3.png" width="33%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Review__Q18-image-4.png" width="33%"/>
+<p/></cell>
+</row>
+<row>
+<cell>1. <fillin characters="5" name="AnSwEr0001"/></cell>
+<cell>2. <fillin characters="5" name="AnSwEr0002"/></cell>
+<cell>3. <fillin characters="5" name="AnSwEr0003"/></cell>
+<cell>4. <fillin characters="5" name="AnSwEr0004"/></cell>
+</row>
+</tabular>
+<p><em> (click on an image to enlarge each individual graph) </em></p>
+</statement>
+    <answer>
+      <p>D</p>
+    </answer>
+    <answer>
+      <p>A</p>
+    </answer>
+    <answer>
+      <p>C</p>
+    </answer>
+    <answer>
+      <p>B</p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+1. We are looking for an equation of a function with amplitude 2 and
+             period <m>2 \pi</m>;  only equation <alert> D </alert> qualifies. 
+
+
+2. We are looking for an equation of a function with amplitude one
+             and period <m>2 \pi</m> but which is shifted up by two units;  only equation <alert> A </alert> qualifies. 
+
+
+3. We are looking for an equation of a function with amplitude one
+             but a period of <m>\pi</m>;  only equation <alert> C </alert> qualifies. 
+
+
+4. We are looking for an equation of a function with amplitude one and
+             period <m>2 \pi</m> but which has been shifted to the left by two
+             units;  only equation <alert> B </alert> qualifies.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Review/Q18.pg"/>
+</webwork-reps>

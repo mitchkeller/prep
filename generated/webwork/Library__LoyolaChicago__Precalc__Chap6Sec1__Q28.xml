@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec1__Q28" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec1__Q28">
+  <static seed="64" source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg">
+    <statement><p>The temperature of a chemical reaction oscillates between a low of
+<m>10 \ {}^\circ C</m> and a high of <m>135 \ {}^\circ C</m>.  The
+temperature is at its lowest point at time <m>t = 0</m>, and reaches
+its maximum point over a two and a half hour period.  It then takes the same
+amount of time to return back to its initial temperature.  Let
+<m>y = H(t)</m> denote the temperature of the reaction <m>t</m> hours
+after the reaction begins.</p>
+<p>(a) What is the period of the function <m>y = H(t)</m>?
+<fillin characters="15" name="AnSwEr0001"/> Include  in your answer.</p>
+<p>(b) What is the midline of the function <m>y = H(t)</m>?
+<m>y =</m> <fillin characters="15" name="AnSwEr0002"/> Include  in your answer.</p>
+<p>(c) What is the amplitude of the function <m>y = H(t)</m>?
+<fillin characters="15" name="AnSwEr0003"/> Include  in your answer.</p>
+<p>(d) Based on your answers above, make a graph of the function
+<m>y = H(t)</m> on a piece of paper.
+Which of the graphs below best matches your graph?
+<ul form="popup" name="AnSwEr0004"><li>
+<p>Choose One</p>
+</li><li>
+<p>A</p>
+</li><li>
+<p>B</p>
+</li><li>
+<p>C</p>
+</li><li>
+<p>D</p>
+</li><li>
+<p>None of the above</p>
+</li></ul></p>
+<tabular xmlns:pi="http://pretextbook.org/2020/pretext/internal" bottom="none" left="none" right="none" top="none">
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q28-image-1.png" width="50%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q28-image-2.png" width="50%"/>
+</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>A</cell>
+<cell>B</cell>
+</row>
+<row halign="center" valign="middle">
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q28-image-3.png" width="50%"/>
+</cell>
+<cell>
+<image pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec1__Q28-image-4.png" width="50%"/>
+<p/></cell>
+</row>
+<row halign="center" valign="middle">
+<cell>C</cell>
+<cell>D</cell>
+</row>
+</tabular>
+<p>(Click on a graph to enlarge it.)</p>
+</statement>
+    <answer>
+      <p>
+        <m>5\ {\rm hr}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>72.5\ {\rm degC}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>62.5\ {\rm degC}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{A}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+(a) The period is 5 hours.  This is the time required for the
+temperature to cycle from <m>10^\circ</m> to <m>135^\circ</m> and back to <m>10^\circ</m>.
+
+
+
+(b) The midline is <m>\frac{10+135}{2} = 72.5^\circ</m>
+
+
+
+(c) The amplitude is <m>62.5^\circ</m> since this is the amount of
+temperature variation (up or down) from the average.
+
+
+
+(d) Based on these answers, graph A is the correct choice.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec1/Q28.pg"/>
+</webwork-reps>

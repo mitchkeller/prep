@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-changing-tandem-cone-ans-figure" width="310" height="310" viewBox="0 0 310 310">
+  <defs>
+    <clipPath id="prefigure-changing-tandem-cone-ans-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-changing-tandem-cone-ans-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <path id="prefigure-changing-tandem-cone-ans-__path-0" d="M 275.0 55.0 L 274.8 53.1 L 274.1 51.2 L 272.9 49.4 L 271.2 47.5 L 269.1 45.7 L 266.6 44.0 L 263.6 42.2 L 260.2 40.5 L 256.3 38.9 L 252.1 37.4 L 247.5 35.9 L 242.5 34.5 L 237.1 33.1 L 231.5 31.9 L 225.5 30.7 L 219.3 29.7 L 212.8 28.7 L 206.1 27.9 L 199.2 27.1 L 192.1 26.5 L 184.8 25.9 L 177.5 25.5 L 170.0 25.2 L 162.5 25.1 L 155.0 25.0 L 147.5 25.1 L 140.0 25.2 L 132.5 25.5 L 125.2 25.9 L 117.9 26.5 L 110.8 27.1 L 103.9 27.9 L 97.2 28.7 L 90.7 29.7 L 84.5 30.7 L 78.5 31.9 L 72.9 33.1 L 67.5 34.5 L 62.5 35.9 L 57.9 37.4 L 53.7 38.9 L 49.8 40.5 L 46.4 42.2 L 43.4 44.0 L 40.9 45.7 L 38.8 47.5 L 37.1 49.4 L 35.9 51.2 L 35.2 53.1 L 35.0 55.0 L 35.2 56.9 L 35.9 58.8 L 37.1 60.6 L 38.8 62.5 L 40.9 64.3 L 43.4 66.0 L 46.4 67.8 L 49.8 69.5 L 53.7 71.1 L 57.9 72.6 L 62.5 74.1 L 67.5 75.5 L 72.9 76.9 L 78.5 78.1 L 84.5 79.3 L 90.7 80.3 L 97.2 81.3 L 103.9 82.1 L 110.8 82.9 L 117.9 83.5 L 125.2 84.1 L 132.5 84.5 L 140.0 84.8 L 147.5 84.9 L 155.0 85.0 L 162.5 84.9 L 170.0 84.8 L 177.5 84.5 L 184.8 84.1 L 192.1 83.5 L 199.2 82.9 L 206.1 82.1 L 212.8 81.3 L 219.3 80.3 L 225.5 79.3 L 231.5 78.1 L 237.1 76.9 L 242.5 75.5 L 247.5 74.1 L 252.1 72.6 L 256.3 71.1 L 260.2 69.5 L 263.6 67.8 L 266.6 66.0 L 269.1 64.3 L 271.2 62.5 L 272.9 60.6 L 274.1 58.8 L 274.8 56.9 Z" stroke="black" stroke-width="2" fill="none"/>
+  <line id="prefigure-changing-tandem-cone-ans-__line-0" x1="35.0" y1="55.0" x2="155.0" y2="255.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="prefigure-changing-tandem-cone-ans-__line-1" x1="275.0" y1="55.0" x2="155.0" y2="255.0" stroke="black" stroke-width="2" fill="none"/>
+  <line id="prefigure-changing-tandem-cone-ans-__line-2" x1="275.0" y1="55.0" x2="155.0" y2="55.0" stroke="#777" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <g id="prefigure-changing-tandem-cone-ans-__label-0" transform="translate(206.0,41.0) translate(-4.5,-6.0)">
+    <g id="prefigure-changing-tandem-cone-ans-__g-0">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-changing-tandem-cone-ans-MJX-2-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#prefigure-changing-tandem-cone-ans-MJX-2-TEX-N-32"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <line id="prefigure-changing-tandem-cone-ans-__line-3" x1="275.0" y1="55.0" x2="275.0" y2="255.0" stroke="#777" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+  <g id="prefigure-changing-tandem-cone-ans-__label-1" transform="translate(287.0,155.0) translate(-4.5,-6.1)">
+    <g id="prefigure-changing-tandem-cone-ans-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.256px" role="img" focusable="false" viewBox="0 -677 500 677" x="0.0" y="0.0">
+        <defs>
+          <path id="prefigure-changing-tandem-cone-ans-MJX-3-TEX-N-34" d="M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mn" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="4">
+              <use data-c="34" xlink:href="#prefigure-changing-tandem-cone-ans-MJX-3-TEX-N-34"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <path id="prefigure-changing-tandem-cone-ans-__path-1" d="M 95.0 155.0 L 215.0 155.0 L 155.0 255.0 Z" stroke="none" stroke-width="2" fill="blue" fill-opacity="0.5" clip-path="url(#prefigure-changing-tandem-cone-ans-__clipPath-1)"/>
+</svg>

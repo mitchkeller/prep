@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec7__Q09" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec7__Q09">
+  <static seed="120" source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg">
+    <statement><p>Without using a calculator, find all solutions to
+<m>\displaystyle \tan(\theta) = 1</m> in the interval
+<m>0 \leq \theta \leq 2\pi</m>.  If there is more than
+one answer, enter your answers as a comma separated list.
+Your answers should be exact values (given as fractions,
+not decimal approximations).</p>
+<p><m>\theta</m> = <fillin characters="30" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0.785398, 3.92699</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since <m>\tan(\theta) = 1</m>, we have <m>\theta = \frac{\pi}{4}, \frac{5\pi}{4}</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q09.pg"/>
+</webwork-reps>

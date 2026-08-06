@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap1Sec2__Q03" assembly-id="Library__LoyolaChicago__Precalc__Chap1Sec2__Q03">
+  <static seed="23" source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg">
+    <statement><p>Based on the graphs of <m>f(x)</m> and <m>g(x)</m> below, answer the following questions.  You should not approximate any of your answers.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap1Sec2__Q03-image-1.png" width="60%">
+<shortdescription>Graph of two functions and some points on the functions.</shortdescription>
+<description>
+<p>Function <m>f</m> starts at the origin, goes up and back down to the x-axis and then up higher and then back down to the axis again, with the two peaks at <m>x=2.2</m> and <m>x=6.1</m>.  It hits the x-axis at <m>x=0</m>, <m>x=4</m>, and <m>x=8</m>. Function <m>g</m> is an increasing line going though the points occuring at the two peaks of <m>f</m>, that is, <m>(2.2, f(2.2))</m> and <m>(6.1,f(6.1))</m>.</p>
+</description>
+</image>
+<p>a) What is the average rate of change of <m>f(x)</m> over the interval <m>\ 2.2 \leq x \leq 6.1 \ </m> ? <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) What is the average rate of change of <m>g(x)</m> over the interval <m>\ 2.2 \leq x \leq 6.1 \ </m> ? <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{2}{3.9}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\frac{2}{3.9}</m>
+      </p>
+    </answer>
+    <solution><p>The average rate of change of a function <m>f(x)</m> over an interval <m>a \leq x \leq b</m> is computed using the following formula:
+<me>\mbox{Average Rate of Change of f(x) over } a \leq x \leq b = \frac{ \Delta f }{\Delta x} = \frac{ f(b) - f(a)}{b-a}</me></p>
+<p>a) Using the formula above with the endpoints (2.2, 2.9) and ( 6.1, 4.9 ) we obtain the following answer:
+<me>\mbox{Average Rate of Change of f(x) over } 2.2 \leq x \leq 6.1 = \frac{ 4.9 - 2.9}{6.1 - 2.2} = \frac{ 2}{3.9}</me></p>
+<p>b) Using the formula above with the endpoints (2.2, 2.9) and ( 6.1, 4.9 ) we obtain the following answer:
+<me>\mbox{Average Rate of Change of g(x) over } 2.2 \leq x \leq 6.1 = \frac{ 4.9 - 2.9}{6.1 - 2.2} = \frac{2}{3.9}</me></p>
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q03.pg"/>
+</webwork-reps>

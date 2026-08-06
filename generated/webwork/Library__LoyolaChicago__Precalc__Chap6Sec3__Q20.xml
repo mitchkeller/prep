@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec3__Q20" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec3__Q20">
+  <static seed="68" source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg">
+    <statement><p>Find the length of an arc on a circle of radius <m>6</m> corresponding to an angle of <m>90^{\circ}</m>.</p>
+<p>Arc length = <fillin characters="20" name="AnSwEr0001"/> units.  (Give an exact answer as a fraction, not a decimal approximation.)</p>
+</statement>
+    <answer>
+      <p>
+        <m>6\frac{\pi }{2}</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+The arc length, <m>s</m>, corresponding to an angle of <m>\theta</m> radians in a circle of radius <m>r</m> is <m>s = r \cdot \theta</m>.
+
+
+
+In order to change from degrees to radians, we multiply the number of
+degrees by <m>\frac{\pi}{180}</m>, so we have <m>90^{\circ} \cdot \frac{\pi}{180}</m> radians.  Thus our arc length is
+<m>s = 9.42478</m>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q20.pg"/>
+</webwork-reps>

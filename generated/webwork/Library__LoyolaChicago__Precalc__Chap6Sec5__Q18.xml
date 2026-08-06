@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec5__Q18" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec5__Q18">
+  <static seed="80" source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg">
+    <statement><p>Find a formula for the trigonometric function graphed below.
+Use <m>x</m> as the independent variable in your formula.</p>
+<p><m>f(x) =</m> <fillin characters="30" name="AnSwEr0001"/></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec5__Q18-image-1.png" width="66%"/>
+<p><em>(Click on graph to enlarge)</em></p>
+</statement>
+    <answer>
+      <p>
+        <m>14-14\cos\mathopen{}\left(\frac{\pi }{5}x\right)</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+This function resembles a cosine curve in that it attains its minimum (not midline) when <m>x = 0</m>.  Since the value is at its minimum (not maximum) at <m>x = 0</m>, we need to use the formula <m>f(x) = - \cos{(x)}</m>.  We know that the smallest value it attains is <m>0</m>, that its midline is <m>y = 14</m>, so its amplitude is <m>14</m> as well.  Thus in the equation <m>f(x) = -A \cos{(Bx)} + k</m> we know that  <m>A = 14</m> and <m>k = 14</m>. Since the graph has a period of <m>10</m>, the value for <m>B = \frac{2 \pi}{\mbox{period}} = \frac{2 \pi}{10} = \frac{\pi}{5}</m>.  Finally we have a formula:
+<me>f(x) =  14-14 \cos{ \left( \frac{\pi}{5} x \right) }.</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec5/Q18.pg"/>
+</webwork-reps>

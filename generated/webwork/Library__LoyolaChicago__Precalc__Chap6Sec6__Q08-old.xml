@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec6__Q08-old" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec6__Q08-old">
+  <static seed="125" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg">
+    <statement><p>Questions 8-16:</p>
+<p>Find the exact value of each without using a calculator:</p>
+<p>a)  <m>\tan{ \left( \frac{7 \pi}{4} \right) }</m> = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b)  <m>\tan{ \left( \frac{5 \pi}{4} \right) }</m> = <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c)  <m>\cot{ \left( \frac{5 \pi}{3} \right) }</m> = <fillin characters="20" name="AnSwEr0003"/></p>
+<p>d)  <m>\sec{ \left( \frac{3 \pi}{4} \right) }</m> = <fillin characters="20" name="AnSwEr0004"/></p>
+<p>e)  <m>\csc{ \left( \frac{\pi}{3} \right) }</m> = <fillin characters="20" name="AnSwEr0005"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.577350269189626</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1.4142135623731</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1.15470053837925</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+ 
+a)   <m>\tan{ \left( \frac{7 \pi}{4} \right) } = -1</m>
+
+
+   
+
+
+b)   <m>\tan{ \left( \frac{5 \pi}{4} \right) } = 1</m>
+
+
+   
+
+
+c)   <m>\cot{ \left( \frac{5 \pi}{3} \right) } = - \frac{1}{\sqrt{3}};</m>
+
+
+   
+
+
+d)   <m>\sec{ \left( \frac{3 \pi}{4} \right) } = - \sqrt{2};</m>
+
+
+   
+
+
+e)   <m>\csc{ \left( \frac{\pi}{3} \right) } = \frac{2}{\sqrt{3}};</m>
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q08-old.pg"/>
+</webwork-reps>

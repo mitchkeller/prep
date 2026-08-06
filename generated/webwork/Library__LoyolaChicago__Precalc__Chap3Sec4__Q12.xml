@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap3Sec4__Q12" assembly-id="Library__LoyolaChicago__Precalc__Chap3Sec4__Q12">
+  <static seed="95" source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg">
+    <statement><p>Find the end behavior of the following function. If it goes to <m>\infty</m> or <m>- \infty</m> enter INFINITY or -INFINITY, respectively.</p>
+<p>As <m>t \to - \infty</m>, <m>\ \ 11e^{0.14 t} \to</m> <fillin characters="10" name="AnSwEr0001"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+<me>\displaystyle \lim_{t \to - \infty } 11e^{0.14 t} = 0</me>
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec4/Q12.pg"/>
+</webwork-reps>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec5__Q15" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec5__Q15">
+  <static seed="145" source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg">
+    <statement><p>Using the graph of the rational function <m>y = f(x)</m> given in the figure below, evaluate the limits.  If you need to enter <m>\infty</m> or <m>- \infty</m>, type INFINITY or -INFINITY.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap9Sec5__Q15-image-1.png" width="50%"/>
+<p>(a) <m>\displaystyle \lim_{x \to \infty} f(x) =</m> <fillin characters="10" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle \lim_{x \to - \infty} f(x) =</m> <fillin characters="10" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle \lim_{x \to 1^+} f(x) =</m> <fillin characters="10" name="AnSwEr0003"/></p>
+<p>(d) <m>\displaystyle \lim_{x \to 1^-} f(x) =</m> <fillin characters="10" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>5</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\infty </m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\infty </m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+There is a horizontal asymptote at <m>y = 5</m>, so
+<m>\displaystyle \lim_{x \to \infty} f(x) = 5</m> and <m>\displaystyle \lim_{x \to - \infty} f(x) = 5</m>.
+
+
+
+There is a vertical asymptote at <m>x = 1</m> such that
+<m>\displaystyle \lim_{x \to 1^+} f(x) = \infty</m> and <m>\displaystyle \lim_{x \to 1^-} f(x) = \infty</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q15.pg"/>
+</webwork-reps>

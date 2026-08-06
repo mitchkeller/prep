@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec6__Q24a-1" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec6__Q24a-1">
+  <static seed="115" source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg">
+    <statement><p>If <m>\cos(\phi) = 0.8347</m> and <m>3 \pi /2 \leq \phi \leq 2 \pi</m>, approximate the following to four decimal places.</p>
+<p>(a)  <m>\sin( \phi )</m> = <fillin characters="20" name="AnSwEr0001"/> (Round to four decimal places.)</p>
+<p>(b)  <m>\tan( \phi )</m> = <fillin characters="20" name="AnSwEr0002"/> (Round to four decimal places.)</p>
+</statement>
+    <answer>
+      <p>
+        <m>-0.550705</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.659764</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+ 
+a) We begin by using the Pythagorean Identity to find <m>\sin{ ( \phi ) }</m>.  Since <m>\sin^2{ ( \phi )} + \cos^2{ ( \phi ) } =1</m>, we have
+
+
+   
+
+
+            <m>\sin^2{ ( \phi ) } + \left( 0.8347 \right)^2 = 1</m> 
+
+
+            <m>\sin^2{ ( \phi ) } = 1 - \left( 0.8347 \right)^2</m> 
+
+
+            <m>\sin{ ( \phi ) } = \pm \sqrt{0.3033} \approx  \pm 0.5507</m> . 
+
+
+   
+
+
+Since <m>3 \pi /2 \leq \phi \leq 2 \pi</m>, <m>\sin{ ( \phi ) }</m>
+is negative, so <m>\sin{ ( \phi ) } \approx - 0.5507</m>.
+
+
+   
+
+
+b) <m>\tan{ ( \phi ) }= \frac{ \sin{ ( \phi )}}{\cos{ ( \phi )}} = \frac{- 0.5507}{0.8347} \approx -0.6598</m>
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec6/Q24a.pg"/>
+</webwork-reps>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap3Sec3__Q22" assembly-id="Library__LoyolaChicago__Precalc__Chap3Sec3__Q22">
+  <static seed="91" source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg">
+    <statement><p>Suppose <m>t_0</m> is the <em>t</em>-coordinate of the point of intersection of the graphs below.  Complete the statement below in order to correctly describe what happens to <m>t_0</m> if the value of <m>r</m> (in the blue graph of <m>f(t)=a(1+r)^t</m> below) is increased, and all other quantities remain the same.</p>
+<p>As <m>r</m> increases, does the value of <m>t_0</m> increase, decrease, or remain the same?
+<var form="popup">
+<li>
+<p>increase</p>
+</li>
+<li>
+<p>Choose</p>
+</li>
+<li>
+<p>decrease</p>
+</li>
+<li>
+<p>remain the same</p>
+</li>
+</var></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap3Sec3__Q22-image-1.png" width="66%"/>
+<p>(click on image to enlarge)</p>
+</statement>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap3Sec3/Q22.pg"/>
+</webwork-reps>

@@ -1,0 +1,271 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefigure-exp-modeling-potato-act-temp-graph-ans-figure" width="410" height="310" viewBox="0 0 410 310">
+  <defs>
+    <clipPath id="prefigure-exp-modeling-potato-act-temp-graph-ans-__clipPath-0">
+      <rect x="5.0" y="5.0" width="400.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="prefigure-exp-modeling-potato-act-temp-graph-ans-__clipPath-1">
+      <rect x="5.0" y="5.0" width="400.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-grid-axes">
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-grid" stroke="#ccc" stroke-width="1">
+      <line x1="5.0" y1="305.0" x2="5.0" y2="5.0"/>
+      <line x1="19.3" y1="305.0" x2="19.3" y2="5.0"/>
+      <line x1="33.6" y1="305.0" x2="33.6" y2="5.0"/>
+      <line x1="47.9" y1="305.0" x2="47.9" y2="5.0"/>
+      <line x1="62.1" y1="305.0" x2="62.1" y2="5.0"/>
+      <line x1="76.4" y1="305.0" x2="76.4" y2="5.0"/>
+      <line x1="90.7" y1="305.0" x2="90.7" y2="5.0"/>
+      <line x1="105.0" y1="305.0" x2="105.0" y2="5.0"/>
+      <line x1="119.3" y1="305.0" x2="119.3" y2="5.0"/>
+      <line x1="133.6" y1="305.0" x2="133.6" y2="5.0"/>
+      <line x1="147.9" y1="305.0" x2="147.9" y2="5.0"/>
+      <line x1="162.1" y1="305.0" x2="162.1" y2="5.0"/>
+      <line x1="176.4" y1="305.0" x2="176.4" y2="5.0"/>
+      <line x1="190.7" y1="305.0" x2="190.7" y2="5.0"/>
+      <line x1="205.0" y1="305.0" x2="205.0" y2="5.0"/>
+      <line x1="219.3" y1="305.0" x2="219.3" y2="5.0"/>
+      <line x1="233.6" y1="305.0" x2="233.6" y2="5.0"/>
+      <line x1="247.9" y1="305.0" x2="247.9" y2="5.0"/>
+      <line x1="262.1" y1="305.0" x2="262.1" y2="5.0"/>
+      <line x1="276.4" y1="305.0" x2="276.4" y2="5.0"/>
+      <line x1="290.7" y1="305.0" x2="290.7" y2="5.0"/>
+      <line x1="305.0" y1="305.0" x2="305.0" y2="5.0"/>
+      <line x1="319.3" y1="305.0" x2="319.3" y2="5.0"/>
+      <line x1="333.6" y1="305.0" x2="333.6" y2="5.0"/>
+      <line x1="347.9" y1="305.0" x2="347.9" y2="5.0"/>
+      <line x1="362.1" y1="305.0" x2="362.1" y2="5.0"/>
+      <line x1="376.4" y1="305.0" x2="376.4" y2="5.0"/>
+      <line x1="390.7" y1="305.0" x2="390.7" y2="5.0"/>
+      <line x1="405.0" y1="305.0" x2="405.0" y2="5.0"/>
+      <line x1="5.0" y1="305.0" x2="405.0" y2="305.0"/>
+      <line x1="5.0" y1="293.5" x2="405.0" y2="293.5"/>
+      <line x1="5.0" y1="281.9" x2="405.0" y2="281.9"/>
+      <line x1="5.0" y1="270.4" x2="405.0" y2="270.4"/>
+      <line x1="5.0" y1="258.8" x2="405.0" y2="258.8"/>
+      <line x1="5.0" y1="247.3" x2="405.0" y2="247.3"/>
+      <line x1="5.0" y1="235.8" x2="405.0" y2="235.8"/>
+      <line x1="5.0" y1="224.2" x2="405.0" y2="224.2"/>
+      <line x1="5.0" y1="212.7" x2="405.0" y2="212.7"/>
+      <line x1="5.0" y1="201.2" x2="405.0" y2="201.2"/>
+      <line x1="5.0" y1="189.6" x2="405.0" y2="189.6"/>
+      <line x1="5.0" y1="178.1" x2="405.0" y2="178.1"/>
+      <line x1="5.0" y1="166.5" x2="405.0" y2="166.5"/>
+      <line x1="5.0" y1="155.0" x2="405.0" y2="155.0"/>
+      <line x1="5.0" y1="143.5" x2="405.0" y2="143.5"/>
+      <line x1="5.0" y1="131.9" x2="405.0" y2="131.9"/>
+      <line x1="5.0" y1="120.4" x2="405.0" y2="120.4"/>
+      <line x1="5.0" y1="108.8" x2="405.0" y2="108.8"/>
+      <line x1="5.0" y1="97.3" x2="405.0" y2="97.3"/>
+      <line x1="5.0" y1="85.8" x2="405.0" y2="85.8"/>
+      <line x1="5.0" y1="74.2" x2="405.0" y2="74.2"/>
+      <line x1="5.0" y1="62.7" x2="405.0" y2="62.7"/>
+      <line x1="5.0" y1="51.2" x2="405.0" y2="51.2"/>
+      <line x1="5.0" y1="39.6" x2="405.0" y2="39.6"/>
+      <line x1="5.0" y1="28.1" x2="405.0" y2="28.1"/>
+      <line x1="5.0" y1="16.5" x2="405.0" y2="16.5"/>
+      <line x1="5.0" y1="5.0" x2="405.0" y2="5.0"/>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-axes" stroke="black" stroke-width="2">
+      <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-56" x1="5.0" y1="270.4" x2="405.0" y2="270.4" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-57" x1="119.3" y1="273.4" x2="119.3" y2="267.4"/>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-58" x1="190.7" y1="273.4" x2="190.7" y2="267.4"/>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-59" x1="262.1" y1="273.4" x2="262.1" y2="267.4"/>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-60" x1="333.6" y1="273.4" x2="333.6" y2="267.4"/>
+      </g>
+      <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-61" x1="47.9" y1="305.0" x2="47.9" y2="5.0" stroke="black" stroke-width="2"/>
+      <g>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-62" x1="44.9" y1="212.7" x2="50.9" y2="212.7"/>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-63" x1="44.9" y1="155.0" x2="50.9" y2="155.0"/>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-64" x1="44.9" y1="97.3" x2="50.9" y2="97.3"/>
+        <line id="prefigure-exp-modeling-potato-act-temp-graph-ans-__line-65" x1="44.9" y1="39.6" x2="50.9" y2="39.6"/>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-0" transform="translate(401.0,266.4) translate(-6.5,-11.5)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-2-TEX-I-1D461"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-1" transform="translate(51.9,9.0) translate(0.0,-0.0)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-1">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="13.560px" height="12.304px" role="img" focusable="false" viewBox="0 -680 749 680" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-3-TEX-I-1D439" d="M48 1Q31 1 31 11Q31 13 34 25Q38 41 42 43T65 46Q92 46 125 49Q139 52 144 61Q146 66 215 342T285 622Q285 629 281 629Q273 632 228 634H197Q191 640 191 642T193 659Q197 676 203 680H742Q749 676 749 669Q749 664 736 557T722 447Q720 440 702 440H690Q683 445 683 453Q683 454 686 477T689 530Q689 560 682 579T663 610T626 626T575 633T503 634H480Q398 633 393 631Q388 629 386 623Q385 622 352 492L320 363H375Q378 363 398 363T426 364T448 367T472 374T489 386Q502 398 511 419T524 457T529 475Q532 480 548 480H560Q567 475 567 470Q567 467 536 339T502 207Q500 200 482 200H470Q463 206 463 212Q463 215 468 234T473 274Q473 303 453 310T364 317H309L277 190Q245 66 245 60Q245 46 334 46H359Q365 40 365 39T363 19Q359 6 353 0H336Q295 2 185 2Q120 2 86 2T48 1Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper F">
+                <use data-c="1D439" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-3-TEX-I-1D439"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-2" transform="translate(119.3,281.4) translate(-9.0,-0.0)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-2">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-4-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-4-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="50">
+                <use data-c="35" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-4-TEX-N-35"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-4-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-3" transform="translate(190.7,281.4) translate(-13.6,-0.0)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-3">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-5-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
+                <use data-c="31" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-5-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-5-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-5-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-4" transform="translate(262.1,281.4) translate(-13.6,-0.0)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-4">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-6-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-6-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="150">
+                <use data-c="31" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-6-TEX-N-31"/>
+                <use data-c="35" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-6-TEX-N-35" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-6-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-5" transform="translate(333.6,281.4) translate(-13.6,-0.0)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-5">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-7-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="200">
+                <use data-c="32" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-7-TEX-N-32"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-7-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-7-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-6" transform="translate(36.9,212.7) translate(-18.1,-6.2)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-6">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-8-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-8-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="50">
+                <use data-c="35" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-8-TEX-N-35"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-8-TEX-N-30" transform="translate(500,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-7" transform="translate(36.9,155.0) translate(-27.2,-6.2)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-7">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-9-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-9-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
+                <use data-c="31" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-9-TEX-N-31"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-9-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-9-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-8" transform="translate(36.9,97.3) translate(-27.2,-6.2)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-8">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-10-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-10-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-10-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="150">
+                <use data-c="31" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-10-TEX-N-31"/>
+                <use data-c="35" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-10-TEX-N-35" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-10-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+    <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__label-9" transform="translate(36.9,39.6) translate(-27.2,-6.2)">
+      <g id="prefigure-exp-modeling-potato-act-temp-graph-ans-__g-9">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
+          <defs>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-11-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+            <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-11-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          </defs>
+          <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+            <g data-mml-node="math">
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="200">
+                <use data-c="32" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-11-TEX-N-32"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-11-TEX-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-exp-modeling-potato-act-temp-graph-ans-MJX-11-TEX-N-30" transform="translate(1000,0)"/>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </g>
+    </g>
+  </g>
+  <path id="prefigure-exp-modeling-potato-act-temp-graph-ans-__path-0" stroke="blue" stroke-width="2" fill="none" d="M 47.9 191.9 L 51.4 183.7 L 55.0 176.0 L 58.6 168.6 L 62.1 161.5 L 65.7 154.8 L 69.3 148.5 L 72.9 142.4 L 76.4 136.7 L 80.0 131.2 L 83.6 126.0 L 87.1 121.1 L 90.7 116.4 L 94.3 111.9 L 97.9 107.7 L 101.4 103.7 L 105.0 99.8 L 108.6 96.2 L 112.1 92.7 L 115.7 89.4 L 119.3 86.3 L 122.9 83.3 L 126.4 80.5 L 130.0 77.8 L 133.6 75.2 L 137.1 72.8 L 140.7 70.5 L 144.3 68.3 L 147.9 66.2 L 151.4 64.2 L 155.0 62.3 L 158.6 60.5 L 162.1 58.8 L 165.7 57.1 L 169.3 55.6 L 172.9 54.1 L 176.4 52.7 L 180.0 51.4 L 183.6 50.1 L 187.1 48.9 L 190.7 47.8 L 194.3 46.7 L 197.9 45.7 L 201.4 44.7 L 205.0 43.8 L 208.6 42.9 L 212.1 42.0 L 215.7 41.2 L 219.3 40.5 L 222.9 39.8 L 226.4 39.1 L 230.0 38.4 L 233.6 37.8 L 237.1 37.2 L 240.7 36.6 L 244.3 36.1 L 247.9 35.6 L 251.4 35.1 L 255.0 34.6 L 258.6 34.2 L 262.1 33.8 L 265.7 33.4 L 269.3 33.0 L 272.9 32.7 L 276.4 32.3 L 280.0 32.0 L 283.6 31.7 L 287.1 31.4 L 290.7 31.1 L 294.3 30.9 L 297.9 30.6 L 301.4 30.4 L 305.0 30.1 L 308.6 29.9 L 312.1 29.7 L 315.7 29.5 L 319.3 29.3 L 322.9 29.2 L 326.4 29.0 L 330.0 28.8 L 333.6 28.7 L 337.1 28.5 L 340.7 28.4 L 344.3 28.3 L 347.9 28.2 L 351.4 28.0 L 355.0 27.9 L 358.6 27.8 L 362.1 27.7 L 365.7 27.6 L 369.3 27.5 L 372.9 27.4 L 376.4 27.4 L 380.0 27.3 L 383.6 27.2 L 387.1 27.1 L 390.7 27.1 L 394.3 27.0 L 397.9 26.9 L 401.4 26.9 L 405.0 26.8" clip-path="url(#prefigure-exp-modeling-potato-act-temp-graph-ans-__clipPath-1)"/>
+</svg>

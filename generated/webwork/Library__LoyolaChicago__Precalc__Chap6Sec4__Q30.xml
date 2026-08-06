@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec4__Q30" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec4__Q30">
+  <static seed="75" source="Library/LoyolaChicago/Precalc/Chap6Sec4/Q30.pg">
+    <statement><p>Question 30:</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap6Sec4__Q30-image-1.png" width="66%"/>
+<p>a) Write an expression (involving the variable <m>a</m> and <m>h</m> ) for the slope of the line segment joining <m>S</m> and <m>T</m> in the figure above.</p>
+<p>Slope =  <fillin characters="20" name="AnSwEr0001"/> (an expression involving the variables <em> a </em> and <em> h</em>)</p>
+<p>b) Evaluate your expression for <m>a = 1.6</m> and <m>h = 0.01</m>.  Round your answer to two decimal places.</p>
+<p>Slope = <fillin characters="10" name="AnSwEr0002"/> (a value rounded to two decimal places)</p>
+</statement>
+    <answer>
+      <p>
+        <m>\frac{\sin\mathopen{}\left(a+h\right)-\sin\mathopen{}\left(a\right)}{h}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-0.03</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+ 
+a)  The coordinate of the point <m>S</m> are <m>(x_0,y_0) = ( a, \sin{(a)} )</m> while the coordinates of the point <m>T</m> are <m>(x_1,y_1) = ( a+h, \sin{(a+h)} )</m>.  Thus the slope between these two points can be expressed as
+
+
+   
+
+
+<m>\displaystyle \mbox{slope} = \frac{ y_1 - y_0 }{x_1-x_0} = \frac{ \sin{(a+h)} - \sin{(a)} }{ (a+h) - a} = \frac{ \sin{(a+h)} - \sin{(a)} }{h}</m>
+
+
+   
+
+
+b) Plugging in the values <m>a = 1.6</m> and <m>h = 0.01</m> into the expression above you find <m>\mbox{slope} \approx -0.03</m>.
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec4/Q30.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec4/Q30.pg"/>
+</webwork-reps>

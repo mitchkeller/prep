@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec4__Q12" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec4__Q12">
+  <static seed="141" source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg">
+    <statement><p>Compare and discuss the long-run behaviors of the functions below.  In each blank, enter either the constant or the polynomial that the rational function behaves like as <m>x \to \pm \infty</m>:</p>
+<p><m>\displaystyle f(x) = \frac{x^3 + 3}{x^3  - 8}</m> , <m>\displaystyle g(x) = \frac{x^2 + 3}{x^3  - 8}</m> , and <m>\displaystyle h(x) = \frac{x^4 + 3}{x^3  - 8}</m></p>
+<p><m>f(x)</m> will behave like the function <m>y =</m> <fillin characters="15" name="AnSwEr0001"/> as <m>x \to \pm \infty</m>.</p>
+<p><m>g(x)</m> will behave like the function <m>y =</m> <fillin characters="15" name="AnSwEr0002"/> as <m>x \to \pm \infty</m>.</p>
+<p><m>h(x)</m> will behave like the function <m>y =</m> <fillin characters="15" name="AnSwEr0003"/> as <m>x \to \pm \infty</m>.</p>
+</statement>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>x</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+For the function <m>f(x)</m>,
+                      <m>f(x) \to 1</m> as <m>x \rightarrow \pm \infty</m>
+                      since for large values of <m>x</m>,
+                      <m>f(x) \approx \frac{x^3}{x^3}=1</m>.
+
+
+
+The function <m>g(x)</m> will behave like
+                       <m>y= \frac{x^2}{x^3}= 0</m> for large values of <m>x</m>.
+                        Thus, <m>g \rightarrow 0</m> as
+                        <m>x \rightarrow \pm \infty</m>.
+
+
+
+The function
+                      <m>h(x) \approx \frac{x^4}{x^3} = x</m> for large
+                      values of <m>x</m>.  Thus, as
+                      <m>x \rightarrow \pm \infty</m>, <m>h(x)</m>
+                      approaches the line <m>y=x</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q12.pg"/>
+</webwork-reps>

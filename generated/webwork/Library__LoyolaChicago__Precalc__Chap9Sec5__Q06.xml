@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec5__Q06" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec5__Q06">
+  <static seed="147" source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg">
+    <statement><p>Find all zeros and vertical asymptotes of the rational function</p>
+<p><m>\displaystyle f(x) = \frac{x^2-1}{x^2+1}</m>.</p>
+<p>If there is more than one answer, enter your answers as a comma separated list. If there is no solution, enter <em>NONE.</em>  Do not leave a blank empty.</p>
+<p>(a) The function has x-intercept(s) at <m>x =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) The function has y-intercept(s) at <m>y =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) The function has vertical asymptote(s) when <m>x =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+<p>(d) The function has horizontal asymptote(s) when <m>y =</m> <fillin characters="20" name="AnSwEr0004"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1, -1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-1</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>\text{NONE}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>1</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+Since <m>\displaystyle g(x) = \frac{x^2-1}{x^2+1} = \frac{(x-1)(x+1)}{x^2+1}</m> the <m>x</m>-intercepts are <m>x= \pm 1</m>; the <m>y</m>-intercept is <m>y = -1/1 =-1</m>; the horizontal asymptote is <m>y=1</m>; there are no vertical asymptotes.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec5/Q06.pg"/>
+</webwork-reps>

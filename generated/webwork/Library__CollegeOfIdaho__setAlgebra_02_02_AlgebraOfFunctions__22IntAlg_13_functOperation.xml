@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_13_functOperation" assembly-id="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_13_functOperation">
+  <static seed="60" source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg">
+    <statement><tabular bottom="medium" left="medium" right="medium" top="medium">
+<row>
+<cell><m>x</m></cell>
+<cell><m>f(x)</m></cell>
+<cell><m>g(x)</m></cell>
+</row>
+<row>
+<cell><m>1</m></cell>
+<cell><m>-3</m></cell>
+<cell><m>2</m></cell>
+</row>
+<row>
+<cell><m>2</m></cell>
+<cell><m>3</m></cell>
+<cell><m>4</m></cell>
+</row>
+<row>
+<cell><m>3</m></cell>
+<cell><m>1</m></cell>
+<cell><m>-4</m></cell>
+</row>
+<row>
+<cell><m>4</m></cell>
+<cell><m>-4</m></cell>
+<cell><m>-1</m></cell>
+</row>
+<row>
+<cell><m>5</m></cell>
+<cell><m>2</m></cell>
+<cell><m>5</m></cell>
+</row>
+</tabular>
+<p>Use the table defining <m>f</m> and <m>g</m> to solve:</p>
+<p>NOTE: Write <em> Does not exist</em> if the value does not exist.</p>
+<p>a) <m>(f - g)(4) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>(f + g)(4) - (g-f)(5) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>c) <m>\displaystyle \left(\frac{f}{g}\right)(4) =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>-3</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>-8</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4</m>
+      </p>
+    </answer>
+    <solution><m>(f - g)(4) = -3</m>
+
+
+
+b) <m>(f + g)(4) - (g-f)(5) = -8</m>
+
+
+
+c) <m>\displaystyle \left(\frac{f}{g}\right)(4) = 4</m>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_13_functOperation.pg"/>
+</webwork-reps>

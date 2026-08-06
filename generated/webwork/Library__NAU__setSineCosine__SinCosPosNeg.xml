@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__NAU__setSineCosine__SinCosPosNeg" assembly-id="Library__NAU__setSineCosine__SinCosPosNeg">
+  <static seed="74" source="Library/NAU/setSineCosine/SinCosPosNeg.pg">
+    <statement><p>Determine whether each of the following expressions is Positive or Negative without using a calculator.</p>
+<p><m>\sin(70^\circ)</m>
+<var form="buttons">
+<li>
+<p>Negative</p>
+</li>
+<li>
+<p>Positive</p>
+</li>
+</var></p>
+<p><m>\cos(138^\circ)</m>
+<var form="buttons">
+<li>
+<p>Negative</p>
+</li>
+<li>
+<p>Positive</p>
+</li>
+</var></p>
+<p><m>\sin(\frac{15\pi}{16})</m>
+<var form="buttons">
+<li>
+<p>Positive</p>
+</li>
+<li>
+<p>Negative</p>
+</li>
+</var></p>
+<p><m>\cos(\frac{20\pi}{21})</m>
+<var form="buttons">
+<li>
+<p>Negative</p>
+</li>
+<li>
+<p>Positive</p>
+</li>
+</var></p>
+</statement>
+  </static>
+  <rendering-data sourceFilePath="Library/NAU/setSineCosine/SinCosPosNeg.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/NAU/setSineCosine/SinCosPosNeg.pg"/>
+</webwork-reps>

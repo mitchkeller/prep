@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap9Sec4__Q16" assembly-id="Library__LoyolaChicago__Precalc__Chap9Sec4__Q16">
+  <static seed="152" source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg">
+    <statement><p>Let <m>t</m> be the time in weeks.  At time <m>t=0</m>, organic waste is dumped into a pond.  The oxygen level in the pond at time <m>t</m> is given by</p>
+<p><m>\displaystyle f(t) = \frac{t^{2}-t+1}{t^{2}+1}</m>.</p>
+<p>Assume <m>f(0)=1</m> is the normal level of oxygen.</p>
+<p>(a) On a separate piece of paper, graph this function.</p>
+<p>(b) What will happen to the oxygen level in the lake as time goes on?</p>
+<p><ul form="popup" name="AnSwEr0001"><li>
+<p>Choose One</p>
+</li><li>
+<p>The oxygen level will continue to decrease in the long-run.</p>
+</li><li>
+<p>The oxygen level will continue to increase in the long-run.</p>
+</li><li>
+<p>The oxygen level will eventually return to its normal level in the long-run.</p>
+</li><li>
+<p>It cannot determine based on the given information.</p>
+</li></ul></p>
+<p>(c) Approximately how many weeks must pass before the oxygen level returns to <m>80</m>% of its normal level?</p>
+<p><fillin characters="15" name="AnSwEr0002"/> weeks (Round to at least two decimal places.)</p>
+</statement>
+    <answer>
+      <p>
+        <m>\text{The oxygen level will eventually return to its normal level in the long-run.}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>4.791</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) A graph of <m>f</m> for <m>0 \leq t \leq 20</m> and <m>0 \leq y \leq 1.1</m> is shown in the figure below:
+
+
+
+
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__LoyolaChicago__Precalc__Chap9Sec4__Q16-image-1.png" width="50%"/>
+
+
+
+
+At <m>t=0</m> the oxygen is at its normal level in the pond. The level
+decreases sharply for the first week after the waste is dumped into
+the pond. The oxygen level reaches its minimum of approximately
+one half the normal level by the end of the first week. Then the
+level begins to increase.
+
+
+
+(b) Eventually, the oxygen level in the pond will once again approach the
+normal level of one.  This is visualized by the gray horizontal asymptote <m>y = 1</m> in the graph above.
+
+
+
+(c) The line <m>y= 0.8</m> is shown in figure above. After the level
+has reached its minimum, we can approximate the intersection of <m>f</m>
+and <m>y= 0.8</m> at <m>t \approx 4.791</m>. Thus, it takes about <m>4.791</m> weeks for the level to return to <m>80</m>% normal.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap9Sec4/Q16.pg"/>
+</webwork-reps>

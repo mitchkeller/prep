@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-33-Composition-inverse" assembly-id="Library__LoyolaChicago__Precalc__Chap2Sec4__Connally3-2-4-33-Composition-inverse">
+  <static seed="39" source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg">
+    <statement><p>The formula for the volume of a cube with
+side length <m>s</m> is <m>V = s^3</m>.  The
+formula for the surface area of a cube is
+<m>A = 6s^2</m>.</p>
+<p>(a) Find the formula for the function
+<m>s = f(A)</m>.</p>
+<p><m>s = f(A) =</m>
+<fillin characters="20" name="AnSwEr0001"/></p>
+<p>Which of the statements best explains the meaning of <m>s = f(A)</m>?
+<var form="buttons">
+<li>
+<p>The side length for a cube of surface area <m>A</m></p>
+</li>
+<li>
+<p>The side length for a cube of volume <m>V</m></p>
+</li>
+<li>
+<p>The volume of a cube of side length <m>s</m></p>
+</li>
+<li>
+<p>The surface area of a cube of side length <m>s</m></p>
+</li>
+</var></p>
+<p>(b) If <m>V = g(s)</m>, find a formula for <m>g(f(A)).</m></p>
+<p><m>g(f(A)) =</m>
+<fillin characters="20" name="AnSwEr0002"/></p>
+<p>Which of the statements best explains the meaning of <m>g(f(A))</m>?
+<var form="buttons">
+<li>
+<p>The volume for a cube of side length <m>s</m></p>
+</li>
+<li>
+<p>The surface area for a cube of side length <m>s</m></p>
+</li>
+<li>
+<p>The volume for a cube with surface area <m>A</m></p>
+</li>
+<li>
+<p>The surface area for a cube of volume <m>V</m></p>
+</li>
+</var></p>
+</statement>
+    <answer>
+      <p>
+        <m>\sqrt{\frac{A}{6}}</m>
+      </p>
+    </answer>
+    <answer>
+      <p>A</p>
+    </answer>
+    <solution><alert> SOLUTION </alert>
+
+
+
+
+(a)
+To write <m>s</m> as a function of <m>A</m>, we solve <m>A=6s^2</m> for <m>s</m>
+<me>s^2=\frac{A}{6}\qquad\hbox{ so} \qquad
+s=f(A)=+\sqrt{\frac{A}{6}}</me>
+Because the length of a side of a cube is positive.
+
+
+
+The function <m>f</m> gives the side of a cube in terms of its area <m>A</m>.
+
+
+
+
+(b)
+Substituting <m>s=f(A)=\sqrt{A/6}</m> in the formula <m>V=g(s)=s^3</m>
+gives the volume, <m>V</m>,  as a function of surface area, <m>A</m>,
+<me>V=g(f(A))=s^3=\left(\sqrt{\frac{A}{6}}\right)^3.</me>
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap2Sec4/Connally3-2-4-33-Composition-inverse.pg"/>
+</webwork-reps>

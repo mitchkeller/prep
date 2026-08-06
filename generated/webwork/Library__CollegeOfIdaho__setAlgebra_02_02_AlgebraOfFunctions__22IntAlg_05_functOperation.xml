@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_05_functOperation" assembly-id="Library__CollegeOfIdaho__setAlgebra_02_02_AlgebraOfFunctions__22IntAlg_05_functOperation">
+  <static seed="55" source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg">
+    <statement><p>For <m>f(x)= 2x+4</m> and <m>g(x)= 5x-4</m>, find:</p>
+<p>a) <m>(f - g)(x) =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>b) <m>(f - g)(-4) =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>8-3x</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>20</m>
+      </p>
+    </answer>
+    <solution><m>(f - g)(x) = 2x+4-\left(5x-4\right) = 8-3x</m>
+
+
+
+b) <m>(f - g)(-4) = 20</m>
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/CollegeOfIdaho/setAlgebra_02_02_AlgebraOfFunctions/22IntAlg_05_functOperation.pg"/>
+</webwork-reps>

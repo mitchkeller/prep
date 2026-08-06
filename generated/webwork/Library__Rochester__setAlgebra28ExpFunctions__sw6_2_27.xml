@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setAlgebra28ExpFunctions__sw6_2_27" assembly-id="Library__Rochester__setAlgebra28ExpFunctions__sw6_2_27">
+  <static seed="92" source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg">
+    <statement><p>Certain radioactive material decays in such a way that the mass remaining 
+after <m>t</m> years is given by the function
+<me>m(t)=175 e^{-0.015 t}</me>
+where <m>m(t)</m> is measured in grams.</p>
+<p>(a) Find the mass at time <m>t=0</m>.</p>
+<p>Your answer is <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) How much of the mass remains after 15 years?</p>
+<p>Your answer is <fillin characters="15" name="AnSwEr0002"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>175</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>139.740338282891</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setAlgebra28ExpFunctions/sw6_2_27.pg"/>
+</webwork-reps>

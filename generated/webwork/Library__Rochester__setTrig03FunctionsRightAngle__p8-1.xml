@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__Rochester__setTrig03FunctionsRightAngle__p8-1" assembly-id="Library__Rochester__setTrig03FunctionsRightAngle__p8-1">
+  <static seed="110" source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg">
+    <statement><p>Refer to the right triangle in the figure. Click on the picture to see it more clearly.</p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/Library__Rochester__setTrig03FunctionsRightAngle__p8-1-image-1.png" width="33%"/>
+<p>If , <m>BC=3</m> and the angle <m>\alpha=65 ^\circ</m>, find any missing angles or 
+sides. Give your answer to at least 3 decimal digits.</p>
+<p>AB  = <fillin characters="20" name="AnSwEr0001"/></p>
+<p>AC  = <fillin characters="20" name="AnSwEr0002"/></p>
+<p><m>\beta</m>= <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.39892297919956</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>3.31013375888839</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>25</m>
+      </p>
+    </answer>
+  </static>
+  <rendering-data sourceFilePath="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/Rochester/setTrig03FunctionsRightAngle/p8.pg"/>
+</webwork-reps>

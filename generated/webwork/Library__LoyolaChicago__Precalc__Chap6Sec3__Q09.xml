@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec3__Q09" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec3__Q09">
+  <static seed="71" source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg">
+    <statement><p>An angle of <m>\displaystyle \frac{ 5 \pi}{6}</m> radians can be converted to an angle of <fillin characters="5" name="AnSwEr0001"/> degrees.</p>
+</statement>
+    <answer>
+      <p>
+        <m>150</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+
+In order to change from radians to degrees, we multiply the number of
+radians by <m>\frac{180}{\pi}</m>, so we have
+
+
+
+<m>\frac{ 5 \pi}{6} \cdot \frac{180}{\pi} = 150^{\circ}</m>
+
+
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec3/Q09.pg"/>
+</webwork-reps>

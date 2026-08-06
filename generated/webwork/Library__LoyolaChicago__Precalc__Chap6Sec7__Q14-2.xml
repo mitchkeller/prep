@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-Library__LoyolaChicago__Precalc__Chap6Sec7__Q14-2" assembly-id="Library__LoyolaChicago__Precalc__Chap6Sec7__Q14-2">
+  <static seed="121" source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg">
+    <statement><p>Solve the equations below exactly.  Give your answers in radians,
+and find all possible values for <m>t</m> in the interval
+<m>0 \leq t \leq 2 \pi</m>.  If there is more than one answer,
+enter your solutions in a comma separated list.</p>
+<p>(a) <m>\displaystyle \sin{(t)} = \frac{\sqrt{3}}{2}</m> when <m>t =</m> <fillin characters="20" name="AnSwEr0001"/></p>
+<p>(b) <m>\displaystyle \cos{(t)} = \frac{\sqrt{2}}{2}</m> when <m>t =</m> <fillin characters="20" name="AnSwEr0002"/></p>
+<p>(c) <m>\displaystyle \tan{(t)} = -\sqrt{3}</m> when <m>t =</m> <fillin characters="20" name="AnSwEr0003"/></p>
+</statement>
+    <answer>
+      <p>
+        <m>1.0472, 2.0944</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>0.785398, 5.49779</m>
+      </p>
+    </answer>
+    <answer>
+      <p>
+        <m>2.0944, 5.23599</m>
+      </p>
+    </answer>
+    <solution><alert>  SOLUTION </alert>
+
+
+
+(a) Since <m>\displaystyle \sin{(t)} = \frac{\sqrt{3}}{2}</m>, we have <m>t= \pi/3 , (2 \pi)/3</m>.
+
+
+
+(b) Since <m>\displaystyle \cos{(t)} = \frac{\sqrt{2}}{2}</m>, we have <m>t= \pi/4 , (7 \pi)/4</m>.
+
+
+
+(c) Since <m>\displaystyle \tan{(t)} = -\sqrt{3}</m>, we have <m>t= (2 \pi)/3 , (5 \pi)/3</m>.
+
+
+
+</solution>
+  </static>
+  <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
+  <pg source="Library/LoyolaChicago/Precalc/Chap6Sec7/Q14.pg"/>
+</webwork-reps>
