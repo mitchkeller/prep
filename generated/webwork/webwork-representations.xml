@@ -937,28 +937,81 @@ c)  There are three correct statements: It represents the car's velocity, It is 
   </webwork-reps>
   <webwork-reps version="2" webwork2_major_version="2" webwork2_minor_version="20" xml:id="extracted-webwork-25" ww-id="webwork-25">
     <static seed="25" source="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg">
-      <statement><p>Let <m>\ f(x) = 36 - x^2</m>.</p>
-<p>a) Compute each of the following expressions and interpret each as an average rate of change:</p>
-<p>(i) <m>\ \ \  \frac{f( 4 ) - f(0)}{ 4 - 0} = \ </m>  <fillin characters="20" name="AnSwEr0001"/></p>
-<p>(ii) <m>\ \ \frac{f( 6 ) - f( 4 )}{6 - 4 } = \ </m>  <fillin characters="20" name="AnSwEr0002"/></p>
-<p>(iii) <m>\ \frac{f( 6 ) - f(0)}{6 - 0} = \ </m>  <fillin characters="20" name="AnSwEr0003"/></p>
-<p>b) Based on the graph sketched below, match each of your answers in (i) - (iii) with one of the lines labeled A - F.  Type the corresponding letter of the line segment next to the appropriate formula.  Clearly not all letters will be used.</p>
-<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-25-image-1.png" width="50%"/>
-<p>(click on image to enlarge)</p>
-<tabular bottom="medium" left="medium" right="medium" top="medium">
-<row>
-<cell><fillin characters="5" name="AnSwEr0004"/></cell>
-<cell> <m>\frac{f( 4 ) - f(0)}{ 4 - 0}</m></cell>
-</row>
-<row>
-<cell><fillin characters="5" name="AnSwEr0005"/></cell>
-<cell> <m>\frac{f( 6 ) - f( 4 )}{6 - 4 }</m></cell>
-</row>
-<row>
-<cell><fillin characters="5" name="AnSwEr0006"/></cell>
-<cell><m>\frac{f( 6 ) - f(0)}{6 - 0}</m></cell>
-</row>
-</tabular>
+      <statement><p>Let <m>f(x) = 36 - x^2</m>.</p>
+<p><ol label="a.">
+<li>
+<p>Compute each of the following expressions and interpret each as an average rate of change.
+<ol label="i.">
+<li>
+<p><m>\displaystyle{\frac{f(4) - f(0)}{4 - 0} = {}}</m><fillin characters="20" name="AnSwEr0001"/></p>
+</li>
+<li>
+<p><m>\displaystyle{\frac{f(6) - f(4)}{6 - 4 } = {}}</m><fillin characters="20" name="AnSwEr0002"/></p>
+</li>
+<li>
+<p><m>\displaystyle{\frac{f(6) - f(0)}{6 - 0} = {}}</m><fillin characters="20" name="AnSwEr0003"/></p>
+</li>
+</ol></p>
+</li>
+<li>
+<p>Based on the graph sketched below, match each of your answers in (i)–(iii) with one of the lines labeled A–F.  Type the corresponding letter of the line segment next to the appropriate formula.  Clearly not all letters will be used.</p>
+</li>
+</ol>
+<!-- PTX:WARNING: PGML wanted to center align here. --></p>
+<image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-25-image-1" width="50%"/>
+<p><ol label="i.">
+<li>
+<p><m>\displaystyle{\dfrac{f(4) - f(0)}{4 - 0}}</m> <ul form="popup" name="AnSwEr0004"><li>
+<p>?</p>
+</li><li>
+<p>A</p>
+</li><li>
+<p>B</p>
+</li><li>
+<p>C</p>
+</li><li>
+<p>D</p>
+</li><li>
+<p>E</p>
+</li><li>
+<p>F</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\displaystyle{\dfrac{f(6) - f(4)}{6 - 4}}</m> <ul form="popup" name="AnSwEr0005"><li>
+<p>?</p>
+</li><li>
+<p>A</p>
+</li><li>
+<p>B</p>
+</li><li>
+<p>C</p>
+</li><li>
+<p>D</p>
+</li><li>
+<p>E</p>
+</li><li>
+<p>F</p>
+</li></ul></p>
+</li>
+<li>
+<p><m>\displaystyle{\dfrac{f(6) - f(0)}{6 - 0}}</m> <ul form="popup" name="AnSwEr0006"><li>
+<p>?</p>
+</li><li>
+<p>A</p>
+</li><li>
+<p>B</p>
+</li><li>
+<p>C</p>
+</li><li>
+<p>D</p>
+</li><li>
+<p>E</p>
+</li><li>
+<p>F</p>
+</li></ul></p>
+</li>
+</ol></p>
 </statement>
       <answer>
         <p>
@@ -976,37 +1029,38 @@ c)  There are three correct statements: It represents the car's velocity, It is 
         </p>
       </answer>
       <answer>
-        <p>D</p>
+        <p>
+          <m>\text{D}</m>
+        </p>
       </answer>
       <answer>
-        <p>C</p>
+        <p>
+          <m>\text{C}</m>
+        </p>
       </answer>
       <answer>
-        <p>B</p>
+        <p>
+          <m>\text{B}</m>
+        </p>
       </answer>
-      <solution><alert> SOLUTION </alert>
-
-
-
-a) 
-
-
-i) <m>\frac{f( 4 ) - f(0)}{ 4 - 0} = \frac{ 20 - 36 }{4 - 0} = \frac{ -16 }{ 4} =  -4</m>
-
-
-
-ii) <m>\frac{f( 6 ) - f( 4 ) }{ 6 - 4 } = \frac{ 0 - 20}{6 - 4} = \frac{ -20 }{ 2} =  -10</m>
-
-
-
-iii) <m>\frac{f( 6 ) - f(0)}{ 6 - 0} = \frac{ 0 - 36 }{ 6 - 0} = \frac{ -20 }{ 6} =  -6</m>
-
-
-
-b) The formulas in parts (i), (ii), and (iii) represent the average rate of change of <m>f(x)</m> over the intervals <m>0 \leq x \leq 4</m> , <m>4 \leq x \leq 6</m> , and <m>0 \leq x \leq 6</m> respectively.  Thus line segment D connecting the points (0, 36 ) and ( 4, 20 ) illustrates formula (i), line segment C connecting the points ( 4, 20 ) and ( 6, 0 ) illustrates formula (ii), and line segment B connecting the points (0, 36 ) and ( 6, 0 ) illustrates formula (iii).
-
-
-
+      <solution><p><ol label="a.">
+<li>
+<p><ol label="i.">
+<li>
+<p><m>\displaystyle{\frac{f(4) - f(0)}{4 - 0} = \frac{20 - 36}{4 - 0} = \frac{-16}{4} =  -4}</m></p>
+</li>
+<li>
+<p><m>\displaystyle{\frac{f(6) - f(4) }{6 - 4} = \frac{0 - 20}{6 - 4} = \frac{-20}{2} = -10}</m></p>
+</li>
+<li>
+<p><m>\displaystyle{\frac{f(6) - f(0)}{6 - 0} = \frac{0 - 36}{6 - 0} = \frac{-20}{6} = -6}</m></p>
+</li>
+</ol></p>
+</li>
+<li>
+<p>The formulas in parts (i), (ii), and (iii) represent the average rate of change of <m>f(x)</m> over the intervals <m>0 \leq x \leq 4</m>, <m>4 \leq x \leq 6</m>, and <m>0 \leq x \leq 6</m> respectively.  Thus line segment D connecting the points <m>(0, 36)</m> and <m>(4, 20)</m> illustrates formula (i), line segment C connecting the points <m>(4, 20)</m> and <m>(6, 0)</m> illustrates formula (ii), and line segment B connecting the points <m>(0, 36)</m> and <m>(6, 0)</m> illustrates formula (iii).</p>
+</li>
+</ol></p>
 </solution>
     </static>
     <rendering-data sourceFilePath="Library/LoyolaChicago/Precalc/Chap1Sec2/Q16.pg" origin="webwork2" domain="https://webwork-ptx.aimath.org" course-id="anonymous" user-id="anonymous" passwd="anonymous" language="en-US"/>
@@ -4108,10 +4162,10 @@ linear or exponential.</p>
 <p>linear</p>
 </li>
 <li>
-<p>exponential</p>
+<p>?</p>
 </li>
 <li>
-<p>?</p>
+<p>exponential</p>
 </li>
 </var></p>
 <tabular bottom="medium" left="medium" right="medium" top="medium">
@@ -4381,16 +4435,16 @@ c) <m>\displaystyle \lim_{t \to \infty} 0.6 (2 + (0.1)^t) = 0.6 (2 + 0)= 1.2</m>
 <p>As <m>r</m> increases, does the value of <m>t_0</m> increase, decrease, or remain the same?
 <var form="popup">
 <li>
-<p>Choose</p>
-</li>
-<li>
 <p>increase</p>
 </li>
 <li>
-<p>remain the same</p>
+<p>Choose</p>
 </li>
 <li>
 <p>decrease</p>
+</li>
+<li>
+<p>remain the same</p>
 </li>
 </var></p>
 <image xmlns:pi="http://pretextbook.org/2020/pretext/internal" pi:generated="webwork/images/webwork-91-image-1.png" width="66%"/>

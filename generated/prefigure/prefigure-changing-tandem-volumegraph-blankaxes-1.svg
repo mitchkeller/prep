@@ -62,12 +62,12 @@
       <g id="prefigure-changing-tandem-volumegraph-blankaxes-1-__g-2">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+            <path id="prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-2-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
-                <use data-c="1D461" xlink:href="#prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-2-TEX-I-1D461"/>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:t" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-2-NCM-I-1D461"/>
               </g>
             </g>
           </g>
@@ -76,14 +76,14 @@
     </g>
     <g id="prefigure-changing-tandem-volumegraph-blankaxes-1-__label-1" transform="translate(51.9,9.0) translate(0.0,-0.0)">
       <g id="prefigure-changing-tandem-volumegraph-blankaxes-1-__g-3">
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="13.920px" height="12.760px" role="img" focusable="false" viewBox="0 -683 769 705" x="0.0" y="0.0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="13.936px" height="12.760px" role="img" focusable="false" viewBox="0 -683 770 705" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-3-TEX-I-1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"/>
+            <path id="prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-3-NCM-I-1D449" d="M671 680C652 680 592 683 573 683C558 683 550 675 550 660C550 650 557 645 570 644C598 643 612 633 612 616C612 607 607 595 598 580L300 107L234 619C234 636 255 644 298 644C318 644 327 651 327 668C327 678 321 683 309 683C287 683 209 680 187 680C167 680 99 683 79 683C64 683 56 675 56 660C56 649 66 644 85 644C102 644 114 642 122 640C138 635 137 633 140 614L218 4C221-13 229-22 242-22C255-22 265-15 273-2L629 564C652 600 674 623 696 632C711 639 730 643 752 644C763 645 768 652 769 667C770 678 764 683 752 683C737 683 686 680 671 680Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="upper V">
-                <use data-c="1D449" xlink:href="#prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-3-TEX-I-1D449"/>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:V" data-semantic-speech="upper V">
+                <use data-c="1D449" xlink:href="#prefigure-changing-tandem-volumegraph-blankaxes-1-MJX-3-NCM-I-1D449"/>
               </g>
             </g>
           </g>

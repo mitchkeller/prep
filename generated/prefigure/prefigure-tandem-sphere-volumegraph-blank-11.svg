@@ -70,12 +70,12 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-2">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.200px" width="6.536px" height="11.528px" role="img" focusable="false" viewBox="0 -626 361 637" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-2-TEX-I-1D461" d="M26 385Q19 392 19 395Q19 399 22 411T27 425Q29 430 36 430T87 431H140L159 511Q162 522 166 540T173 566T179 586T187 603T197 615T211 624T229 626Q247 625 254 615T261 596Q261 589 252 549T232 470L222 433Q222 431 272 431H323Q330 424 330 420Q330 398 317 385H210L174 240Q135 80 135 68Q135 26 162 26Q197 26 230 60T283 144Q285 150 288 151T303 153H307Q322 153 322 145Q322 142 319 133Q314 117 301 95T267 48T216 6T155 -11Q125 -11 98 4T59 56Q57 64 57 83V101L92 241Q127 382 128 383Q128 385 77 385H26Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-2-NCM-I-1D461" d="M330 419C330 428 320 433 299 433L218 433C244 537 257 591 257 595C257 616 246 626 225 626C202 626 188 613 182 587L145 433L56 433C34 433 23 432 23 411C23 400 33 395 54 395L135 395C86 200 62 97 62 84C62 28 100-11 156-11C194-11 227 6 256 41C280 70 297 98 308 125C312 136 314 142 314 145C314 154 309 159 299 159C291 159 285 154 281 143C247 60 206 19 157 19C140 19 131 33 131 60C131 75 133 91 137 107L208 395L297 395C323 395 330 397 330 419Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-speech="t">
-                <use data-c="1D461" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-2-TEX-I-1D461"/>
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:t" data-semantic-speech="t">
+                <use data-c="1D461" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-2-NCM-I-1D461"/>
               </g>
             </g>
           </g>
@@ -84,38 +84,38 @@
     </g>
     <g id="prefigure-tandem-sphere-volumegraph-blank-__label-1" transform="translate(51.9,9.0) translate(0.0,-0.0)">
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-3">
-        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.528px" width="102.408px" height="18.096px" role="img" focusable="false" viewBox="0 -750 5658 1000" x="0.0" y="0.0">
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -4.488px" width="103.912px" height="18.024px" role="img" focusable="false" viewBox="0 -748 5741 996" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-I-1D449" d="M52 648Q52 670 65 683H76Q118 680 181 680Q299 680 320 683H330Q336 677 336 674T334 656Q329 641 325 637H304Q282 635 274 635Q245 630 242 620Q242 618 271 369T301 118L374 235Q447 352 520 471T595 594Q599 601 599 609Q599 633 555 637Q537 637 537 648Q537 649 539 661Q542 675 545 679T558 683Q560 683 570 683T604 682T668 681Q737 681 755 683H762Q769 676 769 672Q769 655 760 640Q757 637 743 637Q730 636 719 635T698 630T682 623T670 615T660 608T652 599T645 592L452 282Q272 -9 266 -16Q263 -18 259 -21L241 -22H234Q216 -22 216 -15Q213 -9 177 305Q139 623 138 626Q133 637 76 637H59Q52 642 52 648Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-63" d="M370 305T349 305T313 320T297 358Q297 381 312 396Q317 401 317 402T307 404Q281 408 258 408Q209 408 178 376Q131 329 131 219Q131 137 162 90Q203 29 272 29Q313 29 338 55T374 117Q376 125 379 127T395 129H409Q415 123 415 120Q415 116 411 104T395 71T366 33T318 2T249 -11Q163 -11 99 53T34 214Q34 318 99 383T250 448T370 421T404 357Q404 334 387 320Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-75" d="M383 58Q327 -10 256 -10H249Q124 -10 105 89Q104 96 103 226Q102 335 102 348T96 369Q86 385 36 385H25V408Q25 431 27 431L38 432Q48 433 67 434T105 436Q122 437 142 438T172 441T184 442H187V261Q188 77 190 64Q193 49 204 40Q224 26 264 26Q290 26 311 35T343 58T363 90T375 120T379 144Q379 145 379 161T380 201T380 248V315Q380 361 370 372T320 385H302V431Q304 431 378 436T457 442H464V264Q464 84 465 81Q468 61 479 55T524 46H542V0Q540 0 467 -5T390 -11H383V58Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-62" d="M307 -11Q234 -11 168 55L158 37Q156 34 153 28T147 17T143 10L138 1L118 0H98V298Q98 599 97 603Q94 622 83 628T38 637H20V660Q20 683 22 683L32 684Q42 685 61 686T98 688Q115 689 135 690T165 693T176 694H179V543Q179 391 180 391L183 394Q186 397 192 401T207 411T228 421T254 431T286 439T323 442Q401 442 461 379T522 216Q522 115 458 52T307 -11ZM182 98Q182 97 187 90T196 79T206 67T218 55T233 44T250 35T271 29T295 26Q330 26 363 46T412 113Q424 148 424 212Q424 287 412 323Q385 405 300 405Q270 405 239 390T188 347L182 339V98Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-69" d="M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-20" d=""/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-66" d="M273 0Q255 3 146 3Q43 3 34 0H26V46H42Q70 46 91 49Q99 52 103 60Q104 62 104 224V385H33V431H104V497L105 564L107 574Q126 639 171 668T266 704Q267 704 275 704T289 705Q330 702 351 679T372 627Q372 604 358 590T321 576T284 590T270 627Q270 647 288 667H284Q280 668 273 668Q245 668 223 647T189 592Q183 572 182 497V431H293V385H185V225Q185 63 186 61T189 57T194 54T199 51T206 49T213 48T222 47T231 47T241 46T251 46H282V0H273Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-65" d="M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-74" d="M27 422Q80 426 109 478T141 600V615H181V431H316V385H181V241Q182 116 182 100T189 68Q203 29 238 29Q282 29 292 100Q293 108 293 146V181H333V146V134Q333 57 291 17Q264 -10 221 -10Q187 -10 162 2T124 33T105 68T98 100Q97 107 97 248V385H18V422H27Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-I-1D449" d="M671 680C652 680 592 683 573 683C558 683 550 675 550 660C550 650 557 645 570 644C598 643 612 633 612 616C612 607 607 595 598 580L300 107L234 619C234 636 255 644 298 644C318 644 327 651 327 668C327 678 321 683 309 683C287 683 209 680 187 680C167 680 99 683 79 683C64 683 56 675 56 660C56 649 66 644 85 644C102 644 114 642 122 640C138 635 137 633 140 614L218 4C221-13 229-22 242-22C255-22 265-15 273-2L629 564C652 600 674 623 696 632C711 639 730 643 752 644C763 645 768 652 769 667C770 678 764 683 752 683C737 683 686 680 671 680Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-28" d="M318-248C327-248 332-243 332-234C332-231 330-227 327-223C275-183 233-117 202-26C175 53 161 131 161 208L161 292C161 369 175 447 202 526C233 617 275 683 327 723C330 726 332 730 332 734C332 743 327 748 318 748C317 748 314 747 311 745C251 699 201 631 160 540C121 453 101 371 101 292L101 208C101 129 121 47 160-40C201-131 251-199 311-245C314-247 317-248 318-248Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-63" d="M251 416C293 416 325 406 347 386C323 383 306 361 306 338C306 305 322 289 355 289C388 289 404 306 404 339C404 410 327 448 250 448C188 448 137 426 96 380C55 334 34 279 34 216C34 155 55 101 96 56C137 11 187-11 248-11C298-11 337 3 365 32C388 55 403 78 411 102C414 111 415 117 415 121C415 130 409 134 398 134C390 134 385 130 382 122C361 55 320 21 257 21C228 21 200 34 172 61C139 92 123 144 123 218C123 318 161 416 251 416Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-75" d="M267 18C198 18 185 47 185 112L185 442L32 431L32 393C71 393 94 389 100 382C106 375 109 350 109 306L109 159C109 120 112 90 119 67C134 15 189-11 262-11C316-11 357 14 385 65L385-11L535 0L535 38C499 38 478 40 470 46C462 52 458 66 458 89L458 442L306 431L306 393C341 393 362 390 370 384C378 378 382 365 382 342L382 167C382 88 340 18 267 18Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-62" d="M298-11C360-11 413 11 456 56C499 101 521 154 521 217C521 278 501 332 460 377C419 422 369 445 308 445C259 445 215 426 178 387L178 694L28 683L28 645C64 645 86 642 94 636C102 630 105 616 105 593L105 0L136 0L169 58C201 12 244-11 298-11M294 19C253 19 219 38 194 77C185 90 181 104 181 117L181 320C181 333 184 344 191 354C220 395 257 415 304 415C345 415 378 395 404 354C422 324 431 279 431 218C431 110 393 19 294 19Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-69" d="M194 601C194 631 169 657 139 657C109 657 83 631 83 601C83 571 108 544 138 544C169 544 194 570 194 601M143 3L247 0L247 39C214 39 194 41 188 45C182 49 180 60 180 78L180 445L37 433L37 395C70 395 91 392 98 387C105 382 108 368 108 345L108 79C108 60 105 48 98 44C91 40 69 39 33 39L33 0Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-20" d=""/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-66" d="M265 705C176 705 110 633 110 544L110 434L33 434L33 396L110 396L110 79C110 60 107 48 100 44C93 40 71 39 34 39L34 0L149 3C191 4 234 3 277 0L277 39L253 39C220 39 199 41 192 46C185 51 182 63 182 81L182 396L294 396L294 434L179 434L179 545C179 605 210 675 265 675C273 675 280 674 287 672C272 664 264 650 264 631C264 600 279 584 310 584C341 584 357 600 357 632C357 677 310 705 265 705Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-65" d="M415 251C415 366 348 448 236 448C176 448 126 425 85 378C47 334 28 281 28 220C28 157 49 104 91 58C133 12 185-11 247-11C304-11 348 9 378 48C403 81 415 105 415 121C415 131 409 136 398 136C390 136 385 131 382 120C360 54 317 21 253 21C208 21 173 42 146 85C127 116 118 163 117 227L387 227C409 227 415 229 415 251M326 349C337 316 342 284 342 255L118 255C121 321 138 366 168 389C193 409 215 419 236 419C281 419 311 396 326 349Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-74" d="M332 126L332 186L300 186L300 128C300 78 282 22 238 22C197 22 177 56 177 124L177 395L316 395L316 433L177 433L177 615L145 615C144 582 141 553 134 527C117 461 78 427 19 424L19 395L102 395L102 126C102 67 120 29 155 10C182-4 207-11 232-11C298-11 332 55 332 126Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-29" d="M78-245C138-199 188-131 229-40C268 47 288 129 288 208L288 292C288 371 268 453 229 540C188 631 138 699 78 745C75 747 72 748 71 748C62 748 57 743 57 734C57 730 59 726 62 723C114 683 156 617 187 526C214 447 228 369 228 292L228 208C228 131 214 53 187-26C156-117 114-183 62-223C59-227 57-231 57-234C57-243 62-248 71-248C72-248 75-247 78-245Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
-            <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-id="3" data-semantic-children="0,1" data-semantic-collapsed="(3 (c 2) 0 1)" data-semantic-speech="upper V left parenthesis cubic feet right parenthesis">
-              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple" data-semantic-id="0" data-semantic-parent="3" data-semantic-speech="upper V">
-                <use data-c="1D449" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-I-1D449"/>
+            <g data-mml-node="math" data-semantic-type="punctuated" data-semantic-role="text" data-semantic-annotation="depth:1" data-semantic-id="3" data-semantic-children="0,1" data-semantic-attributes="latex:V \text{(cubic feet)}" data-semantic-collapsed="(3 (c 2) 0 1)" data-semantic-speech="upper V left parenthesis cubic feet right parenthesis">
+              <g data-mml-node="mi" data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="3" data-semantic-attributes="latex:V" data-semantic-speech="upper V">
+                <use data-c="1D449" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-I-1D449"/>
               </g>
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="1" data-semantic-parent="3" data-semantic-speech="left parenthesis cubic feet right parenthesis" transform="translate(769,0)">
-                <use data-c="28" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-28"/>
-                <use data-c="63" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-63" transform="translate(389,0)"/>
-                <use data-c="75" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-75" transform="translate(833,0)"/>
-                <use data-c="62" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-62" transform="translate(1389,0)"/>
-                <use data-c="69" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-69" transform="translate(1945,0)"/>
-                <use data-c="63" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-63" transform="translate(2223,0)"/>
-                <use data-c="20" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-20" transform="translate(2667,0)"/>
-                <use data-c="66" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-66" transform="translate(2917,0)"/>
-                <use data-c="65" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-65" transform="translate(3223,0)"/>
-                <use data-c="65" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-65" transform="translate(3667,0)"/>
-                <use data-c="74" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-74" transform="translate(4111,0)"/>
-                <use data-c="29" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-TEX-N-29" transform="translate(4500,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="text" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:2" data-semantic-id="1" data-semantic-parent="3" data-semantic-attributes="latex:\text{(cubic feet)}" data-semantic-speech="left parenthesis cubic feet right parenthesis" transform="translate(770,0)">
+                <use data-c="28" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-28"/>
+                <use data-c="63" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-63" transform="translate(389,0)"/>
+                <use data-c="75" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-75" transform="translate(833,0)"/>
+                <use data-c="62" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-62" transform="translate(1389,0)"/>
+                <use data-c="69" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-69" transform="translate(1945,0)"/>
+                <use data-c="63" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-63" transform="translate(2223,0)"/>
+                <use data-c="20" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-20" transform="translate(2667,0)"/>
+                <use data-c="66" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-66" transform="translate(2999,0)"/>
+                <use data-c="65" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-65" transform="translate(3305,0)"/>
+                <use data-c="65" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-65" transform="translate(3749,0)"/>
+                <use data-c="74" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-74" transform="translate(4193,0)"/>
+                <use data-c="29" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-3-NCM-N-29" transform="translate(4582,0)"/>
               </g>
             </g>
           </g>
@@ -126,14 +126,14 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-4">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-4-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-4-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-4-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="20">
-                <use data-c="32" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-4-TEX-N-32"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-4-TEX-N-30" transform="translate(500,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{20}" data-semantic-speech="20">
+                <use data-c="32" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-4-NCM-N-32"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-4-NCM-N-30" transform="translate(500,0)"/>
               </g>
             </g>
           </g>
@@ -144,14 +144,14 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-5">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-5-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-5-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-5-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-5-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="60">
-                <use data-c="36" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-5-TEX-N-36"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-5-TEX-N-30" transform="translate(500,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{60}" data-semantic-speech="60">
+                <use data-c="36" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-5-NCM-N-36"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-5-NCM-N-30" transform="translate(500,0)"/>
               </g>
             </g>
           </g>
@@ -162,15 +162,15 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-6">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-6-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-6-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-6-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-6-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
-                <use data-c="31" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-6-TEX-N-31"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-6-TEX-N-30" transform="translate(500,0)"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-6-TEX-N-30" transform="translate(1000,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{100}" data-semantic-speech="100">
+                <use data-c="31" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-6-NCM-N-31"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-6-NCM-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-6-NCM-N-30" transform="translate(1000,0)"/>
               </g>
             </g>
           </g>
@@ -181,14 +181,14 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-7">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-7-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-7-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-7-NCM-N-32" d="M237 666C186 666 143 648 106 612C69 576 50 534 50 483C50 449 75 424 106 424C136 424 161 450 161 480C161 513 137 536 105 536C102 536 100 536 98 535C117 584 161 627 224 627C306 627 352 556 352 470C352 403 318 331 250 255L62 43C49 28 50 29 50 0L421 0L450 180L417 180C409 129 402 100 396 91C391 86 361 84 306 84L139 84L236 179C304 243 390 312 419 365C439 400 449 435 449 470C449 588 357 666 237 666Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-7-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="20">
-                <use data-c="32" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-7-TEX-N-32"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-7-TEX-N-30" transform="translate(500,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{20}" data-semantic-speech="20">
+                <use data-c="32" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-7-NCM-N-32"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-7-NCM-N-30" transform="translate(500,0)"/>
               </g>
             </g>
           </g>
@@ -199,14 +199,14 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-8">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="18.096px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1000 688" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-8-TEX-N-36" d="M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-8-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-8-NCM-N-36" d="M383 504C416 504 432 521 432 555C432 627 378 666 304 666C221 666 155 627 106 548C63 480 42 403 42 316C42 189 65 100 112 47C152 1 198-22 251-22C312-22 362 1 401 47C438 91 457 144 457 205C457 266 439 318 403 361C365 407 316 431 257 431C205 431 165 402 138 346L138 352C138 465 166 561 226 605C252 624 279 633 306 633C342 633 368 623 385 602C351 602 334 583 334 553C334 525 355 504 383 504M344 340C355 317 361 272 361 206C361 141 356 98 345 76C325 35 294 14 251 14C222 14 200 24 184 44C171 60 162 74 158 85C146 116 140 163 140 227C140 255 144 282 151 308C164 355 201 399 256 399C295 399 325 379 344 340Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-8-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="60">
-                <use data-c="36" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-8-TEX-N-36"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-8-TEX-N-30" transform="translate(500,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{60}" data-semantic-speech="60">
+                <use data-c="36" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-8-NCM-N-36"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-8-NCM-N-30" transform="translate(500,0)"/>
               </g>
             </g>
           </g>
@@ -217,15 +217,15 @@
       <g id="prefigure-tandem-sphere-volumegraph-blank-__g-9">
         <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="27.152px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1500 688" x="0.0" y="0.0">
           <defs>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-9-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
-            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-9-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-9-NCM-N-31" d="M269 666C228 624 168 603 89 603L89 564C141 564 184 572 217 588L217 82C217 64 213 52 204 47C195 42 170 39 130 39L95 39L95 0C120 2 174 3 257 3C340 3 394 2 419 0L419 39L384 39C343 39 318 42 310 47C302 52 297 64 297 82L297 636C297 660 295 666 269 666Z"/>
+            <path id="prefigure-tandem-sphere-volumegraph-blank-MJX-9-NCM-N-30" d="M249-22C390-22 460 92 460 320C460 473 428 575 365 625C330 652 291 666 250 666C109 666 39 551 39 320C39 136 88-22 249-22M361 524C368 489 371 425 371 332C371 240 367 172 360 128C347 48 310 8 249 8C226 8 203 17 182 34C155 57 139 104 132 176C129 201 128 253 128 332C128 419 131 480 136 513C145 568 163 603 191 618C213 630 232 636 249 636C314 636 350 583 361 524Z"/>
           </defs>
           <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
             <g data-mml-node="math">
-              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="100">
-                <use data-c="31" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-9-TEX-N-31"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-9-TEX-N-30" transform="translate(500,0)"/>
-                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-9-TEX-N-30" transform="translate(1000,0)"/>
+              <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit;nemeth:number;depth:1" data-semantic-id="0" data-semantic-attributes="latex:\text{100}" data-semantic-speech="100">
+                <use data-c="31" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-9-NCM-N-31"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-9-NCM-N-30" transform="translate(500,0)"/>
+                <use data-c="30" xlink:href="#prefigure-tandem-sphere-volumegraph-blank-MJX-9-NCM-N-30" transform="translate(1000,0)"/>
               </g>
             </g>
           </g>
